@@ -1,0 +1,40 @@
+name: 📡 Daily Volume Radar
+
+on:
+  schedule:
+    # 매일 05:30 KST (= 20:30 UTC 전날) — ai2 자동 크롤(01~04 KST) 완료 후
+    - cron: '30 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: ⬇️ 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 🐍 Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 패키지 설치
+        run: pip install pandas numpy requests
+
+      - name: 📡 레이더 갱신
+        run: python daily_update.py
+
+      - name: 💾 커밋 & 푸시
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet && echo "변경 없음 (주말/휴장)" && exit 0
+          git commit -m "📡 Radar: $(TZ=Asia/Seoul date '+%Y-%m-%d')"
+          git push

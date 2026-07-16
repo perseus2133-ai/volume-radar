@@ -1,0 +1,72 @@
+{
+ "date": "2026-07-08",
+ "prev_date": "2026-07-07",
+ "top_n": 100,
+ "entries": [
+  {
+   "rank": 6,
+   "code": "066570",
+   "name": "LG전자",
+   "market": "KOSPI",
+   "close": 195800.0,
+   "chg_pct": 3.54,
+   "turnover_억": 6489.6,
+   "mcap_억": 318928.0,
+   "업종": "전자제품",
+   "rev_gmax": 5.6,
+   "op_gmax": 60.4
+  },
+  {
+   "rank": 30,
+   "code": "058730",
+   "name": "다스코",
+   "market": "KOSPI",
+   "close": 5200.0,
+   "chg_pct": 30.0,
+   "turnover_억": 1603.3,
+   "mcap_억": 1037.0,
+   "업종": "건축자재",
+   "rev_gmax": -12.4,
+   "op_gmax": 216.7
+  },
+  {
+   "rank": 49,
+   "code": "010950",
+   "name": "S-Oil",
+   "market": "KOSPI",
+   "close": 131600.0,
+   "chg_pct": 3.3,
+   "turnover_억": 1027.7,
+   "mcap_억": 148159.0,
+   "업종": "석유와가스",
+   "rev_gmax": 22.8,
+   "op_gmax": 1393.9
+  },
+  {
+   "rank": 53,
+   "code": "034220",
+   "name": "LG디스플레이",
+   "market": "KOSPI",
+   "close": 11240.0,
+   "chg_pct": 3.31,
+   "turnover_억": 960.3,
+   "mcap_억": 56200.0,
+   "업종": "디스플레이패널",
+   "rev_gmax": 4.3,
+   "op_gmax": 192.2
+  },
+  {
+   "rank": 95,
+   "code": "003550",
+   "name": "LG",
+   "market": "KOSPI",
+   "close": 102500.0,
+   "chg_pct": 0.2,
+   "turnover_억": 549.6,
+   "mcap_억": 154972.0,
+   "업종": "복합기업",
+   "rev_gmax": 13.3,
+   "op_gmax": 77.4
+  }
+ ]
+}
