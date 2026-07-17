@@ -40,6 +40,14 @@ jobs:
         run: python -m src.features.dashboard --top-n 10
         continue-on-error: true
 
+      # 📨 카카오톡 아침 브리핑 (Secrets 미설정 시 조용히 스킵)
+      - name: 📨 카카오톡 브리핑
+        env:
+          KAKAO_REST_KEY: ${{ secrets.KAKAO_REST_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+        run: python -m src.features.kakao_brief
+        continue-on-error: true
+
       - name: 💾 커밋 & 푸시
         run: |
           git config user.name  "github-actions[bot]"
