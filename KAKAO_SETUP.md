@@ -39,6 +39,7 @@ https://github.com/perseus2133-ai/volume-radar/settings/secrets/actions → **Ne
 |---|---|
 | `KAKAO_REST_KEY` | (2단계에서 출력된 값) |
 | `KAKAO_REFRESH_TOKEN` | (2단계에서 출력된 값) |
+| `KAKAO_CLIENT_SECRET` | (앱의 '클라이언트 시크릿 활성화'가 ON인 경우만 — 보안 탭의 코드) |
 
 **끝.** 다음 새벽 05:30 자동 크롤부터 카톡이 옵니다.
 
