@@ -1,0 +1,5 @@
+﻿horizon_days,count,mean_pct,median_pct,std,win_rate_pct,max_gain_pct,max_loss_pct,mdd_pct,suspended,insufficient
+5,111,-11.51,-11.84,15.71,15.3,73.24,-38.91,-11.51,0,61
+10,63,-15.08,-15.89,16.99,17.5,49.0,-52.03,-15.56,0,109
+20,0,,,,,,,,0,172
+60,0,,,,,,,,0,172
