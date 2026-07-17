@@ -257,8 +257,9 @@ def main():
                 f'<div class="metric-label">거래일</div></div>', unsafe_allow_html=True)
     st.markdown('<div style="height:14px"></div>', unsafe_allow_html=True)
 
-    tab_today, tab_acc, tab_matrix, tab_score = st.tabs(
-        ['📅 일별 리스트', '🏆 누적 랭킹', '📈 등장 매트릭스', '🤖 AI Score'])
+    tab_today, tab_acc, tab_matrix, tab_score, tab_dash = st.tabs(
+        ['📅 일별 리스트', '🏆 누적 랭킹', '📈 등장 매트릭스', '🤖 AI Score',
+         '☀️ AI 대시보드'])
 
     # ════════════════════════════════════════════════════════
     # 탭 1 — 일별 리스트
@@ -399,6 +400,120 @@ def main():
             st.markdown('<div class="sect-note">Score = 거래대금 15 + 실적 20 + 밸류 10 + '
                         '수급 15 + 신고가 10 + 거래량 10 + 차트 10 + 누적등장 10 − 과열 페널티 · '
                         '커버리지 = 가용 데이터 만점 합 (결측 컴포넌트 제외 후 100점 재정규화)</div>',
+                        unsafe_allow_html=True)
+
+    # ════════════════════════════════════════════════════════
+    # 탭 5 — ☀️ AI 대시보드 (Morning Brief + Decision + Watchlist)
+    # ════════════════════════════════════════════════════════
+    with tab_dash:
+        dash_path = os.path.join('data', 'dashboard', 'daily_dashboard.json')
+        if not os.path.exists(dash_path):
+            st.info('대시보드 데이터가 아직 없습니다. 새벽 자동 갱신 후 생성됩니다.')
+        else:
+            with open(dash_path, encoding='utf-8') as f:
+                dash = json.load(f)
+            brief = dash.get('brief', {})
+            board = dash.get('dashboard', [])
+            watch = dash.get('watchlist', [])
+            cnt = brief.get('counts', {})
+
+            rec_color = {'STRONG BUY': '#10B981', 'BUY': '#34D399',
+                         'WATCH': '#62EFFF', 'HOLD': '#94A3B8',
+                         'SELL': '#F59E0B', 'AVOID': '#F87171'}
+            rec_emoji = {'STRONG BUY': '🟢', 'BUY': '🟢', 'WATCH': '🟡',
+                         'HOLD': '⚪', 'SELL': '🔴', 'AVOID': '⚫'}
+
+            st.markdown(f'<div style="color:#62EFFF;font-family:\'JetBrains Mono\',monospace;'
+                        f'font-size:0.9rem;margin-bottom:10px;">&gt; ☀️ AI Morning Brief · '
+                        f'{brief.get("date", "-")} · 시장 국면 <b>{brief.get("regime", "-")}</b></div>',
+                        unsafe_allow_html=True)
+
+            b1, b2, b3, b4, b5 = st.columns(5)
+            for col, label, val, color in [
+                (b1, '🟢 BUY+', cnt.get('STRONG BUY', 0) + cnt.get('BUY', 0), '#34D399'),
+                (b2, '🟡 WATCH', cnt.get('WATCH', 0), '#62EFFF'),
+                (b3, '⚪ HOLD', cnt.get('HOLD', 0), '#94A3B8'),
+                (b4, '🔴 SELL', cnt.get('SELL', 0), '#F59E0B'),
+                (b5, '⚫ AVOID', cnt.get('AVOID', 0), '#F87171'),
+            ]:
+                col.markdown(f'<div class="metric-card"><div class="metric-label">{label}</div>'
+                             f'<div class="metric-value" style="color:{color};">{val}</div></div>',
+                             unsafe_allow_html=True)
+
+            strong = brief.get('strong_sectors') or []
+            weak = brief.get('weak_sectors') or []
+            if strong or weak:
+                sect = []
+                if strong:
+                    sect.append('강한 섹터: ' + ', '.join(
+                        f"<span style='color:#FF6B6B;'>{s['sector']}({s['avg_ret']:+.1f}%)</span>"
+                        for s in strong))
+                if weak:
+                    sect.append('위험 섹터: ' + ', '.join(
+                        f"<span style='color:#4A90E2;'>{s['sector']}({s['avg_ret']:+.1f}%)</span>"
+                        for s in weak))
+                st.markdown('<div style="margin:10px 0;color:#CBD5E0;font-size:0.85rem;">'
+                            + ' &nbsp;·&nbsp; '.join(sect) + '</div>', unsafe_allow_html=True)
+
+            # ── Decision 테이블 ──
+            if board:
+                head = ['<th class="c"></th>', '<th class="l">종목명</th>',
+                        '<th class="c">판단</th>', '<th>DScore</th>', '<th class="c">등급</th>',
+                        '<th>AI</th>', '<th>신뢰도</th>', '<th class="c">리스크</th>',
+                        '<th>기대수익</th>', '<th>예상낙폭</th>']
+                rows = []
+                for d in board:
+                    e = d.get('expected') or {}
+                    er, dd = e.get('expected_return'), e.get('expected_drawdown')
+                    rc = rec_color.get(d['recommendation'], '#E2E8F0')
+                    rows.append(
+                        f'<tr><td class="c">{rec_emoji.get(d["recommendation"], "")}</td>'
+                        f'<td class="l">{stk(d["code"], d["name"])}</td>'
+                        f'<td class="c" style="color:{rc};font-weight:800;">{d["recommendation"]}</td>'
+                        f'<td class="est" style="font-weight:800;">{d["decision_score"]:.0f}</td>'
+                        f'<td class="c dim">{d["decision_grade"]}</td>'
+                        f'<td>{d["ai_score"]:.0f}</td>'
+                        f'<td>{d["confidence"]:.0f} <span class="dim" style="font-size:0.75rem;">'
+                        f'({d["confidence_grade"]})</span></td>'
+                        f'<td class="c dim" style="font-size:0.78rem;">{d["risk_level"]}</td>'
+                        f'<td>{fmt_chg(er) if er is not None else "<span class=dim>-</span>"}</td>'
+                        f'<td class="dn">{f"{dd:.1f}%" if dd is not None else "-"}</td></tr>')
+                st.markdown(html_table(head, rows), unsafe_allow_html=True)
+
+                with st.expander('📝 종목별 판단 근거 (Reason Summary)'):
+                    for d in board:
+                        st.markdown(
+                            f'<div style="margin-bottom:10px;font-size:0.82rem;color:#CBD5E0;">'
+                            f'<b style="color:{rec_color.get(d["recommendation"], "#fff")};">'
+                            f'{d["name"]}</b> — {d["reason_summary"]}</div>',
+                            unsafe_allow_html=True)
+            else:
+                st.info('오늘 판단 대상 종목 없음')
+
+            # ── Tomorrow Candidates ──
+            st.markdown('<div style="color:#62EFFF;font-family:\'JetBrains Mono\',monospace;'
+                        'font-size:0.9rem;margin:16px 0 8px 0;">&gt; 🔭 Tomorrow Candidates '
+                        '(곧 BUY 후보)</div>', unsafe_allow_html=True)
+            if watch:
+                for w in watch:
+                    sigs = ' '.join(f'<span class="b-streak">{s}</span>'
+                                    for s in w['signals'])
+                    st.markdown(
+                        f'<div style="background:rgba(17,24,39,0.45);border:1px solid #4A5568;'
+                        f'border-radius:10px;padding:10px 14px;margin-bottom:8px;">'
+                        f'{stk(w["code"], w["name"])} '
+                        f'<span class="dim" style="font-size:0.8rem;">현재 {w["recommendation"]} · '
+                        f'DScore {w["decision_score"]:.0f}</span><br>'
+                        f'<div style="margin-top:6px;">{sigs}</div></div>',
+                        unsafe_allow_html=True)
+            else:
+                st.markdown('<div class="sect-note">후보 없음 — 개선 신호(WATCH 연속·신뢰도 상승·'
+                            '판단 개선 등) 2개 이상인 종목이 아직 없습니다. 시장이 돌면 자동으로 '
+                            '올라옵니다.</div>', unsafe_allow_html=True)
+
+            st.markdown('<div class="sect-note" style="margin-top:12px;">파이프라인: AI Score → '
+                        'Backtest → Optimizer → Regime → Confidence → Decision · 매일 새벽 자동 갱신 · '
+                        '가드레일: 신뢰도<50 매수 금지, 기대수익<-5% SELL 강등</div>',
                         unsafe_allow_html=True)
 
 
