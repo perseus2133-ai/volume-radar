@@ -1,0 +1,33 @@
+﻿regime,component,n,win_rate,mean_ret,mdd
+Bull,거래대금,0,,,
+Bull,거래량증가,0,,,
+Bull,누적등장,0,,,
+Bull,밸류,0,,,
+Bull,수급,0,,,
+Bull,신고가,0,,,
+Bull,실적,0,,,
+Bull,차트,0,,,
+Bear,거래대금,171,58.5,2.37,-3.25
+Bear,거래량증가,55,36.4,-1.24,-5.85
+Bear,누적등장,97,58.8,4.46,-2.04
+Bear,밸류,274,59.1,2.59,-3.4
+Bear,수급,0,,,
+Bear,신고가,25,28.0,-5.88,-6.61
+Bear,실적,227,58.6,2.24,-4.08
+Bear,차트,165,44.8,-0.47,-2.94
+Sideways,거래대금,252,20.2,-6.25,-6.31
+Sideways,거래량증가,99,21.2,-7.51,-7.51
+Sideways,누적등장,110,23.6,-4.63,-6.73
+Sideways,밸류,410,21.2,-5.95,-6.17
+Sideways,수급,0,,,
+Sideways,신고가,40,22.5,-8.02,-8.02
+Sideways,실적,345,21.7,-5.31,-6.12
+Sideways,차트,271,20.3,-5.5,-5.51
+High Volatility,거래대금,0,,,
+High Volatility,거래량증가,0,,,
+High Volatility,누적등장,0,,,
+High Volatility,밸류,0,,,
+High Volatility,수급,0,,,
+High Volatility,신고가,0,,,
+High Volatility,실적,0,,,
+High Volatility,차트,0,,,

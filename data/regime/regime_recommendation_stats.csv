@@ -1,0 +1,5 @@
+﻿regime,days,n,win_rate,mean_ret,median_ret,mdd
+Bull,0,0,,,,
+Bear,2,40,37.5,-4.38,-0.77,-8.02
+Sideways,3,60,23.3,-6.99,-7.26,-6.99
+High Volatility,5,0,,,,
