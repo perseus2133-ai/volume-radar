@@ -30,6 +30,16 @@ jobs:
       - name: 📡 레이더 갱신
         run: python daily_update.py
 
+      # 컴포넌트 데이터셋 최신화 (오늘 거래일 행 추가 — optimizer 자체 CLI 사용)
+      - name: 🧮 데이터셋 갱신
+        run: python -m src.features.optimizer --rebuild
+        continue-on-error: true
+
+      # ☀️ Daily AI Dashboard + Watchlist + Morning Brief 생성
+      - name: ☀️ 대시보드 생성
+        run: python -m src.features.dashboard --top-n 10
+        continue-on-error: true
+
       - name: 💾 커밋 & 푸시
         run: |
           git config user.name  "github-actions[bot]"
