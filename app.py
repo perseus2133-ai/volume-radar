@@ -50,27 +50,38 @@ h1,h2,h3,h4 { color: #FFFFFF !important; }
 .metric-value { font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 1.35rem; color: #FFFFFF; }
 .metric-value.cyan { color: #62EFFF; }
 
-/* 탭 */
+/* 탭 — 구조 무관하게 모든 하위 텍스트에 색 강제 */
 div[data-baseweb="tab-list"] { gap: 10px; }
 button[data-baseweb="tab"] {
     background: linear-gradient(135deg, #2D3748, #313B4D) !important;
     border: 1px solid #4A5568 !important; border-radius: 10px !important;
     padding: 10px 20px !important;
+    color: #CBD5E0 !important;
 }
-button[data-baseweb="tab"] > div[data-testid="stMarkdownContainer"] > p {
-    color: #94A3B8 !important; font-weight: 700 !important; font-size: 1.02rem !important;
+button[data-baseweb="tab"] * {
+    color: #CBD5E0 !important; font-weight: 700 !important; font-size: 1.02rem !important;
+}
+button[data-baseweb="tab"]:hover, button[data-baseweb="tab"]:hover * {
+    color: #FFFFFF !important;
 }
 button[data-baseweb="tab"][aria-selected="true"] {
     background: linear-gradient(135deg, #1D3557, #457B9D) !important;
     border-color: #62efff !important;
     box-shadow: 0 6px 12px rgba(98,239,255,0.18) !important;
 }
-button[data-baseweb="tab"][aria-selected="true"] > div[data-testid="stMarkdownContainer"] > p {
+button[data-baseweb="tab"][aria-selected="true"] * {
     color: #FFFFFF !important; font-weight: 900 !important;
 }
+div[data-baseweb="tab-highlight"], div[data-baseweb="tab-border"] { display: none !important; }
 
-/* 시장 선택 라디오 */
-div[role="radiogroup"] label { color: #CBD5E0 !important; }
+/* 시장 선택 라디오 — 라벨 밝게 */
+div[role="radiogroup"] label, div[role="radiogroup"] label * {
+    color: #E2E8F0 !important; font-weight: 600 !important;
+}
+
+/* 위젯 공통 라벨/캡션 가독성 */
+[data-testid="stWidgetLabel"] *, [data-testid="stCaptionContainer"] * { color: #94A3B8 !important; }
+[data-testid="stMetricLabel"] * { color: #94A3B8 !important; }
 
 /* 데이터 테이블 (커스텀 HTML) */
 .tbl-wrap { overflow-x: auto; border: 1px solid #4A5568; border-radius: 12px;
