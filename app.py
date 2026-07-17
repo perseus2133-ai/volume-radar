@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Volume Radar — 거래대금 상위 + 상승 + 실적 종목 레이더 (Streamlit)"""
 import os
+import glob
 import json
 
 import pandas as pd
@@ -256,7 +257,8 @@ def main():
                 f'<div class="metric-label">거래일</div></div>', unsafe_allow_html=True)
     st.markdown('<div style="height:14px"></div>', unsafe_allow_html=True)
 
-    tab_today, tab_acc, tab_matrix = st.tabs(['📅 일별 리스트', '🏆 누적 랭킹', '📈 등장 매트릭스'])
+    tab_today, tab_acc, tab_matrix, tab_score = st.tabs(
+        ['📅 일별 리스트', '🏆 누적 랭킹', '📈 등장 매트릭스', '🤖 AI Score'])
 
     # ════════════════════════════════════════════════════════
     # 탭 1 — 일별 리스트
@@ -366,6 +368,38 @@ def main():
             st.markdown(html_table(head, rows), unsafe_allow_html=True)
             st.markdown('<div class="sect-note">● = 그 거래일 리스트 등장 — '
                         '오른쪽으로 연속되면 지속 유입, 띄엄띄엄이면 이벤트성</div>', unsafe_allow_html=True)
+
+    # ════════════════════════════════════════════════════════
+    # 탭 4 — AI Score
+    # ════════════════════════════════════════════════════════
+    with tab_score:
+        score_files = sorted(glob.glob(os.path.join('data', 'scores', '*.json')))
+        if not score_files:
+            st.info('AI Score 데이터가 아직 없습니다. 다음 새벽 자동 갱신부터 생성됩니다.')
+        else:
+            with open(score_files[-1], encoding='utf-8') as f:
+                scores = json.load(f)
+            sday = os.path.basename(score_files[-1])[:-5]
+            st.markdown(f'<div style="color:#62EFFF;font-family:\'JetBrains Mono\',monospace;'
+                        f'font-size:0.9rem;margin-bottom:10px;">&gt; {sday} · AI Score 상위 '
+                        f'{min(len(scores), 100)}종목</div>', unsafe_allow_html=True)
+            head = ['<th class="c">별점</th>', '<th>Score</th>', '<th class="l">종목명</th>',
+                    '<th class="l">근거</th>', '<th>커버리지</th>']
+            rows = []
+            for s in scores[:100]:
+                star_html = '★' * s['stars'] + '☆' * (5 - s['stars'])
+                reasons = ' · '.join(s['reasons'][:4]) or '-'
+                rows.append(
+                    f'<tr><td class="c" style="color:#FBBF24;letter-spacing:1px;">{star_html}</td>'
+                    f'<td class="est" style="font-weight:800;font-size:1.0rem;">{s["score"]:.1f}</td>'
+                    f'<td class="l">{stk(s["code"], s["name"])}</td>'
+                    f'<td class="l dim" style="font-family:Inter;font-size:0.78rem;">{reasons}</td>'
+                    f'<td class="dim">{s["coverage"]:.0f}/100</td></tr>')
+            st.markdown(html_table(head, rows), unsafe_allow_html=True)
+            st.markdown('<div class="sect-note">Score = 거래대금 15 + 실적 20 + 밸류 10 + '
+                        '수급 15 + 신고가 10 + 거래량 10 + 차트 10 + 누적등장 10 − 과열 페널티 · '
+                        '커버리지 = 가용 데이터 만점 합 (결측 컴포넌트 제외 후 100점 재정규화)</div>',
+                        unsafe_allow_html=True)
 
 
 if __name__ == '__main__':
