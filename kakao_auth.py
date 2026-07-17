@@ -27,6 +27,7 @@ REDIRECT = 'http://localhost:3000'
 
 def main() -> None:
     rest_key = input('REST API 키 입력: ').strip()
+    client_secret = input('클라이언트 시크릿 입력 (활성화 OFF면 그냥 엔터): ').strip()
     auth_url = ('https://kauth.kakao.com/oauth/authorize'
                 f'?client_id={rest_key}&redirect_uri={REDIRECT}'
                 '&response_type=code&scope=talk_message')
@@ -37,12 +38,16 @@ def main() -> None:
     print('(페이지가 안 열려도 정상 — 주소창의 code 값만 복사)')
     code = input('code 값 입력: ').strip()
 
-    r = requests.post('https://kauth.kakao.com/oauth/token', data={
+    payload = {
         'grant_type': 'authorization_code',
         'client_id': rest_key,
         'redirect_uri': REDIRECT,
         'code': code,
-    }, timeout=15)
+    }
+    if client_secret:
+        payload['client_secret'] = client_secret
+    r = requests.post('https://kauth.kakao.com/oauth/token',
+                      data=payload, timeout=15)
     if r.status_code != 200:
         print('❌ 토큰 발급 실패:', r.text)
         return
@@ -50,6 +55,8 @@ def main() -> None:
     print('\n✅ 발급 완료! GitHub 레포 Settings → Secrets → Actions 에 등록:')
     print(f'  KAKAO_REST_KEY      = {rest_key}')
     print(f"  KAKAO_REFRESH_TOKEN = {d['refresh_token']}")
+    if client_secret:
+        print(f'  KAKAO_CLIENT_SECRET = {client_secret}')
 
     # 즉시 테스트 발송
     if input('\n지금 테스트 메시지를 보낼까요? (y/n): ').strip().lower() == 'y':

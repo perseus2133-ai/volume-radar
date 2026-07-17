@@ -76,13 +76,18 @@ def build_text(brief: dict, watchlist: list[dict] | None = None) -> str:
 # ============================================================
 # 카카오 API
 # ============================================================
-def refresh_access_token(rest_key: str, refresh_token: str) -> tuple[str, str | None]:
-    """access token 재발급. 반환: (access, 새 refresh 또는 None)."""
-    r = requests.post(TOKEN_URL, data={
+def refresh_access_token(rest_key: str, refresh_token: str,
+                         client_secret: str = '') -> tuple[str, str | None]:
+    """access token 재발급. 반환: (access, 새 refresh 또는 None).
+    앱에서 '클라이언트 시크릿 활성화'가 ON이면 client_secret 필수."""
+    payload = {
         'grant_type': 'refresh_token',
         'client_id': rest_key,
         'refresh_token': refresh_token,
-    }, timeout=15)
+    }
+    if client_secret:
+        payload['client_secret'] = client_secret
+    r = requests.post(TOKEN_URL, data=payload, timeout=15)
     r.raise_for_status()
     d = r.json()
     return d['access_token'], d.get('refresh_token')
@@ -144,12 +149,13 @@ def main() -> None:
 
     rest_key = os.environ.get('KAKAO_REST_KEY', '')
     refresh = os.environ.get('KAKAO_REFRESH_TOKEN', '')
+    client_secret = os.environ.get('KAKAO_CLIENT_SECRET', '')
     if not rest_key or not refresh:
         print('KAKAO_REST_KEY / KAKAO_REFRESH_TOKEN 미설정 — 스킵 '
               '(설정법: KAKAO_SETUP.md)')
         return
 
-    access, new_refresh = refresh_access_token(rest_key, refresh)
+    access, new_refresh = refresh_access_token(rest_key, refresh, client_secret)
     url = os.environ.get('BRIEF_URL', DEFAULT_BRIEF_URL)
     send_memo(access, text, url)
     print('✅ 카카오톡 전송 완료')
