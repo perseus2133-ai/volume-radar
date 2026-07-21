@@ -1,325 +1,353 @@
 {
  "brief": {
-  "date": "2026-07-20",
-  "regime": "High Volatility",
+  "date": "2026-07-21",
+  "regime": "Bear",
   "counts": {
    "STRONG BUY": 0,
    "BUY": 0,
    "WATCH": 0,
    "HOLD": 0,
-   "SELL": 3,
-   "AVOID": 7
+   "SELL": 10,
+   "AVOID": 0
   },
   "analyzed": 10,
   "strong_sectors": [
    {
-    "sector": "부동산",
-    "avg_ret": 0.0,
-    "n": 7
+    "sector": "전기장비",
+    "avg_ret": 2.5,
+    "n": 32
    },
    {
-    "sector": "식품과기본식료품소매",
-    "avg_ret": -0.3,
-    "n": 6
+    "sector": "백화점과일반상점",
+    "avg_ret": 1.67,
+    "n": 13
    },
    {
-    "sector": "무역회사와판매업체",
-    "avg_ret": -0.68,
-    "n": 7
+    "sector": "건축제품",
+    "avg_ret": 1.49,
+    "n": 11
    }
   ],
   "weak_sectors": [
    {
-    "sector": "반도체와반도체장비",
-    "avg_ret": -6.16,
-    "n": 166
+    "sector": "식품과기본식료품소매",
+    "avg_ret": -2.0,
+    "n": 6
    },
    {
-    "sector": "백화점과일반상점",
-    "avg_ret": -5.96,
-    "n": 13
+    "sector": "포장재",
+    "avg_ret": -0.69,
+    "n": 27
    },
    {
-    "sector": "전기장비",
-    "avg_ret": -5.73,
-    "n": 32
+    "sector": "전문소매",
+    "avg_ret": -0.64,
+    "n": 5
    }
   ],
-  "sector_note": "2026-07-20 기준 전 종목",
+  "sector_note": "2026-07-21 기준 전 종목",
   "top_picks": [
-   {
-    "name": "SK이노베이션",
-    "recommendation": "SELL",
-    "decision_score": 37.8
-   },
    {
     "name": "S-Oil",
     "recommendation": "SELL",
-    "decision_score": 36.2
+    "decision_score": 44.1
+   },
+   {
+    "name": "현대약품",
+    "recommendation": "SELL",
+    "decision_score": 41.0
+   },
+   {
+    "name": "삼성전자",
+    "recommendation": "SELL",
+    "decision_score": 40.5
+   },
+   {
+    "name": "삼성전자우",
+    "recommendation": "SELL",
+    "decision_score": 40.1
    },
    {
     "name": "자이에스앤디",
     "recommendation": "SELL",
-    "decision_score": 35.8
-   },
-   {
-    "name": "벡트",
-    "recommendation": "AVOID",
-    "decision_score": 34.2
-   },
-   {
-    "name": "삼성전자",
-    "recommendation": "AVOID",
-    "decision_score": 33.9
+    "decision_score": 39.5
    }
   ],
   "risk_watch": [
    {
+    "name": "원익IPS",
+    "recommendation": "SELL",
+    "risk_level": "MEDIUM",
+    "decision_score": 35.5
+   },
+   {
     "name": "SK이터닉스",
-    "recommendation": "AVOID",
-    "risk_level": "VERY HIGH",
-    "decision_score": 29.3
-   },
-   {
-    "name": "삼성SDI",
-    "recommendation": "AVOID",
-    "risk_level": "VERY HIGH",
-    "decision_score": 31.1
-   },
-   {
-    "name": "타이거일렉",
-    "recommendation": "AVOID",
-    "risk_level": "VERY HIGH",
-    "decision_score": 31.6
+    "recommendation": "SELL",
+    "risk_level": "HIGH",
+    "decision_score": 35.9
    },
    {
     "name": "대덕전자",
-    "recommendation": "AVOID",
-    "risk_level": "VERY HIGH",
-    "decision_score": 31.7
+    "recommendation": "SELL",
+    "risk_level": "MEDIUM",
+    "decision_score": 37.7
    },
    {
-    "name": "삼성전자우",
-    "recommendation": "AVOID",
-    "risk_level": "VERY HIGH",
-    "decision_score": 32.8
+    "name": "SK스퀘어",
+    "recommendation": "SELL",
+    "risk_level": "MEDIUM",
+    "decision_score": 37.8
+   },
+   {
+    "name": "삼성SDI",
+    "recommendation": "SELL",
+    "risk_level": "MEDIUM",
+    "decision_score": 38.1
    }
   ],
-  "tomorrow_candidates": 0
+  "tomorrow_candidates": 8
  },
  "dashboard": [
   {
-   "date": "2026-07-20",
-   "code": "096770",
-   "name": "SK이노베이션",
-   "ai_score": 60.0,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
+   "date": "2026-07-21",
+   "code": "010950",
+   "name": "S-Oil",
+   "ai_score": 72.9,
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
    "inputs": {
-    "ai": 21.0,
-    "confidence": 9.0,
-    "historical": 8.0,
-    "risk_reward": 7.7,
-    "regime_adj": -8.0
+    "ai": 25.5,
+    "confidence": 12.0,
+    "historical": 7.4,
+    "risk_reward": 4.2,
+    "regime_adj": -5.0
    },
-   "decision_score": 37.8,
+   "decision_score": 44.1,
+   "decision_grade": "F",
+   "recommendation": "SELL",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 73점(거래대금 67위, 영업이익 성장 +1424%, PEG 0.00 (저평가)), 신뢰도 40(D), 유사 20건 승률 30% · 평균 -3.2%, R/R -0.87, 국면 Bear(-5) → Decision 44점 = SELL.",
+   "guardrails": [],
+   "cautions": [
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -3.17,
+    "expected_drawdown": -3.65,
+    "risk_reward": -0.87
+   }
+  },
+  {
+   "date": "2026-07-21",
+   "code": "004310",
+   "name": "현대약품",
+   "ai_score": 71.8,
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
+   "inputs": {
+    "ai": 25.1,
+    "confidence": 12.0,
+    "historical": 5.1,
+    "risk_reward": 3.8,
+    "regime_adj": -5.0
+   },
+   "decision_score": 41.0,
    "decision_grade": "F",
    "recommendation": "SELL",
    "risk_level": "HIGH",
-   "reason_summary": "AI Score 60점(거래대금 39위, 영업이익 성장 +1124%, PEG 0.00 (저평가)), 신뢰도 30(F), 유사 20건 승률 30% · 평균 +0.2%, R/R +0.06, 국면 High Volatility(-8) → Decision 38점 = SELL.",
+   "reason_summary": "AI Score 72점(거래대금 35위, 영업이익 성장 +2000%, PEG 0.00 (저평가)), 신뢰도 40(D), 유사 20건 승률 25% · 평균 -12.0%, R/R -1.00, 국면 Bear(-5) → Decision 41점 = SELL.",
    "guardrails": [],
    "cautions": [
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": 0.22,
-    "expected_drawdown": -3.78,
-    "risk_reward": 0.06
+    "expected_return": -12.04,
+    "expected_drawdown": -12.04,
+    "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-07-20",
-   "code": "010950",
-   "name": "S-Oil",
-   "ai_score": 80.0,
-   "confidence": 31.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
+   "date": "2026-07-21",
+   "code": "005930",
+   "name": "삼성전자",
+   "ai_score": 68.2,
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
    "inputs": {
-    "ai": 28.0,
-    "confidence": 9.3,
-    "historical": 3.0,
+    "ai": 23.9,
+    "confidence": 12.0,
+    "historical": 5.9,
     "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "regime_adj": -5.0
    },
-   "decision_score": 36.2,
+   "decision_score": 40.5,
    "decision_grade": "F",
    "recommendation": "SELL",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 80점(거래대금 43위, 영업이익 성장 +1424%, PEG 0.00 (저평가)), 신뢰도 31(F), 유사 20건 승률 15% · 평균 -17.3%, R/R -0.98, 국면 High Volatility(-8) → Decision 36점 = SELL.",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 68점(거래대금 2위, 영업이익 성장 +779%, PEG 0.01 (저평가)), 신뢰도 40(D), 유사 20건 승률 25% · 평균 -7.9%, R/R -1.00, 국면 Bear(-5) → Decision 40점 = SELL.",
    "guardrails": [],
    "cautions": [
-    "현재 시장 국면(High Volatility)에서의 검증 데이터 부족",
-    "역사적으로 불리했던 신호 보유: 신고가",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "RSI 71 과열권 — 단기 조정 위험",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -17.31,
-    "expected_drawdown": -17.65,
-    "risk_reward": -0.98
+    "expected_return": -7.94,
+    "expected_drawdown": -7.94,
+    "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-07-20",
+   "date": "2026-07-21",
+   "code": "005935",
+   "name": "삼성전자우",
+   "ai_score": 61.2,
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
+   "inputs": {
+    "ai": 21.4,
+    "confidence": 12.0,
+    "historical": 7.9,
+    "risk_reward": 3.8,
+    "regime_adj": -5.0
+   },
+   "decision_score": 40.1,
+   "decision_grade": "F",
+   "recommendation": "SELL",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 61점(거래대금 5위, 영업이익 성장 +779%, PEG 0.01 (저평가)), 신뢰도 40(D), 유사 20건 승률 40% · 평균 -5.5%, R/R -1.00, 국면 Bear(-5) → Decision 40점 = SELL.",
+   "guardrails": [],
+   "cautions": [
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -5.47,
+    "expected_drawdown": -5.47,
+    "risk_reward": -1.0
+   }
+  },
+  {
+   "date": "2026-07-21",
    "code": "317400",
    "name": "자이에스앤디",
    "ai_score": 75.3,
    "confidence": 31.0,
    "confidence_grade": "F",
-   "regime": "High Volatility",
+   "regime": "Bear",
    "inputs": {
     "ai": 26.4,
     "confidence": 9.3,
-    "historical": 4.4,
+    "historical": 5.1,
     "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "regime_adj": -5.0
    },
-   "decision_score": 35.8,
+   "decision_score": 39.5,
    "decision_grade": "F",
    "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 75점(영업이익 성장 +421%, PEG 0.00 (저평가), 60일 신고가 돌파), 신뢰도 31(F), 유사 20건 승률 10% · 평균 -8.1%, R/R -1.00, 국면 High Volatility(-8) → Decision 36점 = SELL.",
+   "reason_summary": "AI Score 75점(영업이익 성장 +421%, PEG 0.00 (저평가), 60일 신고가 돌파), 신뢰도 31(F), 유사 20건 승률 15% · 평균 -6.8%, R/R -1.00, 국면 Bear(-5) → Decision 40점 = SELL.",
    "guardrails": [],
    "cautions": [
-    "현재 시장 국면(High Volatility)에서의 검증 데이터 부족",
+    "현재 시장 국면(Bear)에서의 검증 데이터 부족",
     "역사적으로 불리했던 신호 보유: 신고가",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "RSI 74 과열권 — 단기 조정 위험",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -8.13,
-    "expected_drawdown": -8.13,
+    "expected_return": -6.84,
+    "expected_drawdown": -6.84,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-07-20",
-   "code": "457600",
-   "name": "벡트",
-   "ai_score": 72.0,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 25.2,
-    "confidence": 9.0,
-    "historical": 4.3,
-    "risk_reward": 3.8,
-    "regime_adj": -8.0
-   },
-   "decision_score": 34.2,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 72점(영업이익 성장 +2200%, 60일 신고가 돌파, 거래량 4.3배 폭증), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -8.7%, R/R -1.00, 국면 High Volatility(-8) → Decision 34점 = AVOID.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -8.74,
-    "expected_drawdown": -8.74,
-    "risk_reward": -1.0
-   }
-  },
-  {
-   "date": "2026-07-20",
-   "code": "005930",
-   "name": "삼성전자",
-   "ai_score": 64.7,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 22.6,
-    "confidence": 9.0,
-    "historical": 6.5,
-    "risk_reward": 3.8,
-    "regime_adj": -8.0
-   },
-   "decision_score": 33.9,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 65점(거래대금 2위, 영업이익 성장 +779%, PEG 0.01 (저평가)), 신뢰도 30(F), 유사 20건 승률 30% · 평균 -7.4%, R/R -1.00, 국면 High Volatility(-8) → Decision 34점 = AVOID.",
-   "guardrails": [],
-   "cautions": [
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -7.4,
-    "expected_drawdown": -7.4,
-    "risk_reward": -1.0
-   }
-  },
-  {
-   "date": "2026-07-20",
-   "code": "005935",
-   "name": "삼성전자우",
+   "date": "2026-07-21",
+   "code": "006400",
+   "name": "삼성SDI",
    "ai_score": 61.2,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
    "inputs": {
     "ai": 21.4,
-    "confidence": 9.0,
-    "historical": 6.6,
+    "confidence": 12.0,
+    "historical": 5.9,
     "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "regime_adj": -5.0
    },
-   "decision_score": 32.8,
+   "decision_score": 38.1,
    "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 61점(거래대금 5위, 영업이익 성장 +779%, PEG 0.01 (저평가)), 신뢰도 30(F), 유사 20건 승률 30% · 평균 -6.9%, R/R -1.00, 국면 High Volatility(-8) → Decision 33점 = AVOID.",
+   "recommendation": "SELL",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 61점(거래대금 19위, 영업이익 성장 +3501%, PEG 0.08 (저평가)), 신뢰도 40(D), 유사 20건 승률 20% · 평균 -5.5%, R/R -1.00, 국면 Bear(-5) → Decision 38점 = SELL.",
    "guardrails": [],
    "cautions": [
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -6.92,
-    "expected_drawdown": -6.92,
+    "expected_return": -5.54,
+    "expected_drawdown": -5.54,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-07-20",
+   "date": "2026-07-21",
+   "code": "402340",
+   "name": "SK스퀘어",
+   "ai_score": 64.0,
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
+   "inputs": {
+    "ai": 22.4,
+    "confidence": 12.0,
+    "historical": 4.6,
+    "risk_reward": 3.8,
+    "regime_adj": -5.0
+   },
+   "decision_score": 37.8,
+   "decision_grade": "F",
+   "recommendation": "SELL",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 64점(거래대금 3위, 영업이익 성장 +393%, OBV 매집), 신뢰도 40(D), 유사 20건 승률 15% · 평균 -9.4%, R/R -1.00, 국면 Bear(-5) → Decision 38점 = SELL.",
+   "guardrails": [],
+   "cautions": [
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -9.37,
+    "expected_drawdown": -9.37,
+    "risk_reward": -1.0
+   }
+  },
+  {
+   "date": "2026-07-21",
    "code": "353200",
    "name": "대덕전자",
    "ai_score": 64.7,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
    "inputs": {
     "ai": 22.6,
-    "confidence": 9.0,
+    "confidence": 12.0,
     "historical": 4.1,
     "risk_reward": 4.0,
-    "regime_adj": -8.0
+    "regime_adj": -5.0
    },
-   "decision_score": 31.7,
+   "decision_score": 37.7,
    "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 65점(거래대금 23위, 영업이익 성장 +412%, PEG 0.03 (저평가)), 신뢰도 30(F), 유사 20건 승률 5% · 평균 -7.2%, R/R -0.93, 국면 High Volatility(-8) → Decision 32점 = AVOID.",
+   "recommendation": "SELL",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 65점(거래대금 20위, 영업이익 성장 +412%, PEG 0.03 (저평가)), 신뢰도 40(D), 유사 20건 승률 5% · 평균 -7.2%, R/R -0.93, 국면 Bear(-5) → Decision 38점 = SELL.",
    "guardrails": [],
    "cautions": [
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
@@ -332,99 +360,172 @@
    }
   },
   {
-   "date": "2026-07-20",
-   "code": "219130",
-   "name": "타이거일렉",
-   "ai_score": 64.0,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 22.4,
-    "confidence": 9.0,
-    "historical": 4.4,
-    "risk_reward": 3.8,
-    "regime_adj": -8.0
-   },
-   "decision_score": 31.6,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 64점(영업이익 성장 +479%, 60일 고가 근접, 거래량 2.5배), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -7.8%, R/R -1.00, 국면 High Volatility(-8) → Decision 32점 = AVOID.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -7.78,
-    "expected_drawdown": -7.78,
-    "risk_reward": -1.0
-   }
-  },
-  {
-   "date": "2026-07-20",
-   "code": "006400",
-   "name": "삼성SDI",
-   "ai_score": 61.2,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 21.4,
-    "confidence": 9.0,
-    "historical": 4.5,
-    "risk_reward": 4.2,
-    "regime_adj": -8.0
-   },
-   "decision_score": 31.1,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 61점(거래대금 20위, 영업이익 성장 +6734%, PEG 0.08 (저평가)), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -7.4%, R/R -0.88, 국면 High Volatility(-8) → Decision 31점 = AVOID.",
-   "guardrails": [],
-   "cautions": [
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -7.38,
-    "expected_drawdown": -8.38,
-    "risk_reward": -0.88
-   }
-  },
-  {
-   "date": "2026-07-20",
+   "date": "2026-07-21",
    "code": "475150",
    "name": "SK이터닉스",
-   "ai_score": 66.5,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
+   "ai_score": 61.8,
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
    "inputs": {
-    "ai": 23.3,
-    "confidence": 9.0,
-    "historical": 1.3,
-    "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "ai": 21.6,
+    "confidence": 12.0,
+    "historical": 3.3,
+    "risk_reward": 4.0,
+    "regime_adj": -5.0
    },
-   "decision_score": 29.3,
+   "decision_score": 35.9,
    "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 66점(거래대금 6위, PEG 0.55, 정배열 · MACD 강세 · OBV 매집), 신뢰도 30(F), 유사 20건 승률 0% · 평균 -18.7%, R/R -1.00, 국면 High Volatility(-8) → Decision 29점 = AVOID.",
+   "recommendation": "SELL",
+   "risk_level": "HIGH",
+   "reason_summary": "AI Score 62점(거래대금 6위, PEG 0.55, 정배열 · MACD 강세 · OBV 매집), 신뢰도 40(D), 유사 20건 승률 10% · 평균 -13.6%, R/R -0.94, 국면 Bear(-5) → Decision 36점 = SELL.",
    "guardrails": [],
    "cautions": [
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -18.7,
-    "expected_drawdown": -18.7,
+    "expected_return": -13.56,
+    "expected_drawdown": -14.37,
+    "risk_reward": -0.94
+   }
+  },
+  {
+   "date": "2026-07-21",
+   "code": "240810",
+   "name": "원익IPS",
+   "ai_score": 60.0,
+   "confidence": 40.0,
+   "confidence_grade": "D",
+   "regime": "Bear",
+   "inputs": {
+    "ai": 21.0,
+    "confidence": 12.0,
+    "historical": 3.8,
+    "risk_reward": 3.8,
+    "regime_adj": -5.0
+   },
+   "decision_score": 35.5,
+   "decision_grade": "F",
+   "recommendation": "SELL",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 60점(거래대금 22위, 영업이익 성장 +596%, OBV 매집), 신뢰도 40(D), 유사 20건 승률 5% · 평균 -8.5%, R/R -1.00, 국면 Bear(-5) → Decision 36점 = SELL.",
+   "guardrails": [],
+   "cautions": [
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -8.47,
+    "expected_drawdown": -8.47,
     "risk_reward": -1.0
    }
   }
  ],
- "watchlist": []
+ "watchlist": [
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "recommendation": "SELL",
+   "decision_score": 40.5,
+   "confidence": 40.0,
+   "signals": [
+    "신뢰도 상승 30→40",
+    "AI Score 상승 65→68",
+    "판단 개선 AVOID→SELL",
+    "리스크 감소 VERY HIGH→MEDIUM"
+   ],
+   "signal_count": 4
+  },
+  {
+   "code": "402340",
+   "name": "SK스퀘어",
+   "recommendation": "SELL",
+   "decision_score": 37.8,
+   "confidence": 40.0,
+   "signals": [
+    "신뢰도 상승 30→40",
+    "AI Score 상승 60→64",
+    "판단 개선 AVOID→SELL",
+    "리스크 감소 VERY HIGH→MEDIUM"
+   ],
+   "signal_count": 4
+  },
+  {
+   "code": "004310",
+   "name": "현대약품",
+   "recommendation": "SELL",
+   "decision_score": 41.0,
+   "confidence": 40.0,
+   "signals": [
+    "신뢰도 상승 30→40",
+    "판단 개선 AVOID→SELL",
+    "리스크 감소 VERY HIGH→HIGH"
+   ],
+   "signal_count": 3
+  },
+  {
+   "code": "006400",
+   "name": "삼성SDI",
+   "recommendation": "SELL",
+   "decision_score": 38.1,
+   "confidence": 40.0,
+   "signals": [
+    "신뢰도 상승 30→40",
+    "판단 개선 AVOID→SELL",
+    "리스크 감소 VERY HIGH→MEDIUM"
+   ],
+   "signal_count": 3
+  },
+  {
+   "code": "353200",
+   "name": "대덕전자",
+   "recommendation": "SELL",
+   "decision_score": 37.7,
+   "confidence": 40.0,
+   "signals": [
+    "신뢰도 상승 30→40",
+    "판단 개선 AVOID→SELL",
+    "리스크 감소 VERY HIGH→MEDIUM"
+   ],
+   "signal_count": 3
+  },
+  {
+   "code": "475150",
+   "name": "SK이터닉스",
+   "recommendation": "SELL",
+   "decision_score": 35.9,
+   "confidence": 40.0,
+   "signals": [
+    "신뢰도 상승 30→40",
+    "판단 개선 AVOID→SELL",
+    "리스크 감소 VERY HIGH→HIGH"
+   ],
+   "signal_count": 3
+  },
+  {
+   "code": "010950",
+   "name": "S-Oil",
+   "recommendation": "SELL",
+   "decision_score": 44.1,
+   "confidence": 40.0,
+   "signals": [
+    "신뢰도 상승 31→40",
+    "리스크 감소 VERY HIGH→MEDIUM"
+   ],
+   "signal_count": 2
+  },
+  {
+   "code": "005935",
+   "name": "삼성전자우",
+   "recommendation": "SELL",
+   "decision_score": 40.1,
+   "confidence": 40.0,
+   "signals": [
+    "신뢰도 상승 30→40",
+    "리스크 감소 VERY HIGH→MEDIUM"
+   ],
+   "signal_count": 2
+  }
+ ]
 }
