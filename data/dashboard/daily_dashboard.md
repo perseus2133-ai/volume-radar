@@ -1,48 +1,34 @@
 # ☀️ AI Morning Brief
 
-**2026-07-22** · 시장 국면 **Sideways**
+**2026-07-23** · 시장 국면 **High Volatility**
 
 | 🟢 BUY+ | 🟡 WATCH | ⚪ HOLD | 🔴 SELL | ⚫ AVOID |
 |---|---|---|---|---|
-| 0 | 0 | 1 | 9 | 0 |
+| 0 | 0 | 0 | 5 | 5 |
 
-**오늘 강한 섹터**: 에너지장비및서비스(+2.1%), 기계(+1.9%), 전기유틸리티(+1.8%)
-**오늘 위험 섹터**: 항공사(-1.4%), 도로와철도운송(-1.0%), 건강관리기술(-0.9%)
+**오늘 강한 섹터**: 에너지장비및서비스(+9.7%), 전기장비(+9.3%), 우주항공과국방(+7.2%)
+**오늘 위험 섹터**: 가구(+0.2%), 부동산(+0.8%), 백화점과일반상점(+0.8%)
 
 
 ## 📋 Daily Dashboard
 
 | | 종목 | 판단 | DScore | AI | 신뢰도 | 국면 | 리스크 | 기대수익 | 예상낙폭 |
 |---|---|---|---|---|---|---|---|---|---|
-| ⚪ | S-Oil | **HOLD** | 46 | 73 | 30 | Sideways | VERY HIGH | -2.6% | -3.3% |
-| 🔴 | 자이에스앤디 | **SELL** | 45 | 75 | 31 | Sideways | VERY HIGH | -6.6% | -6.6% |
-| 🔴 | 현대약품 | **SELL** | 43 | 65 | 30 | Sideways | VERY HIGH | -2.8% | -3.6% |
-| 🔴 | 삼성전자 | **SELL** | 43 | 68 | 30 | Sideways | VERY HIGH | -7.2% | -7.2% |
-| 🔴 | 삼성전자우 | **SELL** | 42 | 68 | 30 | Sideways | VERY HIGH | -8.0% | -8.0% |
-| 🔴 | SK이터닉스 | **SELL** | 42 | 77 | 31 | Sideways | VERY HIGH | -18.3% | -18.3% |
-| 🔴 | PS일렉트로닉스 | **SELL** | 42 | 66 | 30 | Sideways | VERY HIGH | -6.9% | -7.3% |
-| 🔴 | 레인보우로보틱스 | **SELL** | 42 | 66 | 30 | Sideways | VERY HIGH | -8.9% | -9.5% |
-| 🔴 | 삼성SDI | **SELL** | 41 | 68 | 30 | Sideways | VERY HIGH | -7.4% | -7.8% |
-| 🔴 | 대덕전자 | **SELL** | 40 | 65 | 30 | Sideways | VERY HIGH | -7.2% | -7.8% |
+| 🔴 | S-Oil | **SELL** | 40 | 80 | 35 | High Volatility | HIGH | -13.4% | -13.9% |
+| 🔴 | SK이노베이션 | **SELL** | 37 | 76 | 31 | High Volatility | VERY HIGH | -10.2% | -10.2% |
+| 🔴 | HD현대에너지솔루션 | **SELL** | 36 | 73 | 30 | High Volatility | VERY HIGH | -10.2% | -10.2% |
+| 🔴 | 자이에스앤디 | **SELL** | 36 | 75 | 31 | High Volatility | VERY HIGH | -7.7% | -7.7% |
+| 🔴 | 레인보우로보틱스 | **SELL** | 35 | 70 | 30 | High Volatility | VERY HIGH | -10.8% | -10.8% |
+| ⚫ | 삼성SDI | **AVOID** | 35 | 68 | 30 | High Volatility | VERY HIGH | -6.5% | -9.1% |
+| ⚫ | SK이터닉스 | **AVOID** | 34 | 77 | 31 | High Volatility | VERY HIGH | -19.2% | -19.2% |
+| ⚫ | 삼성전자 | **AVOID** | 34 | 68 | 30 | High Volatility | VERY HIGH | -8.0% | -8.4% |
+| ⚫ | 삼성전자우 | **AVOID** | 34 | 68 | 30 | High Volatility | VERY HIGH | -8.0% | -8.4% |
+| ⚫ | 한화오션 | **AVOID** | 34 | 68 | 30 | High Volatility | VERY HIGH | -8.1% | -9.4% |
 
 ## 🔭 Tomorrow Candidates (Watchlist)
 
-### S-Oil (010950) — 현재 HOLD · DScore 46
+### S-Oil (010950) — 현재 SELL · DScore 40
 
-- 판단 개선 SELL→HOLD
-- 시장 국면 개선 Bear→Sideways
-
-### 삼성전자우 (005935) — 현재 SELL · DScore 42
-
-- AI Score 상승 61→68
-- 시장 국면 개선 Bear→Sideways
-
-### SK이터닉스 (475150) — 현재 SELL · DScore 42
-
-- AI Score 상승 62→77
-- 시장 국면 개선 Bear→Sideways
-
-### 삼성SDI (006400) — 현재 SELL · DScore 41
-
-- AI Score 상승 61→68
-- 시장 국면 개선 Bear→Sideways
+- 신뢰도 상승 30→35
+- AI Score 상승 73→80
+- 리스크 감소 VERY HIGH→HIGH
