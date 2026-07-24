@@ -13,39 +13,39 @@
   "analyzed": 10,
   "strong_sectors": [
    {
-    "sector": "에너지장비및서비스",
-    "avg_ret": 9.66,
-    "n": 28
+    "sector": "손해보험",
+    "avg_ret": 1.0,
+    "n": 12
    },
    {
-    "sector": "전기장비",
-    "avg_ret": 9.33,
-    "n": 32
+    "sector": "항공화물운송과물류",
+    "avg_ret": 0.64,
+    "n": 12
    },
    {
-    "sector": "우주항공과국방",
-    "avg_ret": 7.25,
-    "n": 30
+    "sector": "포장재",
+    "avg_ret": 0.61,
+    "n": 27
    }
   ],
   "weak_sectors": [
    {
-    "sector": "가구",
-    "avg_ret": 0.23,
-    "n": 11
+    "sector": "반도체와반도체장비",
+    "avg_ret": -6.57,
+    "n": 166
    },
    {
-    "sector": "부동산",
-    "avg_ret": 0.76,
-    "n": 7
+    "sector": "전기장비",
+    "avg_ret": -5.11,
+    "n": 32
    },
    {
-    "sector": "백화점과일반상점",
-    "avg_ret": 0.78,
-    "n": 13
+    "sector": "통신장비",
+    "avg_ret": -4.71,
+    "n": 51
    }
   ],
-  "sector_note": "2026-07-23 기준 전 종목",
+  "sector_note": "2026-07-24 기준 전 종목",
   "top_picks": [
    {
     "name": "S-Oil",
