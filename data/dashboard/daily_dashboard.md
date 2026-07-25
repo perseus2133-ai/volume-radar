@@ -1,6 +1,6 @@
 # ☀️ AI Morning Brief
 
-**2026-07-23** · 시장 국면 **High Volatility**
+**2026-07-24** · 시장 국면 **High Volatility**
 
 | 🟢 BUY+ | 🟡 WATCH | ⚪ HOLD | 🔴 SELL | ⚫ AVOID |
 |---|---|---|---|---|
@@ -14,21 +14,21 @@
 
 | | 종목 | 판단 | DScore | AI | 신뢰도 | 국면 | 리스크 | 기대수익 | 예상낙폭 |
 |---|---|---|---|---|---|---|---|---|---|
-| 🔴 | S-Oil | **SELL** | 40 | 80 | 35 | High Volatility | HIGH | -13.4% | -13.9% |
-| 🔴 | SK이노베이션 | **SELL** | 37 | 76 | 31 | High Volatility | VERY HIGH | -10.2% | -10.2% |
-| 🔴 | HD현대에너지솔루션 | **SELL** | 36 | 73 | 30 | High Volatility | VERY HIGH | -10.2% | -10.2% |
-| 🔴 | 자이에스앤디 | **SELL** | 36 | 75 | 31 | High Volatility | VERY HIGH | -7.7% | -7.7% |
-| 🔴 | 레인보우로보틱스 | **SELL** | 35 | 70 | 30 | High Volatility | VERY HIGH | -10.8% | -10.8% |
-| ⚫ | 삼성SDI | **AVOID** | 35 | 68 | 30 | High Volatility | VERY HIGH | -6.5% | -9.1% |
+| 🔴 | S-Oil | **SELL** | 42 | 80 | 41 | High Volatility | HIGH | -11.9% | -12.3% |
+| 🔴 | OCI홀딩스 | **SELL** | 37 | 76 | 31 | High Volatility | VERY HIGH | -12.9% | -12.9% |
+| 🔴 | 한화솔루션 | **SELL** | 37 | 69 | 30 | High Volatility | VERY HIGH | -4.7% | -4.7% |
+| 🔴 | 삼성바이오로직스 | **SELL** | 36 | 71 | 30 | High Volatility | VERY HIGH | -9.2% | -9.2% |
+| 🔴 | 삼성전자 | **SELL** | 35 | 68 | 34 | High Volatility | VERY HIGH | -7.7% | -8.2% |
+| ⚫ | SK이노베이션 | **AVOID** | 35 | 73 | 30 | High Volatility | VERY HIGH | -8.2% | -8.2% |
 | ⚫ | SK이터닉스 | **AVOID** | 34 | 77 | 31 | High Volatility | VERY HIGH | -19.2% | -19.2% |
-| ⚫ | 삼성전자 | **AVOID** | 34 | 68 | 30 | High Volatility | VERY HIGH | -8.0% | -8.4% |
-| ⚫ | 삼성전자우 | **AVOID** | 34 | 68 | 30 | High Volatility | VERY HIGH | -8.0% | -8.4% |
-| ⚫ | 한화오션 | **AVOID** | 34 | 68 | 30 | High Volatility | VERY HIGH | -8.1% | -9.4% |
+| ⚫ | HD현대에너지솔루션 | **AVOID** | 33 | 73 | 30 | High Volatility | VERY HIGH | -14.9% | -14.9% |
+| ⚫ | SK텔레콤 | **AVOID** | 33 | 70 | 34 | High Volatility | VERY HIGH | -15.7% | -15.7% |
+| ⚫ | GS | **AVOID** | 33 | 68 | 30 | High Volatility | VERY HIGH | -11.4% | -12.1% |
 
 ## 🔭 Tomorrow Candidates (Watchlist)
 
-### S-Oil (010950) — 현재 SELL · DScore 40
+### S-Oil (010950) — 현재 SELL · DScore 42
 
-- 신뢰도 상승 30→35
+- 신뢰도 상승 30→41
 - AI Score 상승 73→80
 - 리스크 감소 VERY HIGH→HIGH
