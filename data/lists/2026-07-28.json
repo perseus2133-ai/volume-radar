@@ -1,0 +1,111 @@
+{
+ "date": "2026-07-28",
+ "prev_date": "2026-07-27",
+ "top_n": 100,
+ "entries": [
+  {
+   "rank": 9,
+   "code": "207940",
+   "name": "삼성바이오로직스",
+   "market": "KOSPI",
+   "close": 1549000.0,
+   "chg_pct": 0.26,
+   "turnover_억": 2411.1,
+   "mcap_억": 717047.0,
+   "업종": "제약",
+   "rev_gmax": 30.3,
+   "op_gmax": 56.6
+  },
+  {
+   "rank": 10,
+   "code": "413630",
+   "name": "씨피시스템",
+   "market": "KOSDAQ",
+   "close": 4200.0,
+   "chg_pct": 3.32,
+   "turnover_억": 2359.5,
+   "mcap_억": 1530.0,
+   "업종": "기계",
+   "rev_gmax": 21.8,
+   "op_gmax": 90.5
+  },
+  {
+   "rank": 27,
+   "code": "214450",
+   "name": "파마리서치",
+   "market": "KOSDAQ",
+   "close": 375500.0,
+   "chg_pct": 1.49,
+   "turnover_억": 1386.1,
+   "mcap_억": 39013.0,
+   "업종": "건강관리장비와용품",
+   "rev_gmax": 53.2,
+   "op_gmax": 70.0
+  },
+  {
+   "rank": 38,
+   "code": "079550",
+   "name": "LIG디펜스앤에어로스페이스",
+   "market": "KOSPI",
+   "close": 697000.0,
+   "chg_pct": 0.14,
+   "turnover_억": 1024.6,
+   "mcap_억": 153340.0,
+   "업종": "우주항공과국방",
+   "rev_gmax": 31.5,
+   "op_gmax": 43.3
+  },
+  {
+   "rank": 49,
+   "code": "460930",
+   "name": "현대힘스",
+   "market": "KOSDAQ",
+   "close": 14080.0,
+   "chg_pct": 0.28,
+   "turnover_억": 773.2,
+   "mcap_억": 5000.0,
+   "업종": "조선",
+   "rev_gmax": 11.2,
+   "op_gmax": 34.0
+  },
+  {
+   "rank": 68,
+   "code": "332570",
+   "name": "PS일렉트로닉스",
+   "market": "KOSDAQ",
+   "close": 7540.0,
+   "chg_pct": 4.0,
+   "turnover_억": 589.8,
+   "mcap_억": 3522.0,
+   "업종": "핸드셋",
+   "rev_gmax": 133.3,
+   "op_gmax": 689.7
+  },
+  {
+   "rank": 77,
+   "code": "396300",
+   "name": "세아메카닉스",
+   "market": "KOSDAQ",
+   "close": 3815.0,
+   "chg_pct": 9.16,
+   "turnover_억": 514.0,
+   "mcap_억": 1011.0,
+   "업종": "전자장비와기기",
+   "rev_gmax": 50.5,
+   "op_gmax": 522.2
+  },
+  {
+   "rank": 78,
+   "code": "108860",
+   "name": "셀바스AI",
+   "market": "KOSDAQ",
+   "close": 9020.0,
+   "chg_pct": 11.91,
+   "turnover_억": 513.9,
+   "mcap_억": 2428.0,
+   "업종": "건강관리장비와용품",
+   "rev_gmax": 2.0,
+   "op_gmax": 87.5
+  }
+ ]
+}
