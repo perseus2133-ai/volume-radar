@@ -1,84 +1,96 @@
 {
  "brief": {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "regime": "High Volatility",
   "counts": {
    "STRONG BUY": 0,
    "BUY": 0,
    "WATCH": 0,
    "HOLD": 0,
-   "SELL": 5,
-   "AVOID": 5
+   "SELL": 3,
+   "AVOID": 7
   },
   "analyzed": 10,
   "strong_sectors": [
    {
-    "sector": "부동산",
-    "avg_ret": 0.0,
-    "n": 7
+    "sector": "손해보험",
+    "avg_ret": 2.74,
+    "n": 12
    },
    {
-    "sector": "기타금융",
-    "avg_ret": -0.26,
-    "n": 5
+    "sector": "은행",
+    "avg_ret": 2.48,
+    "n": 11
    },
    {
-    "sector": "음료",
-    "avg_ret": -0.59,
-    "n": 15
+    "sector": "석유와가스",
+    "avg_ret": 2.26,
+    "n": 17
    }
   ],
   "weak_sectors": [
    {
     "sector": "전기장비",
-    "avg_ret": -10.47,
+    "avg_ret": -2.63,
     "n": 32
    },
    {
-    "sector": "우주항공과국방",
-    "avg_ret": -9.88,
-    "n": 30
+    "sector": "반도체와반도체장비",
+    "avg_ret": -2.48,
+    "n": 166
    },
    {
-    "sector": "반도체와반도체장비",
-    "avg_ret": -9.66,
-    "n": 166
+    "sector": "건강관리기술",
+    "avg_ret": -1.8,
+    "n": 12
    }
   ],
-  "sector_note": "2026-07-29 기준 전 종목",
+  "sector_note": "2026-07-30 기준 전 종목",
   "top_picks": [
    {
     "name": "삼성전자우",
     "recommendation": "SELL",
-    "decision_score": 42.4
-   },
-   {
-    "name": "파마리서치",
-    "recommendation": "SELL",
-    "decision_score": 40.4
-   },
-   {
-    "name": "SK하이닉스",
-    "recommendation": "SELL",
-    "decision_score": 38.2
+    "decision_score": 38.3
    },
    {
     "name": "삼성전자",
     "recommendation": "SELL",
-    "decision_score": 37.2
+    "decision_score": 38.0
    },
    {
-    "name": "아이크래프트",
+    "name": "삼성SDI",
     "recommendation": "SELL",
-    "decision_score": 35.0
+    "decision_score": 38.0
+   },
+   {
+    "name": "셀트리온",
+    "recommendation": "AVOID",
+    "decision_score": 33.0
+   },
+   {
+    "name": "LG생활건강",
+    "recommendation": "AVOID",
+    "decision_score": 31.8
    }
   ],
   "risk_watch": [
    {
-    "name": "셀트리온",
+    "name": "삼양식품",
     "recommendation": "AVOID",
     "risk_level": "VERY HIGH",
-    "decision_score": 30.7
+    "decision_score": 28.6
+   },
+   {
+    "name": "OCI홀딩스",
+    "recommendation": "AVOID",
+    "risk_level": "VERY HIGH",
+    "decision_score": 30.2
+   },
+   {
+    "name": "레인보우로보틱스",
+    "recommendation": "AVOID",
+    "risk_level": "VERY HIGH",
+    "decision_score": 30.3
    },
    {
     "name": "한화오션",
@@ -87,47 +99,35 @@
     "decision_score": 30.9
    },
    {
-    "name": "레인보우로보틱스",
+    "name": "S-Oil",
     "recommendation": "AVOID",
     "risk_level": "VERY HIGH",
-    "decision_score": 33.2
-   },
-   {
-    "name": "OCI홀딩스",
-    "recommendation": "AVOID",
-    "risk_level": "VERY HIGH",
-    "decision_score": 33.3
-   },
-   {
-    "name": "달바글로벌",
-    "recommendation": "AVOID",
-    "risk_level": "VERY HIGH",
-    "decision_score": 34.3
+    "decision_score": 31.2
    }
   ],
-  "tomorrow_candidates": 1
+  "tomorrow_candidates": 0
  },
  "dashboard": [
   {
-   "date": "2026-07-29",
+   "date": "2026-07-30",
    "code": "005935",
    "name": "삼성전자우",
-   "ai_score": 69.4,
+   "ai_score": 61.2,
    "confidence": 30.0,
    "confidence_grade": "F",
    "regime": "High Volatility",
    "inputs": {
-    "ai": 24.3,
+    "ai": 21.4,
     "confidence": 9.0,
-    "historical": 10.3,
-    "risk_reward": 6.7,
+    "historical": 10.0,
+    "risk_reward": 5.9,
     "regime_adj": -8.0
    },
-   "decision_score": 42.4,
+   "decision_score": 38.3,
    "decision_grade": "F",
    "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 69점(거래대금 4위, 영업이익 성장 +778%, PEG 0.01 (저평가)), 신뢰도 30(F), 유사 20건 승률 55% · 평균 -0.8%, R/R -0.21, 국면 High Volatility(-8) → Decision 42점 = SELL.",
+   "reason_summary": "AI Score 61점(거래대금 5위, 영업이익 성장 +778%, PEG 0.01 (저평가)), 신뢰도 30(F), 유사 20건 승률 55% · 평균 -2.5%, R/R -0.43, 국면 High Volatility(-8) → Decision 38점 = SELL.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 실적",
@@ -135,95 +135,31 @@
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -0.78,
-    "expected_drawdown": -3.74,
-    "risk_reward": -0.21
+    "expected_return": -2.47,
+    "expected_drawdown": -5.79,
+    "risk_reward": -0.43
    }
   },
   {
-   "date": "2026-07-29",
-   "code": "214450",
-   "name": "파마리서치",
-   "ai_score": 78.5,
-   "confidence": 46.0,
-   "confidence_grade": "D",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 27.5,
-    "confidence": 13.8,
-    "historical": 3.4,
-    "risk_reward": 3.8,
-    "regime_adj": -8.0
-   },
-   "decision_score": 40.4,
-   "decision_grade": "F",
-   "recommendation": "SELL",
-   "risk_level": "HIGH",
-   "reason_summary": "AI Score 78점(거래대금 27위, 영업이익 성장 +70%, PEG 0.45 (저평가)), 신뢰도 46(D), 유사 20건 승률 15% · 평균 -15.4%, R/R -1.00, 국면 High Volatility(-8) → Decision 40점 = SELL.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -15.36,
-    "expected_drawdown": -15.36,
-    "risk_reward": -1.0
-   }
-  },
-  {
-   "date": "2026-07-29",
-   "code": "000660",
-   "name": "SK하이닉스",
-   "ai_score": 61.3,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 21.5,
-    "confidence": 9.0,
-    "historical": 9.5,
-    "risk_reward": 6.2,
-    "regime_adj": -8.0
-   },
-   "decision_score": 38.2,
-   "decision_grade": "F",
-   "recommendation": "SELL",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 61점(거래대금 1위, 영업이익 성장 +473%, 10거래일 중 4회 등장), 신뢰도 30(F), 유사 20건 승률 50% · 평균 -2.4%, R/R -0.35, 국면 High Volatility(-8) → Decision 38점 = SELL.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 실적",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -2.43,
-    "expected_drawdown": -6.97,
-    "risk_reward": -0.35
-   }
-  },
-  {
-   "date": "2026-07-29",
+   "date": "2026-07-30",
    "code": "005930",
    "name": "삼성전자",
-   "ai_score": 72.9,
+   "ai_score": 65.9,
    "confidence": 30.0,
    "confidence_grade": "F",
    "regime": "High Volatility",
    "inputs": {
-    "ai": 25.5,
+    "ai": 23.1,
     "confidence": 9.0,
-    "historical": 6.9,
-    "risk_reward": 3.8,
+    "historical": 8.8,
+    "risk_reward": 5.1,
     "regime_adj": -8.0
    },
-   "decision_score": 37.2,
+   "decision_score": 38.0,
    "decision_grade": "F",
    "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 73점(거래대금 2위, 영업이익 성장 +778%, PEG 0.01 (저평가)), 신뢰도 30(F), 유사 20건 승률 30% · 평균 -5.4%, R/R -1.00, 국면 High Volatility(-8) → Decision 37점 = SELL.",
+   "reason_summary": "AI Score 66점(거래대금 2위, 영업이익 성장 +778%, PEG 0.01 (저평가)), 신뢰도 30(F), 유사 20건 승률 45% · 평균 -3.6%, R/R -0.63, 국면 High Volatility(-8) → Decision 38점 = SELL.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 실적",
@@ -231,79 +167,112 @@
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -5.44,
-    "expected_drawdown": -5.44,
-    "risk_reward": -1.0
+    "expected_return": -3.58,
+    "expected_drawdown": -5.65,
+    "risk_reward": -0.63
    }
   },
   {
-   "date": "2026-07-29",
-   "code": "052460",
-   "name": "아이크래프트",
-   "ai_score": 71.8,
+   "date": "2026-07-30",
+   "code": "006400",
+   "name": "삼성SDI",
+   "ai_score": 65.9,
    "confidence": 30.0,
    "confidence_grade": "F",
    "regime": "High Volatility",
    "inputs": {
-    "ai": 25.1,
+    "ai": 23.1,
     "confidence": 9.0,
-    "historical": 5.0,
-    "risk_reward": 3.9,
+    "historical": 8.8,
+    "risk_reward": 5.1,
     "regime_adj": -8.0
    },
-   "decision_score": 35.0,
+   "decision_score": 38.0,
    "decision_grade": "F",
    "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 72점(영업이익 성장 +400%, PEG 0.01 (저평가), 60일 고가 근접), 신뢰도 30(F), 유사 20건 승률 15% · 평균 -7.6%, R/R -0.97, 국면 High Volatility(-8) → Decision 35점 = SELL.",
+   "reason_summary": "AI Score 66점(거래대금 10위, 영업이익 성장 +1673%, PEG 0.08 (저평가)), 신뢰도 30(F), 유사 20건 승률 45% · 평균 -3.6%, R/R -0.63, 국면 High Volatility(-8) → Decision 38점 = SELL.",
    "guardrails": [],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가, 실적",
+    "역사적으로 불리했던 신호 보유: 실적",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -7.62,
-    "expected_drawdown": -7.83,
-    "risk_reward": -0.97
+    "expected_return": -3.58,
+    "expected_drawdown": -5.65,
+    "risk_reward": -0.63
    }
   },
   {
-   "date": "2026-07-29",
-   "code": "483650",
-   "name": "달바글로벌",
-   "ai_score": 73.8,
+   "date": "2026-07-30",
+   "code": "068270",
+   "name": "셀트리온",
+   "ai_score": 72.1,
    "confidence": 30.0,
    "confidence_grade": "F",
    "regime": "High Volatility",
    "inputs": {
-    "ai": 25.8,
+    "ai": 25.2,
     "confidence": 9.0,
-    "historical": 3.5,
-    "risk_reward": 4.0,
+    "historical": 3.0,
+    "risk_reward": 3.8,
     "regime_adj": -8.0
    },
-   "decision_score": 34.3,
+   "decision_score": 33.0,
    "decision_grade": "F",
    "recommendation": "AVOID",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 74점(거래대금 41위, 영업이익 성장 +70%, PEG 0.24 (저평가)), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -12.7%, R/R -0.94, 국면 High Volatility(-8) → Decision 34점 = AVOID.",
+   "reason_summary": "AI Score 72점(거래대금 7위, 영업이익 성장 +138%, PEG 0.60), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -15.1%, R/R -1.00, 국면 High Volatility(-8) → Decision 33점 = AVOID.",
    "guardrails": [],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
+    "역사적으로 불리했던 신호 보유: 실적",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -12.65,
-    "expected_drawdown": -13.42,
+    "expected_return": -15.09,
+    "expected_drawdown": -15.09,
+    "risk_reward": -1.0
+   }
+  },
+  {
+   "date": "2026-07-30",
+   "code": "051900",
+   "name": "LG생활건강",
+   "ai_score": 69.9,
+   "confidence": 30.0,
+   "confidence_grade": "F",
+   "regime": "High Volatility",
+   "inputs": {
+    "ai": 24.5,
+    "confidence": 9.0,
+    "historical": 2.3,
+    "risk_reward": 4.0,
+    "regime_adj": -8.0
+   },
+   "decision_score": 31.8,
+   "decision_grade": "F",
+   "recommendation": "AVOID",
+   "risk_level": "VERY HIGH",
+   "reason_summary": "AI Score 70점(거래대금 32위, 영업이익 성장 +102%, PEG 0.21 (저평가)), 신뢰도 30(F), 유사 20건 승률 5% · 평균 -15.8%, R/R -0.94, 국면 High Volatility(-8) → Decision 32점 = AVOID.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 신고가",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "RSI 74 과열권 — 단기 조정 위험",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -15.76,
+    "expected_drawdown": -16.72,
     "risk_reward": -0.94
    }
   },
   {
-   "date": "2026-07-29",
-   "code": "010060",
-   "name": "OCI홀딩스",
+   "date": "2026-07-30",
+   "code": "010950",
+   "name": "S-Oil",
    "ai_score": 64.7,
    "confidence": 30.0,
    "confidence_grade": "F",
@@ -311,47 +280,15 @@
    "inputs": {
     "ai": 22.6,
     "confidence": 9.0,
-    "historical": 5.3,
-    "risk_reward": 4.4,
-    "regime_adj": -8.0
-   },
-   "decision_score": 33.3,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 65점(거래대금 76위, 영업이익 성장 +715%, PEG 0.00 (저평가)), 신뢰도 30(F), 유사 20건 승률 20% · 평균 -8.4%, R/R -0.83, 국면 High Volatility(-8) → Decision 33점 = AVOID.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 실적",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -8.42,
-    "expected_drawdown": -10.2,
-    "risk_reward": -0.83
-   }
-  },
-  {
-   "date": "2026-07-29",
-   "code": "277810",
-   "name": "레인보우로보틱스",
-   "ai_score": 65.2,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 22.8,
-    "confidence": 9.0,
-    "historical": 5.6,
+    "historical": 3.8,
     "risk_reward": 3.8,
     "regime_adj": -8.0
    },
-   "decision_score": 33.2,
+   "decision_score": 31.2,
    "decision_grade": "F",
    "recommendation": "AVOID",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 65점(거래대금 51위, 영업이익 성장 +260%, 거래량 2.1배), 신뢰도 30(F), 유사 20건 승률 25% · 평균 -9.3%, R/R -1.00, 국면 High Volatility(-8) → Decision 33점 = AVOID.",
+   "reason_summary": "AI Score 65점(거래대금 89위, 영업이익 성장 +1424%, PEG 0.00 (저평가)), 신뢰도 30(F), 유사 20건 승률 5% · 평균 -8.7%, R/R -1.00, 국면 High Volatility(-8) → Decision 31점 = AVOID.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 실적",
@@ -359,13 +296,13 @@
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -9.35,
-    "expected_drawdown": -9.35,
+    "expected_return": -8.72,
+    "expected_drawdown": -8.72,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-07-29",
+   "date": "2026-07-30",
    "code": "042660",
    "name": "한화오션",
    "ai_score": 64.7,
@@ -383,7 +320,7 @@
    "decision_grade": "F",
    "recommendation": "AVOID",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 65점(거래대금 30위, 영업이익 성장 +391%, PEG 0.19 (저평가)), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -12.6%, R/R -1.00, 국면 High Volatility(-8) → Decision 31점 = AVOID.",
+   "reason_summary": "AI Score 65점(거래대금 18위, 영업이익 성장 +391%, PEG 0.19 (저평가)), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -12.5%, R/R -1.00, 국면 High Volatility(-8) → Decision 31점 = AVOID.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 실적",
@@ -391,31 +328,31 @@
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -12.56,
-    "expected_drawdown": -12.56,
+    "expected_return": -12.5,
+    "expected_drawdown": -12.5,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-07-29",
-   "code": "068270",
-   "name": "셀트리온",
-   "ai_score": 67.4,
+   "date": "2026-07-30",
+   "code": "277810",
+   "name": "레인보우로보틱스",
+   "ai_score": 61.2,
    "confidence": 30.0,
    "confidence_grade": "F",
    "regime": "High Volatility",
    "inputs": {
-    "ai": 23.6,
+    "ai": 21.4,
     "confidence": 9.0,
-    "historical": 2.4,
+    "historical": 4.1,
     "risk_reward": 3.8,
     "regime_adj": -8.0
    },
-   "decision_score": 30.7,
+   "decision_score": 30.3,
    "decision_grade": "F",
    "recommendation": "AVOID",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 67점(거래대금 8위, 영업이익 성장 +138%, PEG 0.60), 신뢰도 30(F), 유사 20건 승률 5% · 평균 -15.5%, R/R -1.00, 국면 High Volatility(-8) → Decision 31점 = AVOID.",
+   "reason_summary": "AI Score 61점(거래대금 44위, 영업이익 성장 +260%, MACD 강세 · OBV 매집), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -9.5%, R/R -1.00, 국면 High Volatility(-8) → Decision 30점 = AVOID.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 실적",
@@ -423,26 +360,74 @@
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -15.49,
-    "expected_drawdown": -15.49,
+    "expected_return": -9.54,
+    "expected_drawdown": -9.54,
+    "risk_reward": -1.0
+   }
+  },
+  {
+   "date": "2026-07-30",
+   "code": "010060",
+   "name": "OCI홀딩스",
+   "ai_score": 60.0,
+   "confidence": 30.0,
+   "confidence_grade": "F",
+   "regime": "High Volatility",
+   "inputs": {
+    "ai": 21.0,
+    "confidence": 9.0,
+    "historical": 4.5,
+    "risk_reward": 3.8,
+    "regime_adj": -8.0
+   },
+   "decision_score": 30.2,
+   "decision_grade": "F",
+   "recommendation": "AVOID",
+   "risk_level": "VERY HIGH",
+   "reason_summary": "AI Score 60점(거래대금 73위, 영업이익 성장 +715%, PEG 0.00 (저평가)), 신뢰도 30(F), 유사 20건 승률 15% · 평균 -10.2%, R/R -1.00, 국면 High Volatility(-8) → Decision 30점 = AVOID.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 실적",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -10.19,
+    "expected_drawdown": -10.19,
+    "risk_reward": -1.0
+   }
+  },
+  {
+   "date": "2026-07-30",
+   "code": "003230",
+   "name": "삼양식품",
+   "ai_score": 60.9,
+   "confidence": 30.0,
+   "confidence_grade": "F",
+   "regime": "High Volatility",
+   "inputs": {
+    "ai": 21.3,
+    "confidence": 9.0,
+    "historical": 2.6,
+    "risk_reward": 3.8,
+    "regime_adj": -8.0
+   },
+   "decision_score": 28.6,
+   "decision_grade": "F",
+   "recommendation": "AVOID",
+   "risk_level": "VERY HIGH",
+   "reason_summary": "AI Score 61점(거래대금 22위, 영업이익 성장 +52%, PEG 0.23 (저평가)), 신뢰도 30(F), 유사 20건 승률 5% · 평균 -14.6%, R/R -1.00, 국면 High Volatility(-8) → Decision 29점 = AVOID.",
+   "guardrails": [],
+   "cautions": [
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -14.56,
+    "expected_drawdown": -14.56,
     "risk_reward": -1.0
    }
   }
  ],
- "watchlist": [
-  {
-   "code": "214450",
-   "name": "파마리서치",
-   "recommendation": "SELL",
-   "decision_score": 40.4,
-   "confidence": 46.0,
-   "signals": [
-    "신뢰도 상승 30→46",
-    "AI Score 상승 75→78",
-    "판단 개선 AVOID→SELL",
-    "리스크 감소 VERY HIGH→HIGH"
-   ],
-   "signal_count": 4
-  }
- ]
+ "watchlist": []
 }
