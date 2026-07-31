@@ -1,29 +1,29 @@
 # ☀️ AI Morning Brief
 
-**2026-07-30** · 시장 국면 **High Volatility**
+**2026-07-31** · 시장 국면 **High Volatility**
 
 | 🟢 BUY+ | 🟡 WATCH | ⚪ HOLD | 🔴 SELL | ⚫ AVOID |
 |---|---|---|---|---|
-| 0 | 0 | 0 | 3 | 7 |
+| 0 | 0 | 0 | 4 | 6 |
 
-**오늘 강한 섹터**: 손해보험(+2.7%), 은행(+2.5%), 석유와가스(+2.3%)
-**오늘 위험 섹터**: 전기장비(-2.6%), 반도체와반도체장비(-2.5%), 건강관리기술(-1.8%)
+**오늘 강한 섹터**: 반도체와반도체장비(+18.4%), 전기장비(+14.8%), 우주항공과국방(+10.8%)
+**오늘 위험 섹터**: 광고(+0.2%), 음료(+0.4%), 포장재(+0.9%)
 
 
 ## 📋 Daily Dashboard
 
 | | 종목 | 판단 | DScore | AI | 신뢰도 | 국면 | 리스크 | 기대수익 | 예상낙폭 |
 |---|---|---|---|---|---|---|---|---|---|
-| 🔴 | 삼성전자우 | **SELL** | 38 | 61 | 30 | High Volatility | VERY HIGH | -2.5% | -5.8% |
-| 🔴 | 삼성전자 | **SELL** | 38 | 66 | 30 | High Volatility | VERY HIGH | -3.6% | -5.7% |
-| 🔴 | 삼성SDI | **SELL** | 38 | 66 | 30 | High Volatility | VERY HIGH | -3.6% | -5.7% |
-| ⚫ | 셀트리온 | **AVOID** | 33 | 72 | 30 | High Volatility | VERY HIGH | -15.1% | -15.1% |
-| ⚫ | LG생활건강 | **AVOID** | 32 | 70 | 30 | High Volatility | VERY HIGH | -15.8% | -16.7% |
-| ⚫ | S-Oil | **AVOID** | 31 | 65 | 30 | High Volatility | VERY HIGH | -8.7% | -8.7% |
-| ⚫ | 한화오션 | **AVOID** | 31 | 65 | 30 | High Volatility | VERY HIGH | -12.5% | -12.5% |
-| ⚫ | 레인보우로보틱스 | **AVOID** | 30 | 61 | 30 | High Volatility | VERY HIGH | -9.5% | -9.5% |
-| ⚫ | OCI홀딩스 | **AVOID** | 30 | 60 | 30 | High Volatility | VERY HIGH | -10.2% | -10.2% |
-| ⚫ | 삼양식품 | **AVOID** | 29 | 61 | 30 | High Volatility | VERY HIGH | -14.6% | -14.6% |
+| 🔴 | 삼성전자 | **SELL** | 37 | 69 | 30 | High Volatility | VERY HIGH | -5.4% | -5.9% |
+| 🔴 | 삼성전자우 | **SELL** | 37 | 69 | 30 | High Volatility | VERY HIGH | -4.9% | -5.2% |
+| 🔴 | 삼성SDI | **SELL** | 37 | 61 | 30 | High Volatility | VERY HIGH | -4.0% | -6.2% |
+| 🔴 | SK하이닉스 | **SELL** | 36 | 61 | 30 | High Volatility | VERY HIGH | -4.0% | -6.0% |
+| ⚫ | SK이노베이션 | **AVOID** | 34 | 66 | 30 | High Volatility | VERY HIGH | -7.5% | -8.0% |
+| ⚫ | GS | **AVOID** | 33 | 61 | 34 | High Volatility | VERY HIGH | -7.8% | -7.8% |
+| ⚫ | 고영 | **AVOID** | 33 | 62 | 30 | High Volatility | VERY HIGH | -9.0% | -10.5% |
+| ⚫ | 셀트리온 | **AVOID** | 32 | 65 | 30 | High Volatility | VERY HIGH | -13.2% | -13.2% |
+| ⚫ | 레인보우로보틱스 | **AVOID** | 32 | 61 | 30 | High Volatility | VERY HIGH | -8.3% | -8.3% |
+| ⚫ | 한화오션 | **AVOID** | 30 | 64 | 30 | High Volatility | VERY HIGH | -10.1% | -10.1% |
 
 ## 🔭 Tomorrow Candidates (Watchlist)
 
