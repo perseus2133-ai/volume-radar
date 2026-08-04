@@ -1,29 +1,29 @@
 # ☀️ AI Morning Brief
 
-**2026-08-03** · 시장 국면 **High Volatility**
+**2026-08-04** · 시장 국면 **High Volatility**
 
 | 🟢 BUY+ | 🟡 WATCH | ⚪ HOLD | 🔴 SELL | ⚫ AVOID |
 |---|---|---|---|---|
-| 0 | 0 | 0 | 2 | 8 |
+| 0 | 0 | 0 | 3 | 7 |
 
-**오늘 강한 섹터**: 우주항공과국방(+3.1%), 통신장비(+3.0%), 건강관리기술(+2.2%)
-**오늘 위험 섹터**: 생명보험(-3.6%), 해운사(-1.8%), 석유와가스(-1.8%)
+**오늘 강한 섹터**: 우주항공과국방(+8.9%), 건강관리기술(+7.5%), 전기유틸리티(+6.5%)
+**오늘 위험 섹터**: 은행(+0.1%), 자동차(+0.3%), 항공사(+0.4%)
 
 
 ## 📋 Daily Dashboard
 
 | | 종목 | 판단 | DScore | AI | 신뢰도 | 국면 | 리스크 | 기대수익 | 예상낙폭 |
 |---|---|---|---|---|---|---|---|---|---|
-| 🔴 | 아이크래프트 | **SELL** | 41 | 72 | 30 | High Volatility | VERY HIGH | -1.4% | -5.2% |
-| 🔴 | 삼성전자 | **SELL** | 36 | 65 | 30 | High Volatility | VERY HIGH | -4.7% | -5.0% |
-| ⚫ | 로보티즈 | **AVOID** | 33 | 65 | 30 | High Volatility | VERY HIGH | -10.5% | -10.5% |
-| ⚫ | 레인보우로보틱스 | **AVOID** | 32 | 66 | 30 | High Volatility | VERY HIGH | -10.0% | -10.8% |
-| ⚫ | 삼성전자우 | **AVOID** | 32 | 68 | 30 | High Volatility | VERY HIGH | -12.8% | -12.8% |
-| ⚫ | 삼성SDI | **AVOID** | 31 | 65 | 30 | High Volatility | VERY HIGH | -12.3% | -12.3% |
-| ⚫ | OCI홀딩스 | **AVOID** | 30 | 60 | 30 | High Volatility | VERY HIGH | -8.9% | -8.9% |
-| ⚫ | 에스피지 | **AVOID** | 30 | 59 | 30 | High Volatility | VERY HIGH | -11.6% | -11.6% |
-| ⚫ | 한화오션 | **AVOID** | 30 | 64 | 30 | High Volatility | VERY HIGH | -9.6% | -9.6% |
-| ⚫ | LG에너지솔루션 | **AVOID** | 29 | 59 | 30 | High Volatility | VERY HIGH | -9.1% | -9.1% |
+| 🔴 | 지엔씨에너지 | **SELL** | 42 | 76 | 46 | High Volatility | HIGH | -10.7% | -12.0% |
+| 🔴 | 컴투스 | **SELL** | 40 | 67 | 30 | High Volatility | VERY HIGH | -0.4% | -4.0% |
+| 🔴 | 아이크래프트 | **SELL** | 36 | 68 | 30 | High Volatility | VERY HIGH | -5.2% | -8.8% |
+| ⚫ | OCI홀딩스 | **AVOID** | 35 | 68 | 30 | High Volatility | VERY HIGH | -7.3% | -8.3% |
+| ⚫ | 삼성전자 | **AVOID** | 34 | 68 | 34 | High Volatility | VERY HIGH | -11.7% | -11.7% |
+| ⚫ | 삼성전자우 | **AVOID** | 33 | 65 | 34 | High Volatility | VERY HIGH | -8.7% | -8.7% |
+| ⚫ | GS | **AVOID** | 32 | 64 | 30 | High Volatility | VERY HIGH | -11.4% | -11.9% |
+| ⚫ | 대우건설 | **AVOID** | 32 | 66 | 30 | High Volatility | VERY HIGH | -10.4% | -10.4% |
+| ⚫ | 삼성SDI | **AVOID** | 32 | 65 | 34 | High Volatility | VERY HIGH | -12.3% | -12.3% |
+| ⚫ | 알테오젠 | **AVOID** | 31 | 64 | 30 | High Volatility | VERY HIGH | -11.7% | -11.7% |
 
 ## 🔭 Tomorrow Candidates (Watchlist)
 
