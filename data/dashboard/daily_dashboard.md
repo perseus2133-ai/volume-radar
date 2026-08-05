@@ -1,30 +1,38 @@
 # ☀️ AI Morning Brief
 
-**2026-08-04** · 시장 국면 **High Volatility**
+**2026-08-05** · 시장 국면 **Bull**
 
 | 🟢 BUY+ | 🟡 WATCH | ⚪ HOLD | 🔴 SELL | ⚫ AVOID |
 |---|---|---|---|---|
-| 0 | 0 | 0 | 3 | 7 |
+| 0 | 0 | 1 | 9 | 0 |
 
-**오늘 강한 섹터**: 우주항공과국방(+8.9%), 건강관리기술(+7.5%), 전기유틸리티(+6.5%)
-**오늘 위험 섹터**: 은행(+0.1%), 자동차(+0.3%), 항공사(+0.4%)
+**오늘 강한 섹터**: 전기장비(+7.7%), 조선(+5.0%), 통신장비(+4.9%)
+**오늘 위험 섹터**: 게임엔터테인먼트(-1.3%), 백화점과일반상점(-0.3%), 석유와가스(-0.2%)
 
 
 ## 📋 Daily Dashboard
 
 | | 종목 | 판단 | DScore | AI | 신뢰도 | 국면 | 리스크 | 기대수익 | 예상낙폭 |
 |---|---|---|---|---|---|---|---|---|---|
-| 🔴 | 지엔씨에너지 | **SELL** | 42 | 76 | 46 | High Volatility | HIGH | -10.7% | -12.0% |
-| 🔴 | 컴투스 | **SELL** | 40 | 67 | 30 | High Volatility | VERY HIGH | -0.4% | -4.0% |
-| 🔴 | 아이크래프트 | **SELL** | 36 | 68 | 30 | High Volatility | VERY HIGH | -5.2% | -8.8% |
-| ⚫ | OCI홀딩스 | **AVOID** | 35 | 68 | 30 | High Volatility | VERY HIGH | -7.3% | -8.3% |
-| ⚫ | 삼성전자 | **AVOID** | 34 | 68 | 34 | High Volatility | VERY HIGH | -11.7% | -11.7% |
-| ⚫ | 삼성전자우 | **AVOID** | 33 | 65 | 34 | High Volatility | VERY HIGH | -8.7% | -8.7% |
-| ⚫ | GS | **AVOID** | 32 | 64 | 30 | High Volatility | VERY HIGH | -11.4% | -11.9% |
-| ⚫ | 대우건설 | **AVOID** | 32 | 66 | 30 | High Volatility | VERY HIGH | -10.4% | -10.4% |
-| ⚫ | 삼성SDI | **AVOID** | 32 | 65 | 34 | High Volatility | VERY HIGH | -12.3% | -12.3% |
-| ⚫ | 알테오젠 | **AVOID** | 31 | 64 | 30 | High Volatility | VERY HIGH | -11.7% | -11.7% |
+| ⚪ | 성호전자 | **HOLD** | 49 | 66 | 30 | Bull | VERY HIGH | -3.0% | -4.1% |
+| 🔴 | 한화솔루션 | **SELL** | 52 | 73 | 30 | Bull | VERY HIGH | -5.2% | -7.1% |
+| 🔴 | 에이피알 | **SELL** | 48 | 70 | 34 | Bull | VERY HIGH | -10.1% | -10.3% |
+| 🔴 | 대우건설 | **SELL** | 48 | 66 | 30 | Bull | VERY HIGH | -5.7% | -6.5% |
+| 🔴 | RFHIC | **SELL** | 48 | 66 | 30 | Bull | VERY HIGH | -5.9% | -5.9% |
+| 🔴 | 삼성전자 | **SELL** | 47 | 68 | 34 | Bull | VERY HIGH | -10.6% | -10.6% |
+| 🔴 | 삼성전자우 | **SELL** | 46 | 65 | 34 | Bull | VERY HIGH | -8.7% | -8.7% |
+| 🔴 | 제주반도체 | **SELL** | 46 | 67 | 30 | Bull | VERY HIGH | -9.3% | -9.3% |
+| 🔴 | 한화오션 | **SELL** | 45 | 64 | 30 | Bull | VERY HIGH | -5.3% | -5.3% |
+| 🔴 | OCI홀딩스 | **SELL** | 44 | 64 | 30 | Bull | VERY HIGH | -6.1% | -6.1% |
 
 ## 🔭 Tomorrow Candidates (Watchlist)
 
-후보 없음 — 개선 신호 2개 이상인 종목이 아직 없습니다.
+### 삼성전자우 (005935) — 현재 SELL · DScore 46
+
+- 판단 개선 AVOID→SELL
+- 시장 국면 개선 High Volatility→Bull
+
+### 한화오션 (042660) — 현재 SELL · DScore 45
+
+- 판단 개선 AVOID→SELL
+- 시장 국면 개선 High Volatility→Bull

@@ -1,294 +1,336 @@
 {
  "brief": {
-  "date": "2026-08-04",
-  "regime": "High Volatility",
+  "date": "2026-08-05",
+  "regime": "Bull",
   "counts": {
    "STRONG BUY": 0,
    "BUY": 0,
    "WATCH": 0,
-   "HOLD": 0,
-   "SELL": 3,
-   "AVOID": 7
+   "HOLD": 1,
+   "SELL": 9,
+   "AVOID": 0
   },
   "analyzed": 10,
   "strong_sectors": [
    {
-    "sector": "우주항공과국방",
-    "avg_ret": 8.89,
-    "n": 30
+    "sector": "전기장비",
+    "avg_ret": 7.65,
+    "n": 32
    },
    {
-    "sector": "건강관리기술",
-    "avg_ret": 7.49,
-    "n": 12
+    "sector": "조선",
+    "avg_ret": 5.03,
+    "n": 29
    },
    {
-    "sector": "전기유틸리티",
-    "avg_ret": 6.53,
-    "n": 5
+    "sector": "통신장비",
+    "avg_ret": 4.93,
+    "n": 50
    }
   ],
   "weak_sectors": [
    {
-    "sector": "은행",
-    "avg_ret": 0.13,
-    "n": 11
+    "sector": "게임엔터테인먼트",
+    "avg_ret": -1.27,
+    "n": 33
    },
    {
-    "sector": "자동차",
-    "avg_ret": 0.35,
-    "n": 12
+    "sector": "백화점과일반상점",
+    "avg_ret": -0.35,
+    "n": 13
    },
    {
-    "sector": "항공사",
-    "avg_ret": 0.4,
-    "n": 8
+    "sector": "석유와가스",
+    "avg_ret": -0.16,
+    "n": 17
    }
   ],
-  "sector_note": "2026-08-04 기준 전 종목",
+  "sector_note": "2026-08-05 기준 전 종목",
   "top_picks": [
    {
-    "name": "지엔씨에너지",
+    "name": "성호전자",
+    "recommendation": "HOLD",
+    "decision_score": 49.3
+   },
+   {
+    "name": "한화솔루션",
     "recommendation": "SELL",
-    "decision_score": 42.0
+    "decision_score": 51.9
    },
    {
-    "name": "컴투스",
+    "name": "에이피알",
     "recommendation": "SELL",
-    "decision_score": 40.0
+    "decision_score": 48.5
    },
    {
-    "name": "아이크래프트",
+    "name": "대우건설",
     "recommendation": "SELL",
-    "decision_score": 36.1
+    "decision_score": 48.2
    },
    {
-    "name": "OCI홀딩스",
-    "recommendation": "AVOID",
-    "decision_score": 34.6
-   },
-   {
-    "name": "삼성전자",
-    "recommendation": "AVOID",
-    "decision_score": 34.0
+    "name": "RFHIC",
+    "recommendation": "SELL",
+    "decision_score": 47.6
    }
   ],
   "risk_watch": [
    {
-    "name": "알테오젠",
-    "recommendation": "AVOID",
+    "name": "OCI홀딩스",
+    "recommendation": "SELL",
     "risk_level": "VERY HIGH",
-    "decision_score": 30.8
+    "decision_score": 44.3
    },
    {
-    "name": "삼성SDI",
-    "recommendation": "AVOID",
+    "name": "한화오션",
+    "recommendation": "SELL",
     "risk_level": "VERY HIGH",
-    "decision_score": 32.1
+    "decision_score": 44.9
    },
    {
-    "name": "대우건설",
-    "recommendation": "AVOID",
+    "name": "제주반도체",
+    "recommendation": "SELL",
     "risk_level": "VERY HIGH",
-    "decision_score": 32.3
-   },
-   {
-    "name": "GS",
-    "recommendation": "AVOID",
-    "risk_level": "VERY HIGH",
-    "decision_score": 32.4
+    "decision_score": 45.7
    },
    {
     "name": "삼성전자우",
-    "recommendation": "AVOID",
+    "recommendation": "SELL",
     "risk_level": "VERY HIGH",
-    "decision_score": 33.4
+    "decision_score": 46.4
+   },
+   {
+    "name": "삼성전자",
+    "recommendation": "SELL",
+    "risk_level": "VERY HIGH",
+    "decision_score": 47.2
    }
   ],
-  "tomorrow_candidates": 0
+  "tomorrow_candidates": 2
  },
  "dashboard": [
   {
-   "date": "2026-08-04",
-   "code": "119850",
-   "name": "지엔씨에너지",
-   "ai_score": 76.1,
-   "confidence": 46.0,
-   "confidence_grade": "D",
-   "regime": "High Volatility",
+   "date": "2026-08-05",
+   "code": "043260",
+   "name": "성호전자",
+   "ai_score": 65.9,
+   "confidence": 30.0,
+   "confidence_grade": "F",
+   "regime": "Bull",
    "inputs": {
-    "ai": 26.6,
-    "confidence": 13.8,
-    "historical": 5.4,
+    "ai": 23.1,
+    "confidence": 9.0,
+    "historical": 7.4,
+    "risk_reward": 4.8,
+    "regime_adj": 5.0
+   },
+   "decision_score": 49.3,
+   "decision_grade": "D",
+   "recommendation": "HOLD",
+   "risk_level": "VERY HIGH",
+   "reason_summary": "AI Score 66점(거래대금 41위, 영업이익 성장 +495%, PEG 0.00 (저평가)), 신뢰도 30(F), 유사 20건 승률 30% · 평균 -3.0%, R/R -0.72, 국면 Bull(+5) → Decision 49점 = HOLD.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -2.97,
+    "expected_drawdown": -4.13,
+    "risk_reward": -0.72
+   }
+  },
+  {
+   "date": "2026-08-05",
+   "code": "009830",
+   "name": "한화솔루션",
+   "ai_score": 73.3,
+   "confidence": 30.0,
+   "confidence_grade": "F",
+   "regime": "Bull",
+   "inputs": {
+    "ai": 25.7,
+    "confidence": 9.0,
+    "historical": 7.5,
+    "risk_reward": 4.8,
+    "regime_adj": 5.0
+   },
+   "decision_score": 51.9,
+   "decision_grade": "D",
+   "recommendation": "SELL",
+   "risk_level": "VERY HIGH",
+   "reason_summary": "AI Score 73점(거래대금 13위, 영업이익 성장 +321%, 거래량 2.2배), 신뢰도 30(F), 유사 20건 승률 35% · 평균 -5.2%, R/R -0.73, 국면 Bull(+5) → Decision 52점 = SELL. 가드레일: 기대수익 -5.2% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -5.2% < -5% → SELL 강등"
+   ],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -5.16,
+    "expected_drawdown": -7.07,
+    "risk_reward": -0.73
+   }
+  },
+  {
+   "date": "2026-08-05",
+   "code": "278470",
+   "name": "에이피알",
+   "ai_score": 70.1,
+   "confidence": 34.0,
+   "confidence_grade": "F",
+   "regime": "Bull",
+   "inputs": {
+    "ai": 24.5,
+    "confidence": 10.2,
+    "historical": 5.0,
+    "risk_reward": 3.8,
+    "regime_adj": 5.0
+   },
+   "decision_score": 48.5,
+   "decision_grade": "D",
+   "recommendation": "SELL",
+   "risk_level": "VERY HIGH",
+   "reason_summary": "AI Score 70점(거래대금 10위, 영업이익 성장 +198%, PEG 0.09 (저평가)), 신뢰도 34(F), 유사 20건 승률 20% · 평균 -10.1%, R/R -0.98, 국면 Bull(+5) → Decision 48점 = SELL. 가드레일: 기대수익 -10.1% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -10.1% < -5% → SELL 강등"
+   ],
+   "cautions": [
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -10.09,
+    "expected_drawdown": -10.26,
+    "risk_reward": -0.98
+   }
+  },
+  {
+   "date": "2026-08-05",
+   "code": "047040",
+   "name": "대우건설",
+   "ai_score": 66.2,
+   "confidence": 30.0,
+   "confidence_grade": "F",
+   "regime": "Bull",
+   "inputs": {
+    "ai": 23.2,
+    "confidence": 9.0,
+    "historical": 6.9,
     "risk_reward": 4.2,
-    "regime_adj": -8.0
+    "regime_adj": 5.0
    },
-   "decision_score": 42.0,
-   "decision_grade": "F",
-   "recommendation": "SELL",
-   "risk_level": "HIGH",
-   "reason_summary": "AI Score 76점(거래대금 16위, 영업이익 성장 +77%, 60일 신고가 돌파), 신뢰도 46(D), 유사 20건 승률 25% · 평균 -10.7%, R/R -0.89, 국면 High Volatility(-8) → Decision 42점 = SELL.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -10.71,
-    "expected_drawdown": -12.01,
-    "risk_reward": -0.89
-   }
-  },
-  {
-   "date": "2026-08-04",
-   "code": "078340",
-   "name": "컴투스",
-   "ai_score": 67.1,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 23.5,
-    "confidence": 9.0,
-    "historical": 8.4,
-    "risk_reward": 7.1,
-    "regime_adj": -8.0
-   },
-   "decision_score": 40.0,
-   "decision_grade": "F",
+   "decision_score": 48.2,
+   "decision_grade": "D",
    "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 67점(영업이익 성장 +1123%, PEG 0.00 (저평가), 60일 신고가 돌파), 신뢰도 30(F), 유사 20건 승률 35% · 평균 -0.4%, R/R -0.10, 국면 High Volatility(-8) → Decision 40점 = SELL.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "RSI 74 과열권 — 단기 조정 위험",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   "reason_summary": "AI Score 66점(거래대금 23위, 영업이익 성장 +192%, PEG 0.01 (저평가)), 신뢰도 30(F), 유사 20건 승률 30% · 평균 -5.7%, R/R -0.88, 국면 Bull(+5) → Decision 48점 = SELL. 가드레일: 기대수익 -5.7% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -5.7% < -5% → SELL 강등"
    ],
-   "expected": {
-    "expected_return": -0.39,
-    "expected_drawdown": -3.96,
-    "risk_reward": -0.1
-   }
-  },
-  {
-   "date": "2026-08-04",
-   "code": "052460",
-   "name": "아이크래프트",
-   "ai_score": 68.2,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 23.9,
-    "confidence": 9.0,
-    "historical": 6.0,
-    "risk_reward": 5.2,
-    "regime_adj": -8.0
-   },
-   "decision_score": 36.1,
-   "decision_grade": "F",
-   "recommendation": "SELL",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 68점(영업이익 성장 +400%, PEG 0.01 (저평가), 60일 신고가 돌파), 신뢰도 30(F), 유사 20건 승률 20% · 평균 -5.2%, R/R -0.60, 국면 High Volatility(-8) → Decision 36점 = SELL.",
-   "guardrails": [],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "RSI 76 과열권 — 단기 조정 위험",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -5.21,
-    "expected_drawdown": -8.75,
-    "risk_reward": -0.6
-   }
-  },
-  {
-   "date": "2026-08-04",
-   "code": "010060",
-   "name": "OCI홀딩스",
-   "ai_score": 68.2,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 23.9,
-    "confidence": 9.0,
-    "historical": 5.5,
-    "risk_reward": 4.2,
-    "regime_adj": -8.0
-   },
-   "decision_score": 34.6,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 68점(거래대금 32위, 영업이익 성장 +715%, PEG 0.00 (저평가)), 신뢰도 30(F), 유사 20건 승률 20% · 평균 -7.3%, R/R -0.88, 국면 High Volatility(-8) → Decision 35점 = AVOID.",
-   "guardrails": [],
-   "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -7.28,
-    "expected_drawdown": -8.3,
+    "expected_return": -5.74,
+    "expected_drawdown": -6.5,
     "risk_reward": -0.88
    }
   },
   {
-   "date": "2026-08-04",
+   "date": "2026-08-05",
+   "code": "218410",
+   "name": "RFHIC",
+   "ai_score": 65.9,
+   "confidence": 30.0,
+   "confidence_grade": "F",
+   "regime": "Bull",
+   "inputs": {
+    "ai": 23.1,
+    "confidence": 9.0,
+    "historical": 6.8,
+    "risk_reward": 3.8,
+    "regime_adj": 5.0
+   },
+   "decision_score": 47.6,
+   "decision_grade": "D",
+   "recommendation": "SELL",
+   "risk_level": "VERY HIGH",
+   "reason_summary": "AI Score 66점(거래대금 82위, 영업이익 성장 +1960%, PEG 0.19 (저평가)), 신뢰도 30(F), 유사 20건 승률 30% · 평균 -5.9%, R/R -1.00, 국면 Bull(+5) → Decision 48점 = SELL. 가드레일: 기대수익 -5.9% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -5.9% < -5% → SELL 강등"
+   ],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -5.88,
+    "expected_drawdown": -5.88,
+    "risk_reward": -1.0
+   }
+  },
+  {
+   "date": "2026-08-05",
    "code": "005930",
    "name": "삼성전자",
    "ai_score": 68.2,
    "confidence": 34.0,
    "confidence_grade": "F",
-   "regime": "High Volatility",
+   "regime": "Bull",
    "inputs": {
     "ai": 23.9,
     "confidence": 10.2,
-    "historical": 4.2,
+    "historical": 4.4,
     "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "regime_adj": 5.0
    },
-   "decision_score": 34.0,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
+   "decision_score": 47.2,
+   "decision_grade": "D",
+   "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 68점(거래대금 2위, 영업이익 성장 +797%, PEG 0.01 (저평가)), 신뢰도 34(F), 유사 20건 승률 15% · 평균 -11.7%, R/R -1.00, 국면 High Volatility(-8) → Decision 34점 = AVOID.",
-   "guardrails": [],
+   "reason_summary": "AI Score 68점(거래대금 2위, 영업이익 성장 +797%, PEG 0.01 (저평가)), 신뢰도 34(F), 유사 20건 승률 15% · 평균 -10.6%, R/R -1.00, 국면 Bull(+5) → Decision 47점 = SELL. 가드레일: 기대수익 -10.6% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -10.6% < -5% → SELL 강등"
+   ],
    "cautions": [
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -11.71,
-    "expected_drawdown": -11.71,
+    "expected_return": -10.62,
+    "expected_drawdown": -10.62,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-08-04",
+   "date": "2026-08-05",
    "code": "005935",
    "name": "삼성전자우",
    "ai_score": 64.7,
    "confidence": 34.0,
    "confidence_grade": "F",
-   "regime": "High Volatility",
+   "regime": "Bull",
    "inputs": {
     "ai": 22.6,
     "confidence": 10.2,
     "historical": 4.8,
     "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "regime_adj": 5.0
    },
-   "decision_score": 33.4,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
+   "decision_score": 46.4,
+   "decision_grade": "D",
+   "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 65점(거래대금 7위, 영업이익 성장 +797%, PEG 0.01 (저평가)), 신뢰도 34(F), 유사 20건 승률 15% · 평균 -8.7%, R/R -1.00, 국면 High Volatility(-8) → Decision 33점 = AVOID.",
-   "guardrails": [],
+   "reason_summary": "AI Score 65점(거래대금 7위, 영업이익 성장 +797%, PEG 0.01 (저평가)), 신뢰도 34(F), 유사 20건 승률 15% · 평균 -8.7%, R/R -1.00, 국면 Bull(+5) → Decision 46점 = SELL. 가드레일: 기대수익 -8.7% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -8.7% < -5% → SELL 강등"
+   ],
    "cautions": [
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
@@ -300,130 +342,128 @@
    }
   },
   {
-   "date": "2026-08-04",
-   "code": "078930",
-   "name": "GS",
-   "ai_score": 63.8,
+   "date": "2026-08-05",
+   "code": "080220",
+   "name": "제주반도체",
+   "ai_score": 66.6,
    "confidence": 30.0,
    "confidence_grade": "F",
-   "regime": "High Volatility",
+   "regime": "Bull",
    "inputs": {
-    "ai": 22.3,
+    "ai": 23.3,
     "confidence": 9.0,
-    "historical": 5.2,
-    "risk_reward": 3.9,
-    "regime_adj": -8.0
-   },
-   "decision_score": 32.4,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 64점(거래대금 62위, 영업이익 성장 +41%, PEG 0.05 (저평가)), 신뢰도 30(F), 유사 20건 승률 25% · 평균 -11.4%, R/R -0.96, 국면 High Volatility(-8) → Decision 32점 = AVOID.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -11.4,
-    "expected_drawdown": -11.87,
-    "risk_reward": -0.96
-   }
-  },
-  {
-   "date": "2026-08-04",
-   "code": "047040",
-   "name": "대우건설",
-   "ai_score": 66.2,
-   "confidence": 30.0,
-   "confidence_grade": "F",
-   "regime": "High Volatility",
-   "inputs": {
-    "ai": 23.2,
-    "confidence": 9.0,
-    "historical": 4.4,
+    "historical": 4.6,
     "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "regime_adj": 5.0
    },
-   "decision_score": 32.3,
-   "decision_grade": "F",
-   "recommendation": "AVOID",
+   "decision_score": 45.7,
+   "decision_grade": "D",
+   "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 66점(거래대금 25위, 영업이익 성장 +192%, PEG 0.01 (저평가)), 신뢰도 30(F), 유사 20건 승률 15% · 평균 -10.4%, R/R -1.00, 국면 High Volatility(-8) → Decision 32점 = AVOID.",
-   "guardrails": [],
+   "reason_summary": "AI Score 67점(거래대금 27위, 영업이익 성장 +274%, PEG 0.03 (저평가)), 신뢰도 30(F), 유사 20건 승률 15% · 평균 -9.3%, R/R -1.00, 국면 Bull(+5) → Decision 46점 = SELL. 가드레일: 기대수익 -9.3% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -9.3% < -5% → SELL 강등"
+   ],
    "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -10.36,
-    "expected_drawdown": -10.36,
+    "expected_return": -9.34,
+    "expected_drawdown": -9.34,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-08-04",
-   "code": "006400",
-   "name": "삼성SDI",
-   "ai_score": 64.7,
-   "confidence": 34.0,
+   "date": "2026-08-05",
+   "code": "042660",
+   "name": "한화오션",
+   "ai_score": 63.5,
+   "confidence": 30.0,
    "confidence_grade": "F",
-   "regime": "High Volatility",
+   "regime": "Bull",
    "inputs": {
-    "ai": 22.6,
-    "confidence": 10.2,
-    "historical": 3.5,
+    "ai": 22.2,
+    "confidence": 9.0,
+    "historical": 4.9,
     "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "regime_adj": 5.0
    },
-   "decision_score": 32.1,
+   "decision_score": 44.9,
    "decision_grade": "F",
-   "recommendation": "AVOID",
+   "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 65점(거래대금 19위, 영업이익 성장 +359%, PEG 0.06 (저평가)), 신뢰도 34(F), 유사 20건 승률 10% · 평균 -12.3%, R/R -1.00, 국면 High Volatility(-8) → Decision 32점 = AVOID.",
+   "reason_summary": "AI Score 64점(거래대금 45위, 영업이익 성장 +391%, PEG 0.19 (저평가)), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -5.3%, R/R -1.00, 국면 Bull(+5) → Decision 45점 = SELL.",
    "guardrails": [],
    "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -12.26,
-    "expected_drawdown": -12.26,
+    "expected_return": -5.26,
+    "expected_drawdown": -5.26,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-08-04",
-   "code": "196170",
-   "name": "알테오젠",
-   "ai_score": 64.0,
+   "date": "2026-08-05",
+   "code": "010060",
+   "name": "OCI홀딩스",
+   "ai_score": 63.5,
    "confidence": 30.0,
    "confidence_grade": "F",
-   "regime": "High Volatility",
+   "regime": "Bull",
    "inputs": {
-    "ai": 22.4,
+    "ai": 22.2,
     "confidence": 9.0,
-    "historical": 3.7,
+    "historical": 4.3,
     "risk_reward": 3.8,
-    "regime_adj": -8.0
+    "regime_adj": 5.0
    },
-   "decision_score": 30.8,
+   "decision_score": 44.3,
    "decision_grade": "F",
-   "recommendation": "AVOID",
+   "recommendation": "SELL",
    "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 64점(거래대금 12위, 영업이익 성장 +321%, MACD 강세 · OBV 매집), 신뢰도 30(F), 유사 20건 승률 10% · 평균 -11.7%, R/R -1.00, 국면 High Volatility(-8) → Decision 31점 = AVOID.",
+   "reason_summary": "AI Score 64점(거래대금 47위, 영업이익 성장 +715%, PEG 0.00 (저평가)), 신뢰도 30(F), 유사 20건 승률 5% · 평균 -6.1%, R/R -1.00, 국면 Bull(+5) → Decision 44점 = SELL.",
    "guardrails": [],
    "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -11.71,
-    "expected_drawdown": -11.71,
+    "expected_return": -6.12,
+    "expected_drawdown": -6.12,
     "risk_reward": -1.0
    }
   }
  ],
- "watchlist": []
+ "watchlist": [
+  {
+   "code": "005935",
+   "name": "삼성전자우",
+   "recommendation": "SELL",
+   "decision_score": 46.4,
+   "confidence": 34.0,
+   "signals": [
+    "판단 개선 AVOID→SELL",
+    "시장 국면 개선 High Volatility→Bull"
+   ],
+   "signal_count": 2
+  },
+  {
+   "code": "042660",
+   "name": "한화오션",
+   "recommendation": "SELL",
+   "decision_score": 44.9,
+   "confidence": 30.0,
+   "signals": [
+    "판단 개선 AVOID→SELL",
+    "시장 국면 개선 High Volatility→Bull"
+   ],
+   "signal_count": 2
+  }
+ ]
 }
