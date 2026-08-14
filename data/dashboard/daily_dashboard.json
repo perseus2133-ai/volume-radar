@@ -13,39 +13,39 @@
   "analyzed": 10,
   "strong_sectors": [
    {
-    "sector": "우주항공과국방",
-    "avg_ret": 1.33,
-    "n": 30
-   },
-   {
-    "sector": "은행",
-    "avg_ret": 1.27,
-    "n": 11
-   },
-   {
     "sector": "생명보험",
-    "avg_ret": 0.79,
+    "avg_ret": 5.51,
     "n": 4
+   },
+   {
+    "sector": "손해보험",
+    "avg_ret": 2.94,
+    "n": 12
+   },
+   {
+    "sector": "석유와가스",
+    "avg_ret": 1.96,
+    "n": 17
    }
   ],
   "weak_sectors": [
    {
-    "sector": "화장품",
-    "avg_ret": -2.21,
-    "n": 60
-   },
-   {
-    "sector": "기타금융",
-    "avg_ret": -1.86,
-    "n": 5
-   },
-   {
     "sector": "건강관리기술",
-    "avg_ret": -1.73,
+    "avg_ret": -1.09,
     "n": 12
+   },
+   {
+    "sector": "에너지장비및서비스",
+    "avg_ret": -0.63,
+    "n": 29
+   },
+   {
+    "sector": "전문소매",
+    "avg_ret": -0.58,
+    "n": 5
    }
   ],
-  "sector_note": "2026-08-13 기준 전 종목",
+  "sector_note": "2026-08-14 기준 전 종목",
   "top_picks": [
    {
     "name": "성호전자",
