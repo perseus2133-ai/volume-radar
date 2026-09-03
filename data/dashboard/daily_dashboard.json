@@ -1,117 +1,117 @@
 {
  "brief": {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "regime": "Sideways",
   "counts": {
    "STRONG BUY": 0,
    "BUY": 0,
-   "WATCH": 3,
-   "HOLD": 4,
-   "SELL": 3,
+   "WATCH": 4,
+   "HOLD": 1,
+   "SELL": 5,
    "AVOID": 0
   },
   "analyzed": 10,
   "strong_sectors": [
    {
-    "sector": "디스플레이패널",
-    "avg_ret": 0.0,
-    "n": 6
+    "sector": "손해보험",
+    "avg_ret": 3.64,
+    "n": 12
    },
    {
-    "sector": "부동산",
-    "avg_ret": 0.0,
-    "n": 7
+    "sector": "생명보험",
+    "avg_ret": 3.06,
+    "n": 3
    },
    {
-    "sector": "건축제품",
-    "avg_ret": -0.18,
-    "n": 11
+    "sector": "자동차",
+    "avg_ret": 1.79,
+    "n": 12
    }
   ],
   "weak_sectors": [
    {
-    "sector": "조선",
-    "avg_ret": -5.05,
-    "n": 29
+    "sector": "반도체와반도체장비",
+    "avg_ret": -2.02,
+    "n": 165
    },
    {
-    "sector": "생명보험",
-    "avg_ret": -5.01,
-    "n": 3
+    "sector": "기타금융",
+    "avg_ret": -1.71,
+    "n": 5
    },
    {
-    "sector": "전기장비",
-    "avg_ret": -4.04,
-    "n": 32
+    "sector": "화장품",
+    "avg_ret": -1.53,
+    "n": 60
    }
   ],
-  "sector_note": "2026-09-02 기준 전 종목",
+  "sector_note": "2026-09-03 기준 전 종목",
   "top_picks": [
+   {
+    "name": "파인엠텍",
+    "recommendation": "WATCH",
+    "decision_score": 65.2
+   },
+   {
+    "name": "SK케미칼",
+    "recommendation": "WATCH",
+    "decision_score": 62.0
+   },
    {
     "name": "디아이",
     "recommendation": "WATCH",
-    "decision_score": 66.9
+    "decision_score": 58.7
    },
    {
-    "name": "세아메카닉스",
+    "name": "LG에너지솔루션",
     "recommendation": "WATCH",
-    "decision_score": 66.9
+    "decision_score": 57.5
    },
    {
-    "name": "엑시콘",
-    "recommendation": "WATCH",
-    "decision_score": 61.3
-   },
-   {
-    "name": "삼성전자우",
+    "name": "S-Oil",
     "recommendation": "HOLD",
-    "decision_score": 54.2
-   },
-   {
-    "name": "알테오젠",
-    "recommendation": "HOLD",
-    "decision_score": 52.8
+    "decision_score": 51.1
    }
   ],
   "risk_watch": [
    {
-    "name": "삼성SDI",
+    "name": "삼성화재",
     "recommendation": "SELL",
-    "risk_level": "HIGH",
-    "decision_score": 47.1
+    "risk_level": "MEDIUM",
+    "decision_score": 45.5
    },
    {
     "name": "SK이노베이션",
     "recommendation": "SELL",
-    "risk_level": "VERY HIGH",
-    "decision_score": 48.3
+    "risk_level": "HIGH",
+    "decision_score": 48.6
    },
    {
-    "name": "S-Oil",
+    "name": "한화생명",
     "recommendation": "SELL",
     "risk_level": "MEDIUM",
-    "decision_score": 48.7
+    "decision_score": 49.2
    },
    {
-    "name": "태웅",
-    "recommendation": "HOLD",
+    "name": "삼성SDI",
+    "recommendation": "SELL",
     "risk_level": "MEDIUM",
-    "decision_score": 48.9
+    "decision_score": 50.1
    },
    {
     "name": "현대약품",
-    "recommendation": "HOLD",
+    "recommendation": "SELL",
     "risk_level": "MEDIUM",
-    "decision_score": 48.9
+    "decision_score": 51.3
    }
   ],
-  "tomorrow_candidates": 1
+  "tomorrow_candidates": 3
  },
  "dashboard": [
   {
-   "date": "2026-09-02",
-   "code": "003160",
-   "name": "디아이",
+   "date": "2026-09-03",
+   "code": "441270",
+   "name": "파인엠텍",
    "ai_score": 82.4,
    "confidence": 39.0,
    "confidence_grade": "D",
@@ -119,15 +119,15 @@
    "inputs": {
     "ai": 28.8,
     "confidence": 11.7,
-    "historical": 11.4,
-    "risk_reward": 15.0,
+    "historical": 11.0,
+    "risk_reward": 13.7,
     "regime_adj": 0.0
    },
-   "decision_score": 66.9,
+   "decision_score": 65.2,
    "decision_grade": "B",
    "recommendation": "WATCH",
    "risk_level": "LOW",
-   "reason_summary": "AI Score 82점(거래대금 40위, 영업이익 성장 +1077%, PEG 0.10 (저평가)), 신뢰도 39(D), 유사 20건 승률 50% · 평균 +7.0%, R/R +4.66, 국면 Sideways(+0) → Decision 67점 = WATCH. 가드레일: 신뢰도 39 < 50 → 매수 금지 (WATCH 강등)",
+   "reason_summary": "AI Score 82점(거래대금 64위, 영업이익 성장 +1458%, PEG 0.00 (저평가)), 신뢰도 39(D), 유사 20건 승률 50% · 평균 +4.9%, R/R +1.66, 국면 Sideways(+0) → Decision 65점 = WATCH. 가드레일: 신뢰도 39 < 50 → 매수 금지 (WATCH 강등)",
    "guardrails": [
     "신뢰도 39 < 50 → 매수 금지 (WATCH 강등)"
    ],
@@ -138,319 +138,343 @@
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": 6.99,
-    "expected_drawdown": -1.5,
-    "risk_reward": 4.66
+    "expected_return": 4.92,
+    "expected_drawdown": -2.96,
+    "risk_reward": 1.66
    }
   },
   {
-   "date": "2026-09-02",
-   "code": "396300",
-   "name": "세아메카닉스",
-   "ai_score": 82.4,
-   "confidence": 39.0,
+   "date": "2026-09-03",
+   "code": "285130",
+   "name": "SK케미칼",
+   "ai_score": 68.2,
+   "confidence": 38.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 28.8,
-    "confidence": 11.7,
-    "historical": 11.4,
-    "risk_reward": 15.0,
-    "regime_adj": 0.0
-   },
-   "decision_score": 66.9,
-   "decision_grade": "B",
-   "recommendation": "WATCH",
-   "risk_level": "LOW",
-   "reason_summary": "AI Score 82점(거래대금 92위, 영업이익 성장 +522%, PEG 0.01 (저평가)), 신뢰도 39(D), 유사 20건 승률 50% · 평균 +7.0%, R/R +4.66, 국면 Sideways(+0) → Decision 67점 = WATCH. 가드레일: 신뢰도 39 < 50 → 매수 금지 (WATCH 강등)",
-   "guardrails": [
-    "신뢰도 39 < 50 → 매수 금지 (WATCH 강등)"
-   ],
-   "cautions": [
-    "현재 시장 국면(Sideways)에서의 검증 데이터 부족",
-    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "RSI 73 과열권 — 단기 조정 위험",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": 6.99,
-    "expected_drawdown": -1.5,
-    "risk_reward": 4.66
-   }
-  },
-  {
-   "date": "2026-09-02",
-   "code": "092870",
-   "name": "엑시콘",
-   "ai_score": 75.3,
-   "confidence": 34.0,
-   "confidence_grade": "F",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 26.4,
-    "confidence": 10.2,
-    "historical": 10.5,
+    "ai": 23.9,
+    "confidence": 11.4,
+    "historical": 12.5,
     "risk_reward": 14.2,
     "regime_adj": 0.0
    },
-   "decision_score": 61.3,
+   "decision_score": 62.0,
    "decision_grade": "C",
    "recommendation": "WATCH",
    "risk_level": "LOW",
-   "reason_summary": "AI Score 75점(영업이익 성장 +18900%, PEG 0.00 (저평가), 60일 신고가 돌파), 신뢰도 34(F), 유사 20건 승률 45% · 평균 +5.2%, R/R +1.78, 국면 Sideways(+0) → Decision 61점 = WATCH.",
+   "reason_summary": "AI Score 68점(영업이익 성장 +29450%, PEG 0.00 (저평가), 60일 신고가 돌파), 신뢰도 38(D), 유사 20건 승률 70% · 평균 +2.6%, R/R +1.80, 국면 Sideways(+0) → Decision 62점 = WATCH.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 신고가",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": 2.65,
+    "expected_drawdown": -1.47,
+    "risk_reward": 1.8
+   }
+  },
+  {
+   "date": "2026-09-03",
+   "code": "003160",
+   "name": "디아이",
+   "ai_score": 70.6,
+   "confidence": 38.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 24.7,
+    "confidence": 11.4,
+    "historical": 11.1,
+    "risk_reward": 11.5,
+    "regime_adj": 0.0
+   },
+   "decision_score": 58.7,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
+   "risk_level": "LOW",
+   "reason_summary": "AI Score 71점(영업이익 성장 +1077%, PEG 0.08 (저평가), 60일 고가 근접), 신뢰도 38(D), 유사 20건 승률 55% · 평균 +3.0%, R/R +1.06, 국면 Sideways(+0) → Decision 59점 = WATCH.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 거래량증가, 신고가",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "RSI 73 과열권 — 단기 조정 위험",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": 5.17,
-    "expected_drawdown": -2.9,
-    "risk_reward": 1.78
+    "expected_return": 2.97,
+    "expected_drawdown": -2.79,
+    "risk_reward": 1.06
    }
   },
   {
-   "date": "2026-09-02",
-   "code": "005935",
-   "name": "삼성전자우",
-   "ai_score": 71.8,
+   "date": "2026-09-03",
+   "code": "373220",
+   "name": "LG에너지솔루션",
+   "ai_score": 69.3,
    "confidence": 42.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 25.1,
+    "ai": 24.3,
     "confidence": 12.6,
-    "historical": 9.9,
-    "risk_reward": 6.5,
+    "historical": 11.7,
+    "risk_reward": 9.0,
     "regime_adj": 0.0
    },
-   "decision_score": 54.2,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
+   "decision_score": 57.5,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 72점(거래대금 6위, 영업이익 성장 +802%, PEG 0.01 (저평가)), 신뢰도 42(D), 유사 20건 승률 50% · 평균 -0.4%, R/R -0.26, 국면 Sideways(+0) → Decision 54점 = HOLD.",
+   "reason_summary": "AI Score 69점(거래대금 14위, 영업이익 성장 +380%, 정배열 · MACD 강세 · OBV 매집), 신뢰도 42(D), 유사 20건 승률 65% · 평균 +0.9%, R/R +0.40, 국면 Sideways(+0) → Decision 58점 = WATCH.",
    "guardrails": [],
    "cautions": [
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -0.41,
-    "expected_drawdown": -1.57,
-    "risk_reward": -0.26
+    "expected_return": 0.9,
+    "expected_drawdown": -2.26,
+    "risk_reward": 0.4
    }
   },
   {
-   "date": "2026-09-02",
-   "code": "196170",
-   "name": "알테오젠",
-   "ai_score": 73.3,
-   "confidence": 38.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 25.7,
-    "confidence": 11.4,
-    "historical": 8.9,
-    "risk_reward": 6.8,
-    "regime_adj": 0.0
-   },
-   "decision_score": 52.8,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 73점(거래대금 3위, 영업이익 성장 +321%, 거래량 3.4배 폭증), 신뢰도 38(D), 유사 20건 승률 40% · 평균 -0.4%, R/R -0.19, 국면 Sideways(+0) → Decision 53점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -0.38,
-    "expected_drawdown": -2.02,
-    "risk_reward": -0.19
-   }
-  },
-  {
-   "date": "2026-09-02",
-   "code": "004310",
-   "name": "현대약품",
-   "ai_score": 70.6,
-   "confidence": 38.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 24.7,
-    "confidence": 11.4,
-    "historical": 8.1,
-    "risk_reward": 4.6,
-    "regime_adj": 0.0
-   },
-   "decision_score": 48.9,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 71점(거래대금 35위, 영업이익 성장 +2000%, PEG 0.00 (저평가)), 신뢰도 38(D), 유사 20건 승률 35% · 평균 -1.9%, R/R -0.77, 국면 Sideways(+0) → Decision 49점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -1.92,
-    "expected_drawdown": -2.49,
-    "risk_reward": -0.77
-   }
-  },
-  {
-   "date": "2026-09-02",
-   "code": "044490",
-   "name": "태웅",
-   "ai_score": 70.6,
-   "confidence": 38.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 24.7,
-    "confidence": 11.4,
-    "historical": 8.1,
-    "risk_reward": 4.6,
-    "regime_adj": 0.0
-   },
-   "decision_score": 48.9,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 71점(거래대금 76위, 영업이익 성장 +500%, PEG 0.00 (저평가)), 신뢰도 38(D), 유사 20건 승률 35% · 평균 -1.9%, R/R -0.77, 국면 Sideways(+0) → Decision 49점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -1.92,
-    "expected_drawdown": -2.49,
-    "risk_reward": -0.77
-   }
-  },
-  {
-   "date": "2026-09-02",
+   "date": "2026-09-03",
    "code": "010950",
    "name": "S-Oil",
-   "ai_score": 72.9,
-   "confidence": 38.0,
+   "ai_score": 69.4,
+   "confidence": 42.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 25.5,
-    "confidence": 11.4,
-    "historical": 8.0,
+    "ai": 24.3,
+    "confidence": 12.6,
+    "historical": 10.2,
+    "risk_reward": 4.0,
+    "regime_adj": 0.0
+   },
+   "decision_score": 51.1,
+   "decision_grade": "D",
+   "recommendation": "HOLD",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 69점(거래대금 70위, 영업이익 성장 +1756%, PEG 0.00 (저평가)), 신뢰도 42(D), 유사 20건 승률 60% · 평균 -4.1%, R/R -0.93, 국면 Sideways(+0) → Decision 51점 = HOLD.",
+   "guardrails": [],
+   "cautions": [
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -4.14,
+    "expected_drawdown": -4.46,
+    "risk_reward": -0.93
+   }
+  },
+  {
+   "date": "2026-09-03",
+   "code": "004310",
+   "name": "현대약품",
+   "ai_score": 82.4,
+   "confidence": 39.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 28.8,
+    "confidence": 11.7,
+    "historical": 7.0,
     "risk_reward": 3.8,
     "regime_adj": 0.0
    },
-   "decision_score": 48.7,
+   "decision_score": 51.3,
    "decision_grade": "D",
    "recommendation": "SELL",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 73점(거래대금 51위, 영업이익 성장 +1756%, PEG 0.00 (저평가)), 신뢰도 38(D), 유사 20건 승률 45% · 평균 -7.5%, R/R -1.00, 국면 Sideways(+0) → Decision 49점 = SELL. 가드레일: 기대수익 -7.5% < -5% → SELL 강등",
+   "reason_summary": "AI Score 82점(거래대금 23위, 영업이익 성장 +2000%, PEG 0.00 (저평가)), 신뢰도 39(D), 유사 20건 승률 35% · 평균 -7.4%, R/R -1.00, 국면 Sideways(+0) → Decision 51점 = SELL. 가드레일: 기대수익 -7.4% < -5% → SELL 강등",
    "guardrails": [
-    "기대수익 -7.5% < -5% → SELL 강등"
+    "기대수익 -7.4% < -5% → SELL 강등"
    ],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
+    "현재 시장 국면(Sideways)에서의 검증 데이터 부족",
+    "역사적으로 불리했던 신호 보유: 거래량증가",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -7.54,
-    "expected_drawdown": -7.54,
+    "expected_return": -7.36,
+    "expected_drawdown": -7.36,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-09-02",
-   "code": "096770",
-   "name": "SK이노베이션",
-   "ai_score": 77.6,
-   "confidence": 34.0,
-   "confidence_grade": "F",
+   "date": "2026-09-03",
+   "code": "006400",
+   "name": "삼성SDI",
+   "ai_score": 81.1,
+   "confidence": 43.0,
+   "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 27.2,
-    "confidence": 10.2,
-    "historical": 7.2,
+    "ai": 28.4,
+    "confidence": 12.9,
+    "historical": 5.1,
     "risk_reward": 3.8,
     "regime_adj": 0.0
    },
-   "decision_score": 48.3,
+   "decision_score": 50.1,
    "decision_grade": "D",
    "recommendation": "SELL",
-   "risk_level": "VERY HIGH",
-   "reason_summary": "AI Score 78점(거래대금 16위, 영업이익 성장 +1846%, PEG 0.00 (저평가)), 신뢰도 34(F), 유사 20건 승률 40% · 평균 -9.1%, R/R -1.00, 국면 Sideways(+0) → Decision 48점 = SELL. 가드레일: 기대수익 -9.1% < -5% → SELL 강등",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 81점(거래대금 10위, 영업이익 성장 +298%, PEG 0.06 (저평가)), 신뢰도 43(D), 유사 20건 승률 15% · 평균 -7.0%, R/R -1.00, 국면 Sideways(+0) → Decision 50점 = SELL. 가드레일: 기대수익 -7.0% < -5% → SELL 강등",
    "guardrails": [
-    "기대수익 -9.1% < -5% → SELL 강등"
+    "기대수익 -7.0% < -5% → SELL 강등"
    ],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가",
+    "현재 시장 국면(Sideways)에서의 검증 데이터 부족",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -9.11,
-    "expected_drawdown": -9.12,
+    "expected_return": -7.04,
+    "expected_drawdown": -7.04,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-09-02",
-   "code": "006400",
-   "name": "삼성SDI",
-   "ai_score": 77.6,
+   "date": "2026-09-03",
+   "code": "088350",
+   "name": "한화생명",
+   "ai_score": 73.8,
    "confidence": 38.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 27.2,
+    "ai": 25.8,
     "confidence": 11.4,
-    "historical": 4.8,
+    "historical": 7.3,
+    "risk_reward": 4.7,
+    "regime_adj": 0.0
+   },
+   "decision_score": 49.2,
+   "decision_grade": "D",
+   "recommendation": "SELL",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 74점(거래대금 20위, 영업이익 성장 +51%, PEG 0.04 (저평가)), 신뢰도 38(D), 유사 20건 승률 35% · 평균 -5.9%, R/R -0.75, 국면 Sideways(+0) → Decision 49점 = SELL. 가드레일: 기대수익 -5.9% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -5.9% < -5% → SELL 강등"
+   ],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -5.92,
+    "expected_drawdown": -7.88,
+    "risk_reward": -0.75
+   }
+  },
+  {
+   "date": "2026-09-03",
+   "code": "096770",
+   "name": "SK이노베이션",
+   "ai_score": 74.1,
+   "confidence": 42.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 25.9,
+    "confidence": 12.6,
+    "historical": 6.4,
     "risk_reward": 3.8,
     "regime_adj": 0.0
    },
-   "decision_score": 47.1,
+   "decision_score": 48.6,
    "decision_grade": "D",
    "recommendation": "SELL",
    "risk_level": "HIGH",
-   "reason_summary": "AI Score 78점(거래대금 9위, 영업이익 성장 +304%, PEG 0.06 (저평가)), 신뢰도 38(D), 유사 20건 승률 25% · 평균 -13.5%, R/R -1.00, 국면 Sideways(+0) → Decision 47점 = SELL. 가드레일: 기대수익 -13.5% < -5% → SELL 강등",
+   "reason_summary": "AI Score 74점(거래대금 21위, 영업이익 성장 +1846%, PEG 0.00 (저평가)), 신뢰도 42(D), 유사 20건 승률 35% · 평균 -10.7%, R/R -1.00, 국면 Sideways(+0) → Decision 49점 = SELL. 가드레일: 기대수익 -10.7% < -5% → SELL 강등",
    "guardrails": [
-    "기대수익 -13.5% < -5% → SELL 강등"
+    "기대수익 -10.7% < -5% → SELL 강등"
    ],
    "cautions": [
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -13.5,
-    "expected_drawdown": -13.5,
+    "expected_return": -10.72,
+    "expected_drawdown": -10.72,
     "risk_reward": -1.0
+   }
+  },
+  {
+   "date": "2026-09-03",
+   "code": "000810",
+   "name": "삼성화재",
+   "ai_score": 68.4,
+   "confidence": 38.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 23.9,
+    "confidence": 11.4,
+    "historical": 6.3,
+    "risk_reward": 3.9,
+    "regime_adj": 0.0
+   },
+   "decision_score": 45.5,
+   "decision_grade": "D",
+   "recommendation": "SELL",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 68점(거래대금 27위, PEG 0.30 (저평가), 60일 신고가 돌파), 신뢰도 38(D), 유사 20건 승률 30% · 평균 -8.7%, R/R -0.97, 국면 Sideways(+0) → Decision 46점 = SELL. 가드레일: 기대수익 -8.7% < -5% → SELL 강등",
+   "guardrails": [
+    "기대수익 -8.7% < -5% → SELL 강등"
+   ],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 신고가",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -8.69,
+    "expected_drawdown": -8.92,
+    "risk_reward": -0.97
    }
   }
  ],
  "watchlist": [
   {
-   "code": "396300",
-   "name": "세아메카닉스",
-   "recommendation": "WATCH",
-   "decision_score": 66.9,
-   "confidence": 39.0,
+   "code": "006400",
+   "name": "삼성SDI",
+   "recommendation": "SELL",
+   "decision_score": 50.1,
+   "confidence": 43.0,
    "signals": [
-    "WATCH 2일 연속",
-    "AI Score 상승 72→82"
+    "신뢰도 상승 38→43",
+    "AI Score 상승 78→81",
+    "리스크 감소 HIGH→MEDIUM"
+   ],
+   "signal_count": 3
+  },
+  {
+   "code": "010950",
+   "name": "S-Oil",
+   "recommendation": "HOLD",
+   "decision_score": 51.1,
+   "confidence": 42.0,
+   "signals": [
+    "신뢰도 상승 38→42",
+    "판단 개선 SELL→HOLD"
+   ],
+   "signal_count": 2
+  },
+  {
+   "code": "096770",
+   "name": "SK이노베이션",
+   "recommendation": "SELL",
+   "decision_score": 48.6,
+   "confidence": 42.0,
+   "signals": [
+    "신뢰도 상승 34→42",
+    "리스크 감소 VERY HIGH→HIGH"
    ],
    "signal_count": 2
   }
