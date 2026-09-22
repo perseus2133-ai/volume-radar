@@ -1,43 +1,44 @@
 # ☀️ AI Morning Brief
 
-**2026-09-21** · 시장 국면 **Sideways**
+**2026-09-22** · 시장 국면 **Sideways**
 
 | 🟢 BUY+ | 🟡 WATCH | ⚪ HOLD | 🔴 SELL | ⚫ AVOID |
 |---|---|---|---|---|
-| 0 | 6 | 3 | 1 | 0 |
+| 0 | 4 | 5 | 1 | 0 |
 
-**오늘 강한 섹터**: 반도체와반도체장비(+3.7%), 레저용장비와제품(+0.7%), 건강관리기술(+0.6%)
-**오늘 위험 섹터**: 무선통신서비스(-1.7%), 에너지장비및서비스(-1.6%), 전기유틸리티(-1.5%)
+**오늘 강한 섹터**: 항공사(+3.6%), 전기유틸리티(+0.5%), 복합기업(+0.4%)
+**오늘 위험 섹터**: 인터넷과카탈로그소매(-2.4%), 건강관리기술(-2.0%), 손해보험(-1.8%)
 
 
 ## 📋 Daily Dashboard
 
 | | 종목 | 판단 | DScore | AI | 신뢰도 | 국면 | 리스크 | 기대수익 | 예상낙폭 |
 |---|---|---|---|---|---|---|---|---|---|
-| 🟡 | 디아이 | **WATCH** | 66 | 83 | 48 | Sideways | LOW | +3.0% | -2.1% |
-| 🟡 | SFA반도체 | **WATCH** | 65 | 79 | 42 | Sideways | LOW | +2.2% | -1.2% |
-| 🟡 | 와이씨 | **WATCH** | 64 | 77 | 42 | Sideways | LOW | +3.1% | -1.4% |
-| 🟡 | 한화시스템 | **WATCH** | 61 | 67 | 38 | Sideways | LOW | +2.0% | -0.6% |
-| 🟡 | 네오셈 | **WATCH** | 55 | 73 | 38 | Sideways | MEDIUM | +2.7% | -4.5% |
-| 🟡 | 가온전선 | **WATCH** | 55 | 70 | 38 | Sideways | MEDIUM | +0.5% | -1.3% |
-| ⚪ | 대한광통신 | **HOLD** | 53 | 79 | 42 | Sideways | MEDIUM | -2.7% | -3.6% |
-| ⚪ | 원익IPS | **HOLD** | 49 | 71 | 38 | Sideways | MEDIUM | -1.5% | -1.6% |
-| ⚪ | 삼성전자우 | **HOLD** | 48 | 74 | 38 | Sideways | MEDIUM | -4.2% | -4.2% |
-| 🔴 | 하나마이크론 | **SELL** | 49 | 73 | 38 | Sideways | MEDIUM | -5.4% | -5.9% |
+| 🟡 | 원익IPS | **WATCH** | 63 | 72 | 38 | Sideways | LOW | +2.9% | -0.4% |
+| 🟡 | 심텍 | **WATCH** | 62 | 83 | 42 | Sideways | LOW | +6.6% | 0.0% |
+| 🟡 | 하나마이크론 | **WATCH** | 57 | 75 | 38 | Sideways | LOW | +4.2% | 0.0% |
+| 🟡 | 삼성전자우 | **WATCH** | 56 | 85 | 48 | Sideways | MEDIUM | -2.7% | -2.7% |
+| ⚪ | 티엘비 | **HOLD** | 54 | 80 | 42 | Sideways | MEDIUM | -3.2% | -6.2% |
+| ⚪ | 대덕전자 | **HOLD** | 54 | 81 | 42 | Sideways | MEDIUM | -3.7% | -4.8% |
+| ⚪ | 티에프이 | **HOLD** | 54 | 73 | 38 | Sideways | MEDIUM | +1.0% | -4.8% |
+| ⚪ | 와이씨 | **HOLD** | 53 | 71 | 38 | Sideways | MEDIUM | -0.0% | -3.4% |
+| ⚪ | 대한광통신 | **HOLD** | 50 | 76 | 42 | Sideways | MEDIUM | -4.3% | -4.3% |
+| 🔴 | 대한항공 | **SELL** | 48 | 75 | 42 | Sideways | MEDIUM | -7.4% | -7.4% |
 
 ## 🔭 Tomorrow Candidates (Watchlist)
 
-### SFA반도체 (036540) — 현재 WATCH · DScore 65
+### 삼성전자우 (005935) — 현재 WATCH · DScore 56
 
-- 신뢰도 상승 38→42
-- AI Score 상승 72→79
+- 신뢰도 상승 38→48
+- AI Score 상승 74→85
+- 판단 개선 HOLD→WATCH
 
-### 가온전선 (000500) — 현재 WATCH · DScore 55
+### 원익IPS (240810) — 현재 WATCH · DScore 63
+
+- 판단 개선 HOLD→WATCH
+- 리스크 감소 MEDIUM→LOW
+
+### 하나마이크론 (067310) — 현재 WATCH · DScore 57
 
 - 판단 개선 SELL→WATCH
-- 리스크 감소 HIGH→MEDIUM
-
-### 대한광통신 (010170) — 현재 HOLD · DScore 53
-
-- 신뢰도 상승 36→42
-- 판단 개선 SELL→HOLD
+- 리스크 감소 MEDIUM→LOW
