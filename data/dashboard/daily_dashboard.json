@@ -1,133 +1,165 @@
 {
  "brief": {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "regime": "Sideways",
   "counts": {
    "STRONG BUY": 0,
    "BUY": 0,
-   "WATCH": 4,
+   "WATCH": 5,
    "HOLD": 5,
-   "SELL": 1,
+   "SELL": 0,
    "AVOID": 0
   },
   "analyzed": 10,
   "strong_sectors": [
    {
-    "sector": "항공사",
-    "avg_ret": 3.61,
-    "n": 9
+    "sector": "반도체와반도체장비",
+    "avg_ret": 1.84,
+    "n": 167
    },
    {
-    "sector": "전기유틸리티",
-    "avg_ret": 0.54,
-    "n": 5
+    "sector": "생명보험",
+    "avg_ret": 1.25,
+    "n": 3
    },
    {
-    "sector": "복합기업",
-    "avg_ret": 0.44,
-    "n": 22
+    "sector": "레저용장비와제품",
+    "avg_ret": 0.7,
+    "n": 11
    }
   ],
   "weak_sectors": [
    {
-    "sector": "인터넷과카탈로그소매",
-    "avg_ret": -2.38,
-    "n": 6
+    "sector": "건축제품",
+    "avg_ret": -2.06,
+    "n": 11
    },
    {
-    "sector": "건강관리기술",
-    "avg_ret": -2.04,
-    "n": 13
+    "sector": "철강",
+    "avg_ret": -1.94,
+    "n": 54
    },
    {
-    "sector": "손해보험",
-    "avg_ret": -1.78,
-    "n": 12
+    "sector": "무역회사와판매업체",
+    "avg_ret": -1.75,
+    "n": 8
    }
   ],
-  "sector_note": "2026-09-22 기준 전 종목",
+  "sector_note": "2026-09-23 기준 전 종목",
   "top_picks": [
    {
     "name": "원익IPS",
     "recommendation": "WATCH",
-    "decision_score": 62.8
+    "decision_score": 62.3
    },
    {
-    "name": "심텍",
+    "name": "대덕전자",
     "recommendation": "WATCH",
-    "decision_score": 62.1
-   },
-   {
-    "name": "하나마이크론",
-    "recommendation": "WATCH",
-    "decision_score": 57.4
+    "decision_score": 60.9
    },
    {
     "name": "삼성전자우",
     "recommendation": "WATCH",
-    "decision_score": 56.4
+    "decision_score": 59.4
    },
    {
-    "name": "티엘비",
-    "recommendation": "HOLD",
-    "decision_score": 54.0
+    "name": "SK이노베이션",
+    "recommendation": "WATCH",
+    "decision_score": 57.5
+   },
+   {
+    "name": "엑시콘",
+    "recommendation": "WATCH",
+    "decision_score": 56.2
    }
   ],
   "risk_watch": [
    {
-    "name": "대한항공",
-    "recommendation": "SELL",
-    "risk_level": "MEDIUM",
-    "decision_score": 48.3
-   },
-   {
-    "name": "대한광통신",
+    "name": "SK스퀘어",
     "recommendation": "HOLD",
     "risk_level": "MEDIUM",
-    "decision_score": 50.1
+    "decision_score": 52.1
    },
    {
-    "name": "와이씨",
+    "name": "삼성전자",
     "recommendation": "HOLD",
     "risk_level": "MEDIUM",
-    "decision_score": 52.7
+    "decision_score": 52.5
    },
    {
-    "name": "티에프이",
+    "name": "빛샘전자",
     "recommendation": "HOLD",
     "risk_level": "MEDIUM",
-    "decision_score": 53.6
+    "decision_score": 52.9
    },
    {
-    "name": "대덕전자",
+    "name": "저스템",
     "recommendation": "HOLD",
     "risk_level": "MEDIUM",
-    "decision_score": 53.8
+    "decision_score": 53.9
+   },
+   {
+    "name": "오킨스전자",
+    "recommendation": "HOLD",
+    "risk_level": "MEDIUM",
+    "decision_score": 54.9
    }
   ],
-  "tomorrow_candidates": 3
+  "tomorrow_candidates": 2
  },
  "dashboard": [
   {
-   "date": "2026-09-22",
+   "date": "2026-09-23",
    "code": "240810",
    "name": "원익IPS",
-   "ai_score": 72.2,
-   "confidence": 38.0,
+   "ai_score": 79.5,
+   "confidence": 42.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 25.3,
-    "confidence": 11.4,
-    "historical": 11.1,
-    "risk_reward": 15.0,
+    "ai": 27.8,
+    "confidence": 12.6,
+    "historical": 10.1,
+    "risk_reward": 11.7,
     "regime_adj": 0.0
    },
-   "decision_score": 62.8,
+   "decision_score": 62.3,
    "decision_grade": "C",
    "recommendation": "WATCH",
    "risk_level": "LOW",
-   "reason_summary": "AI Score 72점(거래대금 19위, 영업이익 성장 +594%, 외인+기관 동시 순매수), 신뢰도 38(D), 유사 20건 승률 55% · 평균 +2.9%, R/R +7.41, 국면 Sideways(+0) → Decision 63점 = WATCH.",
+   "reason_summary": "AI Score 80점(거래대금 8위, 영업이익 성장 +594%, PEG 0.22 (저평가)), 신뢰도 42(D), 유사 20건 승률 50% · 평균 +0.5%, R/R +1.13, 국면 Sideways(+0) → Decision 62점 = WATCH.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 거래량증가, 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": 0.54,
+    "expected_drawdown": -0.48,
+    "risk_reward": 1.13
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "code": "353200",
+   "name": "대덕전자",
+   "ai_score": 74.0,
+   "confidence": 46.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 25.9,
+    "confidence": 13.8,
+    "historical": 10.1,
+    "risk_reward": 11.0,
+    "regime_adj": 0.0
+   },
+   "decision_score": 60.9,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 74점(거래대금 14위, 영업이익 성장 +463%, PEG 0.05 (저평가)), 신뢰도 46(D), 유사 20건 승률 50% · 평균 +0.7%, R/R +0.94, 국면 Sideways(+0) → Decision 61점 = WATCH.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 차트",
@@ -135,339 +167,292 @@
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": 2.89,
-    "expected_drawdown": -0.39,
-    "risk_reward": 7.41
+    "expected_return": 0.74,
+    "expected_drawdown": -0.79,
+    "risk_reward": 0.94
    }
   },
   {
-   "date": "2026-09-22",
-   "code": "222800",
-   "name": "심텍",
-   "ai_score": 83.3,
-   "confidence": 42.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 29.2,
-    "confidence": 12.6,
-    "historical": 12.8,
-    "risk_reward": 7.5,
-    "regime_adj": 0.0
-   },
-   "decision_score": 62.1,
-   "decision_grade": "C",
-   "recommendation": "WATCH",
-   "risk_level": "LOW",
-   "reason_summary": "AI Score 83점(거래대금 11위, 영업이익 성장 +2057%, 외인+기관 동시 순매수), 신뢰도 42(D), 유사 20건 승률 65% · 평균 +6.6%, R/R 산출 불가 → 중립(50), 국면 Sideways(+0) → Decision 62점 = WATCH.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 차트",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": 6.6,
-    "expected_drawdown": 0.0,
-    "risk_reward": null
-   }
-  },
-  {
-   "date": "2026-09-22",
-   "code": "067310",
-   "name": "하나마이크론",
-   "ai_score": 74.6,
-   "confidence": 38.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 26.1,
-    "confidence": 11.4,
-    "historical": 12.3,
-    "risk_reward": 7.5,
-    "regime_adj": 0.0
-   },
-   "decision_score": 57.4,
-   "decision_grade": "C",
-   "recommendation": "WATCH",
-   "risk_level": "LOW",
-   "reason_summary": "AI Score 75점(거래대금 20위, 영업이익 성장 +226%, 외인+기관 동시 순매수), 신뢰도 38(D), 유사 20건 승률 65% · 평균 +4.2%, R/R 산출 불가 → 중립(50), 국면 Sideways(+0) → Decision 57점 = WATCH.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 차트",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "RSI 71 과열권 — 단기 조정 위험",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": 4.24,
-    "expected_drawdown": 0.0,
-    "risk_reward": null
-   }
-  },
-  {
-   "date": "2026-09-22",
+   "date": "2026-09-23",
    "code": "005935",
    "name": "삼성전자우",
-   "ai_score": 85.0,
-   "confidence": 48.0,
-   "confidence_grade": "D",
+   "ai_score": 86.5,
+   "confidence": 54.0,
+   "confidence_grade": "C",
    "regime": "Sideways",
    "inputs": {
-    "ai": 29.7,
-    "confidence": 14.4,
-    "historical": 8.5,
-    "risk_reward": 3.8,
+    "ai": 30.3,
+    "confidence": 16.2,
+    "historical": 9.0,
+    "risk_reward": 4.0,
     "regime_adj": 0.0
    },
-   "decision_score": 56.4,
+   "decision_score": 59.4,
    "decision_grade": "C",
    "recommendation": "WATCH",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 85점(거래대금 4위, 영업이익 성장 +789%, 기관 5일 순매수), 신뢰도 48(D), 유사 20건 승률 40% · 평균 -2.7%, R/R -0.99, 국면 Sideways(+0) → Decision 56점 = WATCH.",
+   "reason_summary": "AI Score 86점(거래대금 3위, 영업이익 성장 +795%, PEG 0.00 (저평가)), 신뢰도 54(C), 유사 20건 승률 45% · 평균 -2.6%, R/R -0.94, 국면 Sideways(+0) → Decision 59점 = WATCH.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 신고가, 차트",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)"
    ],
    "expected": {
-    "expected_return": -2.66,
-    "expected_drawdown": -2.68,
-    "risk_reward": -0.99
+    "expected_return": -2.57,
+    "expected_drawdown": -2.74,
+    "risk_reward": -0.94
    }
   },
   {
-   "date": "2026-09-22",
-   "code": "356860",
-   "name": "티엘비",
-   "ai_score": 80.0,
+   "date": "2026-09-23",
+   "code": "096770",
+   "name": "SK이노베이션",
+   "ai_score": 75.6,
    "confidence": 42.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 28.0,
+    "ai": 26.5,
     "confidence": 12.6,
-    "historical": 7.9,
-    "risk_reward": 5.5,
-    "regime_adj": 0.0
-   },
-   "decision_score": 54.0,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 80점(거래대금 37위, 영업이익 성장 +673%, 외인+기관 동시 순매수), 신뢰도 42(D), 유사 20건 승률 35% · 평균 -3.2%, R/R -0.52, 국면 Sideways(+0) → Decision 54점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -3.24,
-    "expected_drawdown": -6.18,
-    "risk_reward": -0.52
-   }
-  },
-  {
-   "date": "2026-09-22",
-   "code": "353200",
-   "name": "대덕전자",
-   "ai_score": 81.1,
-   "confidence": 42.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 28.4,
-    "confidence": 12.6,
-    "historical": 8.3,
-    "risk_reward": 4.6,
-    "regime_adj": 0.0
-   },
-   "decision_score": 53.8,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 81점(거래대금 8위, 영업이익 성장 +463%, 외인+기관 동시 순매수), 신뢰도 42(D), 유사 20건 승률 40% · 평균 -3.7%, R/R -0.78, 국면 Sideways(+0) → Decision 54점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 차트",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -3.74,
-    "expected_drawdown": -4.8,
-    "risk_reward": -0.78
-   }
-  },
-  {
-   "date": "2026-09-22",
-   "code": "425420",
-   "name": "티에프이",
-   "ai_score": 73.3,
-   "confidence": 38.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 25.7,
-    "confidence": 11.4,
-    "historical": 8.2,
-    "risk_reward": 8.3,
-    "regime_adj": 0.0
-   },
-   "decision_score": 53.6,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 73점(영업이익 성장 +334%, 외인+기관 동시 순매수, 60일 신고가 돌파), 신뢰도 38(D), 유사 20건 승률 30% · 평균 +1.0%, R/R +0.22, 국면 Sideways(+0) → Decision 54점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "RSI 73 과열권 — 단기 조정 위험",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": 1.04,
-    "expected_drawdown": -4.79,
-    "risk_reward": 0.22
-   }
-  },
-  {
-   "date": "2026-09-22",
-   "code": "232140",
-   "name": "와이씨",
-   "ai_score": 71.0,
-   "confidence": 38.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 24.8,
-    "confidence": 11.4,
-    "historical": 9.0,
+    "historical": 11.0,
     "risk_reward": 7.5,
     "regime_adj": 0.0
    },
-   "decision_score": 52.7,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 71점(거래대금 35위, 영업이익 성장 +224%, 외인+기관 동시 순매수), 신뢰도 38(D), 유사 20건 승률 40% · 평균 -0.0%, R/R -0.01, 국면 Sideways(+0) → Decision 53점 = HOLD.",
+   "decision_score": 57.5,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
+   "risk_level": "LOW",
+   "reason_summary": "AI Score 76점(거래대금 20위, 영업이익 성장 +1972%, 외인+기관 동시 순매수), 신뢰도 42(D), 유사 20건 승률 55% · 평균 +2.3%, R/R 산출 불가 → 중립(50), 국면 Sideways(+0) → Decision 58점 = WATCH.",
    "guardrails": [],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
+    "역사적으로 불리했던 신호 보유: 차트",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -0.04,
-    "expected_drawdown": -3.39,
-    "risk_reward": -0.01
+    "expected_return": 2.32,
+    "expected_drawdown": 0.0,
+    "risk_reward": null
    }
   },
   {
-   "date": "2026-09-22",
-   "code": "010170",
-   "name": "대한광통신",
-   "ai_score": 75.9,
+   "date": "2026-09-23",
+   "code": "092870",
+   "name": "엑시콘",
+   "ai_score": 77.0,
+   "confidence": 42.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 26.9,
+    "confidence": 12.6,
+    "historical": 8.6,
+    "risk_reward": 8.1,
+    "regime_adj": 0.0
+   },
+   "decision_score": 56.2,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 77점(거래대금 86위, 영업이익 성장 +26484%, PEG 0.00 (저평가)), 신뢰도 42(D), 유사 20건 승률 35% · 평균 +0.6%, R/R +0.15, 국면 Sideways(+0) → Decision 56점 = WATCH.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "RSI 79 과열권 — 단기 조정 위험",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": 0.6,
+    "expected_drawdown": -4.02,
+    "risk_reward": 0.15
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "code": "080580",
+   "name": "오킨스전자",
+   "ai_score": 76.0,
    "confidence": 42.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
     "ai": 26.6,
     "confidence": 12.6,
-    "historical": 7.1,
-    "risk_reward": 3.8,
+    "historical": 8.0,
+    "risk_reward": 7.6,
     "regime_adj": 0.0
    },
-   "decision_score": 50.1,
+   "decision_score": 54.9,
    "decision_grade": "D",
    "recommendation": "HOLD",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 76점(거래대금 17위, 영업이익 성장 +193%, 외인+기관 동시 순매수), 신뢰도 42(D), 유사 20건 승률 30% · 평균 -4.3%, R/R -1.00, 국면 Sideways(+0) → Decision 50점 = HOLD.",
+   "reason_summary": "AI Score 76점(영업이익 성장 +482%, PEG 0.15 (저평가), 외인+기관 동시 순매수), 신뢰도 42(D), 유사 20건 승률 30% · 평균 +0.2%, R/R +0.04, 국면 Sideways(+0) → Decision 55점 = HOLD.",
    "guardrails": [],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가, 차트",
+    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "RSI 74 과열권 — 단기 조정 위험",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -4.28,
-    "expected_drawdown": -4.3,
-    "risk_reward": -1.0
+    "expected_return": 0.17,
+    "expected_drawdown": -4.29,
+    "risk_reward": 0.04
    }
   },
   {
-   "date": "2026-09-22",
-   "code": "003490",
-   "name": "대한항공",
-   "ai_score": 75.4,
+   "date": "2026-09-23",
+   "code": "417840",
+   "name": "저스템",
+   "ai_score": 76.0,
    "confidence": 42.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 26.4,
+    "ai": 26.6,
     "confidence": 12.6,
-    "historical": 5.5,
-    "risk_reward": 3.8,
+    "historical": 8.2,
+    "risk_reward": 6.5,
     "regime_adj": 0.0
    },
-   "decision_score": 48.3,
+   "decision_score": 53.9,
    "decision_grade": "D",
-   "recommendation": "SELL",
+   "recommendation": "HOLD",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 75점(거래대금 14위, 영업이익 성장 +111%, 외인+기관 동시 순매수), 신뢰도 42(D), 유사 20건 승률 20% · 평균 -7.4%, R/R -1.00, 국면 Sideways(+0) → Decision 48점 = SELL. 가드레일: 기대수익 -7.4% < -5% → SELL 강등",
-   "guardrails": [
-    "기대수익 -7.4% < -5% → SELL 강등"
+   "reason_summary": "AI Score 76점(영업이익 성장 +667%, PEG 0.02 (저평가), 외인+기관 동시 순매수), 신뢰도 42(D), 유사 20건 승률 35% · 평균 -1.6%, R/R -0.26, 국면 Sideways(+0) → Decision 54점 = HOLD.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "RSI 70 과열권 — 단기 조정 위험",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
+   "expected": {
+    "expected_return": -1.57,
+    "expected_drawdown": -6.06,
+    "risk_reward": -0.26
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "code": "072950",
+   "name": "빛샘전자",
+   "ai_score": 82.1,
+   "confidence": 42.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 28.7,
+    "confidence": 12.6,
+    "historical": 7.0,
+    "risk_reward": 4.5,
+    "regime_adj": 0.0
+   },
+   "decision_score": 52.9,
+   "decision_grade": "D",
+   "recommendation": "HOLD",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 82점(거래대금 18위, 영업이익 성장 +77%, PEG 0.11 (저평가)), 신뢰도 42(D), 유사 20건 승률 30% · 평균 -4.8%, R/R -0.80, 국면 Sideways(+0) → Decision 53점 = HOLD.",
+   "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
     "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -7.36,
-    "expected_drawdown": -7.36,
-    "risk_reward": -1.0
+    "expected_return": -4.83,
+    "expected_drawdown": -6.06,
+    "risk_reward": -0.8
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "code": "005930",
+   "name": "삼성전자",
+   "ai_score": 77.0,
+   "confidence": 46.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 26.9,
+    "confidence": 13.8,
+    "historical": 7.1,
+    "risk_reward": 4.7,
+    "regime_adj": 0.0
+   },
+   "decision_score": 52.5,
+   "decision_grade": "D",
+   "recommendation": "HOLD",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 77점(거래대금 1위, 영업이익 성장 +795%, PEG 0.01 (저평가)), 신뢰도 46(D), 유사 20건 승률 25% · 평균 -2.2%, R/R -0.75, 국면 Sideways(+0) → Decision 52점 = HOLD.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -2.18,
+    "expected_drawdown": -2.89,
+    "risk_reward": -0.75
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "code": "402340",
+   "name": "SK스퀘어",
+   "ai_score": 73.0,
+   "confidence": 46.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 25.5,
+    "confidence": 13.8,
+    "historical": 7.6,
+    "risk_reward": 5.2,
+    "regime_adj": 0.0
+   },
+   "decision_score": 52.1,
+   "decision_grade": "D",
+   "recommendation": "HOLD",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 73점(거래대금 5위, 영업이익 성장 +464%, PEG 0.01 (저평가)), 신뢰도 46(D), 유사 20건 승률 30% · 평균 -2.2%, R/R -0.62, 국면 Sideways(+0) → Decision 52점 = HOLD.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -2.16,
+    "expected_drawdown": -3.49,
+    "risk_reward": -0.62
    }
   }
  ],
  "watchlist": [
   {
-   "code": "005935",
-   "name": "삼성전자우",
-   "recommendation": "WATCH",
-   "decision_score": 56.4,
-   "confidence": 48.0,
-   "signals": [
-    "신뢰도 상승 38→48",
-    "AI Score 상승 74→85",
-    "판단 개선 HOLD→WATCH"
-   ],
-   "signal_count": 3
-  },
-  {
    "code": "240810",
    "name": "원익IPS",
    "recommendation": "WATCH",
-   "decision_score": 62.8,
-   "confidence": 38.0,
+   "decision_score": 62.3,
+   "confidence": 42.0,
    "signals": [
-    "판단 개선 HOLD→WATCH",
-    "리스크 감소 MEDIUM→LOW"
+    "WATCH 2일 연속",
+    "AI Score 상승 72→80"
    ],
    "signal_count": 2
   },
   {
-   "code": "067310",
-   "name": "하나마이크론",
+   "code": "353200",
+   "name": "대덕전자",
    "recommendation": "WATCH",
-   "decision_score": 57.4,
-   "confidence": 38.0,
+   "decision_score": 60.9,
+   "confidence": 46.0,
    "signals": [
-    "판단 개선 SELL→WATCH",
-    "리스크 감소 MEDIUM→LOW"
+    "신뢰도 상승 42→46",
+    "판단 개선 HOLD→WATCH"
    ],
    "signal_count": 2
   }
