@@ -21,8 +21,8 @@
 | 🟡 | 엑시콘 | **WATCH** | 56 | 77 | 42 | Sideways | MEDIUM | +0.6% | -4.0% |
 | ⚪ | 오킨스전자 | **HOLD** | 55 | 76 | 42 | Sideways | MEDIUM | +0.2% | -4.3% |
 | ⚪ | 저스템 | **HOLD** | 54 | 76 | 42 | Sideways | MEDIUM | -1.6% | -6.1% |
-| ⚪ | 빛샘전자 | **HOLD** | 53 | 82 | 42 | Sideways | MEDIUM | -4.8% | -6.1% |
 | ⚪ | 삼성전자 | **HOLD** | 52 | 77 | 46 | Sideways | MEDIUM | -2.2% | -2.9% |
+| ⚪ | 빛샘전자 | **HOLD** | 52 | 82 | 42 | Sideways | MEDIUM | -4.8% | -5.2% |
 | ⚪ | SK스퀘어 | **HOLD** | 52 | 73 | 46 | Sideways | MEDIUM | -2.2% | -3.5% |
 
 ## 🔭 Tomorrow Candidates (Watchlist)

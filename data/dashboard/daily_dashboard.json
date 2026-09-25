@@ -81,16 +81,16 @@
     "decision_score": 52.1
    },
    {
+    "name": "빛샘전자",
+    "recommendation": "HOLD",
+    "risk_level": "MEDIUM",
+    "decision_score": 52.4
+   },
+   {
     "name": "삼성전자",
     "recommendation": "HOLD",
     "risk_level": "MEDIUM",
     "decision_score": 52.5
-   },
-   {
-    "name": "빛샘전자",
-    "recommendation": "HOLD",
-    "risk_level": "MEDIUM",
-    "decision_score": 52.9
    },
    {
     "name": "저스템",
@@ -336,38 +336,6 @@
   },
   {
    "date": "2026-09-23",
-   "code": "072950",
-   "name": "빛샘전자",
-   "ai_score": 82.1,
-   "confidence": 42.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 28.7,
-    "confidence": 12.6,
-    "historical": 7.0,
-    "risk_reward": 4.5,
-    "regime_adj": 0.0
-   },
-   "decision_score": 52.9,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 82점(거래대금 18위, 영업이익 성장 +77%, PEG 0.11 (저평가)), 신뢰도 42(D), 유사 20건 승률 30% · 평균 -4.8%, R/R -0.80, 국면 Sideways(+0) → Decision 53점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
-    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -4.83,
-    "expected_drawdown": -6.06,
-    "risk_reward": -0.8
-   }
-  },
-  {
-   "date": "2026-09-23",
    "code": "005930",
    "name": "삼성전자",
    "ai_score": 77.0,
@@ -396,6 +364,38 @@
     "expected_return": -2.18,
     "expected_drawdown": -2.89,
     "risk_reward": -0.75
+   }
+  },
+  {
+   "date": "2026-09-23",
+   "code": "072950",
+   "name": "빛샘전자",
+   "ai_score": 82.1,
+   "confidence": 42.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 28.7,
+    "confidence": 12.6,
+    "historical": 7.0,
+    "risk_reward": 4.0,
+    "regime_adj": 0.0
+   },
+   "decision_score": 52.4,
+   "decision_grade": "D",
+   "recommendation": "HOLD",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 82점(거래대금 18위, 영업이익 성장 +77%, PEG 0.11 (저평가)), 신뢰도 42(D), 유사 20건 승률 30% · 평균 -4.8%, R/R -0.92, 국면 Sideways(+0) → Decision 52점 = HOLD.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
+    "최근 백테스트 구간에서 전략 평균 성과가 음(-)",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -4.79,
+    "expected_drawdown": -5.19,
+    "risk_reward": -0.92
    }
   },
   {
