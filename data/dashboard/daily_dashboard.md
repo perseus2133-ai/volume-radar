@@ -23,7 +23,7 @@
 | 🔴 | SK이노베이션 | **SELL** | 51 | 79 | 46 | Sideways | MEDIUM | -5.0% | -5.2% |
 | 🔴 | HPSP | **SELL** | 50 | 82 | 46 | Sideways | MEDIUM | -8.9% | -8.9% |
 | 🔴 | 하나마이크론 | **SELL** | 50 | 76 | 46 | Sideways | MEDIUM | -5.6% | -5.6% |
-| 🔴 | S-Oil | **SELL** | 50 | 77 | 50 | Sideways | MEDIUM | -8.3% | -8.3% |
+| 🔴 | S-Oil | **SELL** | 50 | 77 | 50 | Sideways | MEDIUM | -8.5% | -8.5% |
 
 ## 🔭 Tomorrow Candidates (Watchlist)
 

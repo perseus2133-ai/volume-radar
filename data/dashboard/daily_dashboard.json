@@ -418,16 +418,16 @@
    "decision_grade": "D",
    "recommendation": "SELL",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 77점(거래대금 95위, 영업이익 성장 +1807%, PEG 0.00 (저평가)), 신뢰도 50(C), 유사 20건 승률 10% · 평균 -8.3%, R/R -1.00, 국면 Sideways(+0) → Decision 50점 = SELL. 가드레일: 기대수익 -8.3% < -5% → SELL 강등",
+   "reason_summary": "AI Score 77점(거래대금 95위, 영업이익 성장 +1807%, PEG 0.00 (저평가)), 신뢰도 50(C), 유사 20건 승률 10% · 평균 -8.5%, R/R -1.00, 국면 Sideways(+0) → Decision 50점 = SELL. 가드레일: 기대수익 -8.5% < -5% → SELL 강등",
    "guardrails": [
-    "기대수익 -8.3% < -5% → SELL 강등"
+    "기대수익 -8.5% < -5% → SELL 강등"
    ],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 차트"
    ],
    "expected": {
-    "expected_return": -8.35,
-    "expected_drawdown": -8.35,
+    "expected_return": -8.53,
+    "expected_drawdown": -8.53,
     "risk_reward": -1.0
    }
   }
