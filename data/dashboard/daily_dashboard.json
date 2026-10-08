@@ -1,179 +1,364 @@
 {
  "brief": {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "regime": "Sideways",
   "counts": {
    "STRONG BUY": 0,
    "BUY": 0,
-   "WATCH": 3,
-   "HOLD": 5,
-   "SELL": 2,
+   "WATCH": 6,
+   "HOLD": 3,
+   "SELL": 1,
    "AVOID": 0
   },
   "analyzed": 10,
   "strong_sectors": [
    {
-    "sector": "전기제품",
-    "avg_ret": 2.62,
-    "n": 67
+    "sector": "손해보험",
+    "avg_ret": 1.59,
+    "n": 12
    },
    {
-    "sector": "전자장비와기기",
-    "avg_ret": 2.1,
-    "n": 100
+    "sector": "화장품",
+    "avg_ret": 1.5,
+    "n": 61
    },
    {
-    "sector": "소프트웨어",
-    "avg_ret": 1.83,
-    "n": 70
+    "sector": "석유와가스",
+    "avg_ret": 1.18,
+    "n": 19
    }
   ],
   "weak_sectors": [
    {
-    "sector": "해운사",
-    "avg_ret": -1.56,
-    "n": 11
+    "sector": "우주항공과국방",
+    "avg_ret": -4.94,
+    "n": 33
    },
    {
-    "sector": "건축제품",
-    "avg_ret": -1.13,
-    "n": 11
+    "sector": "반도체와반도체장비",
+    "avg_ret": -3.91,
+    "n": 168
    },
    {
-    "sector": "가정용품",
-    "avg_ret": -0.99,
-    "n": 9
+    "sector": "전기장비",
+    "avg_ret": -3.63,
+    "n": 32
    }
   ],
-  "sector_note": "2026-10-06 기준 전 종목",
+  "sector_note": "2026-10-07 기준 전 종목",
   "top_picks": [
    {
     "name": "포스코퓨처엠",
     "recommendation": "WATCH",
-    "decision_score": 58.5
+    "decision_score": 68.3
    },
    {
-    "name": "한화솔루션",
+    "name": "한중엔시에스",
     "recommendation": "WATCH",
-    "decision_score": 56.5
+    "decision_score": 59.4
    },
    {
-    "name": "고영",
+    "name": "씨젠",
     "recommendation": "WATCH",
-    "decision_score": 56.3
+    "decision_score": 56.8
    },
    {
-    "name": "LG전자",
-    "recommendation": "HOLD",
-    "decision_score": 54.6
+    "name": "LG에너지솔루션",
+    "recommendation": "WATCH",
+    "decision_score": 56.7
    },
    {
-    "name": "S-Oil",
-    "recommendation": "HOLD",
-    "decision_score": 54.5
+    "name": "원익IPS",
+    "recommendation": "WATCH",
+    "decision_score": 55.7
    }
   ],
   "risk_watch": [
    {
-    "name": "심텍",
+    "name": "SK이노베이션",
     "recommendation": "SELL",
     "risk_level": "MEDIUM",
-    "decision_score": 52.7
-   },
-   {
-    "name": "제주반도체",
-    "recommendation": "SELL",
-    "risk_level": "MEDIUM",
-    "decision_score": 55.8
-   },
-   {
-    "name": "주성엔지니어링",
-    "recommendation": "HOLD",
-    "risk_level": "MEDIUM",
-    "decision_score": 52.6
+    "decision_score": 52.1
    },
    {
     "name": "성호전자",
     "recommendation": "HOLD",
     "risk_level": "MEDIUM",
-    "decision_score": 52.8
+    "decision_score": 52.6
    },
    {
-    "name": "LG에너지솔루션",
+    "name": "심텍",
     "recommendation": "HOLD",
     "risk_level": "MEDIUM",
-    "decision_score": 53.5
+    "decision_score": 53.0
+   },
+   {
+    "name": "S-Oil",
+    "recommendation": "HOLD",
+    "risk_level": "MEDIUM",
+    "decision_score": 53.2
+   },
+   {
+    "name": "SK",
+    "recommendation": "WATCH",
+    "risk_level": "MEDIUM",
+    "decision_score": 55.4
    }
   ],
-  "tomorrow_candidates": 1
+  "tomorrow_candidates": 2
  },
  "dashboard": [
   {
-   "date": "2026-10-06",
+   "date": "2026-10-07",
    "code": "003670",
    "name": "포스코퓨처엠",
-   "ai_score": 82.0,
+   "ai_score": 77.0,
    "confidence": 46.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 28.7,
+    "ai": 26.9,
     "confidence": 13.8,
-    "historical": 8.5,
-    "risk_reward": 7.5,
+    "historical": 12.6,
+    "risk_reward": 15.0,
     "regime_adj": 0.0
    },
-   "decision_score": 58.5,
-   "decision_grade": "C",
+   "decision_score": 68.3,
+   "decision_grade": "B",
    "recommendation": "WATCH",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 82점(거래대금 33위, 영업이익 성장 +4453%, PEG 1.00), 신뢰도 46(D), 유사 20건 승률 35% · 평균 -0.0%, R/R -0.01, 국면 Sideways(+0) → Decision 58점 = WATCH.",
-   "guardrails": [],
+   "risk_level": "LOW",
+   "reason_summary": "AI Score 77점(거래대금 27위, 영업이익 성장 +4453%, 외인+기관 동시 순매수), 신뢰도 46(D), 유사 20건 승률 65% · 평균 +5.4%, R/R +3.75, 국면 Sideways(+0) → Decision 68점 = WATCH. 가드레일: 신뢰도 46 < 50 → 매수 금지 (WATCH 강등)",
+   "guardrails": [
+    "신뢰도 46 < 50 → 매수 금지 (WATCH 강등)"
+   ],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
+    "역사적으로 불리했던 신호 보유: 거래량증가, 차트",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -0.01,
+    "expected_return": 5.44,
     "expected_drawdown": -1.45,
-    "risk_reward": -0.01
+    "risk_reward": 3.75
    }
   },
   {
-   "date": "2026-10-06",
-   "code": "009830",
-   "name": "한화솔루션",
-   "ai_score": 82.2,
+   "date": "2026-10-07",
+   "code": "107640",
+   "name": "한중엔시에스",
+   "ai_score": 73.3,
+   "confidence": 52.0,
+   "confidence_grade": "C",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 25.7,
+    "confidence": 15.6,
+    "historical": 9.7,
+    "risk_reward": 8.4,
+    "regime_adj": 0.0
+   },
+   "decision_score": 59.4,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 73점(영업이익 성장 +943%, 외인+기관 동시 순매수, 60일 신고가 돌파), 신뢰도 52(C), 유사 20건 승률 45% · 평균 +1.0%, R/R +0.25, 국면 Sideways(+0) → Decision 59점 = WATCH.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트"
+   ],
+   "expected": {
+    "expected_return": 1.0,
+    "expected_drawdown": -3.93,
+    "risk_reward": 0.25
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "code": "096530",
+   "name": "씨젠",
+   "ai_score": 76.0,
    "confidence": 46.0,
    "confidence_grade": "D",
    "regime": "Sideways",
    "inputs": {
-    "ai": 28.8,
+    "ai": 26.6,
     "confidence": 13.8,
-    "historical": 8.7,
-    "risk_reward": 5.2,
+    "historical": 9.0,
+    "risk_reward": 7.4,
     "regime_adj": 0.0
    },
-   "decision_score": 56.5,
+   "decision_score": 56.8,
    "decision_grade": "C",
    "recommendation": "WATCH",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 82점(거래대금 23위, 영업이익 성장 +344%, 외인+기관 동시 순매수), 신뢰도 46(D), 유사 20건 승률 40% · 평균 -1.5%, R/R -0.61, 국면 Sideways(+0) → Decision 56점 = WATCH.",
+   "reason_summary": "AI Score 76점(영업이익 성장 +310%, PEG 0.09 (저평가), 외인+기관 동시 순매수), 신뢰도 46(D), 유사 20건 승률 40% · 평균 -0.1%, R/R -0.02, 국면 Sideways(+0) → Decision 57점 = WATCH.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
+    "RSI 75 과열권 — 단기 조정 위험",
+    "종합 신뢰도 낮음 — 참고용으로만 활용"
+   ],
+   "expected": {
+    "expected_return": -0.09,
+    "expected_drawdown": -5.74,
+    "risk_reward": -0.02
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "code": "373220",
+   "name": "LG에너지솔루션",
+   "ai_score": 74.4,
+   "confidence": 52.0,
+   "confidence_grade": "C",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 26.0,
+    "confidence": 15.6,
+    "historical": 8.9,
+    "risk_reward": 6.1,
+    "regime_adj": 0.0
+   },
+   "decision_score": 56.7,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 74점(거래대금 31위, 영업이익 성장 +349%, 외인+기관 동시 순매수), 신뢰도 52(C), 유사 20건 승률 40% · 평균 -0.3%, R/R -0.37, 국면 Sideways(+0) → Decision 57점 = WATCH.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 신고가, 차트"
+   ],
+   "expected": {
+    "expected_return": -0.34,
+    "expected_drawdown": -0.92,
+    "risk_reward": -0.37
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "code": "240810",
+   "name": "원익IPS",
+   "ai_score": 73.5,
+   "confidence": 56.0,
+   "confidence_grade": "C",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 25.7,
+    "confidence": 16.8,
+    "historical": 8.2,
+    "risk_reward": 5.0,
+    "regime_adj": 0.0
+   },
+   "decision_score": 55.7,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 74점(거래대금 24위, 영업이익 성장 +594%, PEG 0.22 (저평가)), 신뢰도 56(C), 유사 20건 승률 35% · 평균 -1.7%, R/R -0.66, 국면 Sideways(+0) → Decision 56점 = WATCH.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트"
+   ],
+   "expected": {
+    "expected_return": -1.7,
+    "expected_drawdown": -2.59,
+    "risk_reward": -0.66
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "code": "034730",
+   "name": "SK",
+   "ai_score": 73.0,
+   "confidence": 56.0,
+   "confidence_grade": "C",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 25.5,
+    "confidence": 16.8,
+    "historical": 9.1,
+    "risk_reward": 4.0,
+    "regime_adj": 0.0
+   },
+   "decision_score": 55.4,
+   "decision_grade": "C",
+   "recommendation": "WATCH",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 73점(거래대금 83위, 영업이익 성장 +579%, PEG 0.01 (저평가)), 신뢰도 56(C), 유사 20건 승률 45% · 평균 -2.1%, R/R -0.94, 국면 Sideways(+0) → Decision 55점 = WATCH.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 차트"
+   ],
+   "expected": {
+    "expected_return": -2.13,
+    "expected_drawdown": -2.27,
+    "risk_reward": -0.94
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "code": "010950",
+   "name": "S-Oil",
+   "ai_score": 83.0,
+   "confidence": 46.0,
+   "confidence_grade": "D",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 29.0,
+    "confidence": 13.8,
+    "historical": 6.6,
+    "risk_reward": 3.8,
+    "regime_adj": 0.0
+   },
+   "decision_score": 53.2,
+   "decision_grade": "D",
+   "recommendation": "HOLD",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 83점(거래대금 71위, 영업이익 성장 +1846%, PEG 0.00 (저평가)), 신뢰도 46(D), 유사 20건 승률 25% · 평균 -4.6%, R/R -1.00, 국면 Sideways(+0) → Decision 53점 = HOLD.",
    "guardrails": [],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 신고가, 차트",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -1.54,
-    "expected_drawdown": -2.52,
-    "risk_reward": -0.61
+    "expected_return": -4.61,
+    "expected_drawdown": -4.61,
+    "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-10-06",
-   "code": "098460",
-   "name": "고영",
+   "date": "2026-10-07",
+   "code": "222800",
+   "name": "심텍",
+   "ai_score": 72.8,
+   "confidence": 52.0,
+   "confidence_grade": "C",
+   "regime": "Sideways",
+   "inputs": {
+    "ai": 25.5,
+    "confidence": 15.6,
+    "historical": 7.4,
+    "risk_reward": 4.5,
+    "regime_adj": 0.0
+   },
+   "decision_score": 53.0,
+   "decision_grade": "D",
+   "recommendation": "HOLD",
+   "risk_level": "MEDIUM",
+   "reason_summary": "AI Score 73점(거래대금 41위, 영업이익 성장 +2076%, 외인 5일 순매수), 신뢰도 52(C), 유사 20건 승률 30% · 평균 -3.1%, R/R -0.79, 국면 Sideways(+0) → Decision 53점 = HOLD.",
+   "guardrails": [],
+   "cautions": [
+    "역사적으로 불리했던 신호 보유: 신고가, 차트",
+    "RSI 70 과열권 — 단기 조정 위험"
+   ],
+   "expected": {
+    "expected_return": -3.15,
+    "expected_drawdown": -3.99,
+    "risk_reward": -0.79
+   }
+  },
+  {
+   "date": "2026-10-07",
+   "code": "043260",
+   "name": "성호전자",
    "ai_score": 81.0,
    "confidence": 46.0,
    "confidence_grade": "D",
@@ -181,164 +366,7 @@
    "inputs": {
     "ai": 28.3,
     "confidence": 13.8,
-    "historical": 8.3,
-    "risk_reward": 5.9,
-    "regime_adj": 0.0
-   },
-   "decision_score": 56.3,
-   "decision_grade": "C",
-   "recommendation": "WATCH",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 81점(거래대금 56위, 영업이익 성장 +422%, PEG 0.22 (저평가)), 신뢰도 46(D), 유사 20건 승률 35% · 평균 -1.0%, R/R -0.43, 국면 Sideways(+0) → Decision 56점 = WATCH.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가, 차트",
-    "RSI 74 과열권 — 단기 조정 위험",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -1.04,
-    "expected_drawdown": -2.43,
-    "risk_reward": -0.43
-   }
-  },
-  {
-   "date": "2026-10-06",
-   "code": "066570",
-   "name": "LG전자",
-   "ai_score": 82.7,
-   "confidence": 46.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 28.9,
-    "confidence": 13.8,
-    "historical": 8.1,
-    "risk_reward": 3.8,
-    "regime_adj": 0.0
-   },
-   "decision_score": 54.6,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 83점(거래대금 9위, 영업이익 성장 +88%, PEG 0.24 (저평가)), 신뢰도 46(D), 유사 20건 승률 40% · 평균 -4.4%, R/R -0.99, 국면 Sideways(+0) → Decision 55점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가, 차트",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -4.44,
-    "expected_drawdown": -4.48,
-    "risk_reward": -0.99
-   }
-  },
-  {
-   "date": "2026-10-06",
-   "code": "010950",
-   "name": "S-Oil",
-   "ai_score": 80.0,
-   "confidence": 46.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 28.0,
-    "confidence": 13.8,
-    "historical": 8.6,
-    "risk_reward": 4.1,
-    "regime_adj": 0.0
-   },
-   "decision_score": 54.5,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 80점(거래대금 73위, 영업이익 성장 +1846%, PEG 0.00 (저평가)), 신뢰도 46(D), 유사 20건 승률 40% · 평균 -2.2%, R/R -0.90, 국면 Sideways(+0) → Decision 54점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가, 차트",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -2.23,
-    "expected_drawdown": -2.48,
-    "risk_reward": -0.9
-   }
-  },
-  {
-   "date": "2026-10-06",
-   "code": "373220",
-   "name": "LG에너지솔루션",
-   "ai_score": 81.7,
-   "confidence": 46.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 28.6,
-    "confidence": 13.8,
-    "historical": 7.3,
-    "risk_reward": 3.8,
-    "regime_adj": 0.0
-   },
-   "decision_score": 53.5,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 82점(거래대금 19위, 영업이익 성장 +362%, 기관 5일 순매수), 신뢰도 46(D), 유사 20건 승률 30% · 평균 -3.4%, R/R -1.00, 국면 Sideways(+0) → Decision 54점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가, 차트",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -3.4,
-    "expected_drawdown": -3.4,
-    "risk_reward": -1.0
-   }
-  },
-  {
-   "date": "2026-10-06",
-   "code": "043260",
-   "name": "성호전자",
-   "ai_score": 80.0,
-   "confidence": 46.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 28.0,
-    "confidence": 13.8,
-    "historical": 7.3,
-    "risk_reward": 3.8,
-    "regime_adj": 0.0
-   },
-   "decision_score": 52.8,
-   "decision_grade": "D",
-   "recommendation": "HOLD",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 80점(거래대금 32위, 영업이익 성장 +443%, PEG 0.01 (저평가)), 신뢰도 46(D), 유사 20건 승률 30% · 평균 -3.6%, R/R -1.00, 국면 Sideways(+0) → Decision 53점 = HOLD.",
-   "guardrails": [],
-   "cautions": [
-    "역사적으로 불리했던 신호 보유: 신고가, 차트",
-    "RSI 77 과열권 — 단기 조정 위험",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -3.62,
-    "expected_drawdown": -3.62,
-    "risk_reward": -1.0
-   }
-  },
-  {
-   "date": "2026-10-06",
-   "code": "036930",
-   "name": "주성엔지니어링",
-   "ai_score": 80.0,
-   "confidence": 46.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 28.0,
-    "confidence": 13.8,
-    "historical": 7.0,
+    "historical": 6.7,
     "risk_reward": 3.8,
     "regime_adj": 0.0
    },
@@ -346,56 +374,23 @@
    "decision_grade": "D",
    "recommendation": "HOLD",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 80점(거래대금 4위, 영업이익 성장 +243%, 외인+기관 동시 순매수), 신뢰도 46(D), 유사 20건 승률 25% · 평균 -2.4%, R/R -1.00, 국면 Sideways(+0) → Decision 53점 = HOLD.",
+   "reason_summary": "AI Score 81점(거래대금 18위, 영업이익 성장 +443%, PEG 0.01 (저평가)), 신뢰도 46(D), 유사 20건 승률 25% · 평균 -3.8%, R/R -1.00, 국면 Sideways(+0) → Decision 53점 = HOLD.",
    "guardrails": [],
    "cautions": [
-    "역사적으로 불리했던 신호 보유: 거래량증가, 신고가, 차트",
-    "RSI 80 과열권 — 단기 조정 위험",
-    "종합 신뢰도 낮음 — 참고용으로만 활용"
-   ],
-   "expected": {
-    "expected_return": -2.41,
-    "expected_drawdown": -2.41,
-    "risk_reward": -1.0
-   }
-  },
-  {
-   "date": "2026-10-06",
-   "code": "080220",
-   "name": "제주반도체",
-   "ai_score": 89.6,
-   "confidence": 46.0,
-   "confidence_grade": "D",
-   "regime": "Sideways",
-   "inputs": {
-    "ai": 31.4,
-    "confidence": 13.8,
-    "historical": 6.9,
-    "risk_reward": 3.8,
-    "regime_adj": 0.0
-   },
-   "decision_score": 55.8,
-   "decision_grade": "C",
-   "recommendation": "SELL",
-   "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 90점(거래대금 12위, 영업이익 성장 +274%, PEG 0.08 (저평가)), 신뢰도 46(D), 유사 20건 승률 30% · 평균 -5.3%, R/R -1.00, 국면 Sideways(+0) → Decision 56점 = SELL. 가드레일: 기대수익 -5.3% < -5% → SELL 강등",
-   "guardrails": [
-    "기대수익 -5.3% < -5% → SELL 강등"
-   ],
-   "cautions": [
     "역사적으로 불리했던 신호 보유: 신고가, 차트",
+    "RSI 74 과열권 — 단기 조정 위험",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -5.32,
-    "expected_drawdown": -5.32,
+    "expected_return": -3.81,
+    "expected_drawdown": -3.81,
     "risk_reward": -1.0
    }
   },
   {
-   "date": "2026-10-06",
-   "code": "222800",
-   "name": "심텍",
+   "date": "2026-10-07",
+   "code": "096770",
+   "name": "SK이노베이션",
    "ai_score": 80.6,
    "confidence": 46.0,
    "confidence_grade": "D",
@@ -403,40 +398,51 @@
    "inputs": {
     "ai": 28.2,
     "confidence": 13.8,
-    "historical": 6.9,
+    "historical": 6.3,
     "risk_reward": 3.8,
     "regime_adj": 0.0
    },
-   "decision_score": 52.7,
+   "decision_score": 52.1,
    "decision_grade": "D",
    "recommendation": "SELL",
    "risk_level": "MEDIUM",
-   "reason_summary": "AI Score 81점(거래대금 21위, 영업이익 성장 +2065%, 외인 5일 순매수), 신뢰도 46(D), 유사 20건 승률 30% · 평균 -5.5%, R/R -1.00, 국면 Sideways(+0) → Decision 53점 = SELL. 가드레일: 기대수익 -5.5% < -5% → SELL 강등",
+   "reason_summary": "AI Score 81점(거래대금 23위, 영업이익 성장 +2030%, 외인 5일 순매수), 신뢰도 46(D), 유사 20건 승률 25% · 평균 -6.0%, R/R -1.00, 국면 Sideways(+0) → Decision 52점 = SELL. 가드레일: 기대수익 -6.0% < -5% → SELL 강등",
    "guardrails": [
-    "기대수익 -5.5% < -5% → SELL 강등"
+    "기대수익 -6.0% < -5% → SELL 강등"
    ],
    "cautions": [
     "역사적으로 불리했던 신호 보유: 신고가, 차트",
-    "RSI 74 과열권 — 단기 조정 위험",
     "종합 신뢰도 낮음 — 참고용으로만 활용"
    ],
    "expected": {
-    "expected_return": -5.46,
-    "expected_drawdown": -5.46,
+    "expected_return": -6.01,
+    "expected_drawdown": -6.02,
     "risk_reward": -1.0
    }
   }
  ],
  "watchlist": [
   {
-   "code": "009830",
-   "name": "한화솔루션",
+   "code": "373220",
+   "name": "LG에너지솔루션",
    "recommendation": "WATCH",
-   "decision_score": 56.5,
-   "confidence": 46.0,
+   "decision_score": 56.7,
+   "confidence": 52.0,
    "signals": [
-    "WATCH 2일 연속",
-    "AI Score 상승 79→82"
+    "신뢰도 상승 46→52",
+    "판단 개선 HOLD→WATCH"
+   ],
+   "signal_count": 2
+  },
+  {
+   "code": "222800",
+   "name": "심텍",
+   "recommendation": "HOLD",
+   "decision_score": 53.0,
+   "confidence": 52.0,
+   "signals": [
+    "신뢰도 상승 46→52",
+    "판단 개선 SELL→HOLD"
    ],
    "signal_count": 2
   }
