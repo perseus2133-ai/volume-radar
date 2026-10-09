@@ -1,7 +1,6 @@
 {
- "updated": "2026-10-08 09:21",
+ "updated": "2026-10-09 09:34",
  "window_days": [
-  "2026-09-17",
   "2026-09-18",
   "2026-09-21",
   "2026-09-22",
@@ -10,54 +9,32 @@
   "2026-09-29",
   "2026-10-05",
   "2026-10-06",
-  "2026-10-07"
+  "2026-10-07",
+  "2026-10-08"
  ],
  "stocks": [
-  {
-   "code": "402340",
-   "name": "SK스퀘어",
-   "market": "KOSPI",
-   "업종": "반도체와반도체장비",
-   "count": 8,
-   "avg_rank": 6.0,
-   "best_rank": 5,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-23",
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 1164000.0,
-   "last_chg": 0.34,
-   "last_turnover_억": 6830.0
-  },
   {
    "code": "353200",
    "name": "대덕전자",
    "market": "KOSPI",
    "업종": "전자장비와기기",
    "count": 8,
-   "avg_rank": 28.5,
+   "avg_rank": 22.2,
    "best_rank": 8,
-   "streak": 0,
+   "streak": 1,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
     "2026-09-22",
     "2026-09-23",
     "2026-09-28",
     "2026-09-29",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-08"
    ],
-   "last_close": 158100.0,
-   "last_chg": 6.97,
-   "last_turnover_억": 1771.9
+   "last_close": 157600.0,
+   "last_chg": 5.21,
+   "last_turnover_억": 2140.8
   },
   {
    "code": "096770",
@@ -65,45 +42,22 @@
    "market": "KOSPI",
    "업종": "석유와가스",
    "count": 8,
-   "avg_rank": 29.2,
+   "avg_rank": 26.1,
    "best_rank": 11,
-   "streak": 3,
+   "streak": 4,
    "dates": [
-    "2026-09-17",
     "2026-09-21",
     "2026-09-22",
     "2026-09-23",
     "2026-09-28",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-08"
    ],
-   "last_close": 159500.0,
-   "last_chg": 1.79,
-   "last_turnover_억": 1575.8
-  },
-  {
-   "code": "042700",
-   "name": "한미반도체",
-   "market": "KOSPI",
-   "업종": "반도체와반도체장비",
-   "count": 8,
-   "avg_rank": 32.2,
-   "best_rank": 14,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-23",
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 279000.0,
-   "last_chg": 2.57,
-   "last_turnover_억": 1363.1
+   "last_close": 161500.0,
+   "last_chg": 1.25,
+   "last_turnover_억": 1886.2
   },
   {
    "code": "067310",
@@ -111,44 +65,22 @@
    "market": "KOSDAQ",
    "업종": "반도체와반도체장비",
    "count": 8,
-   "avg_rank": 37.9,
+   "avg_rank": 44.5,
    "best_rank": 8,
-   "streak": 0,
+   "streak": 1,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
     "2026-09-21",
     "2026-09-22",
     "2026-09-23",
     "2026-09-29",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-08"
    ],
-   "last_close": 52900.0,
-   "last_chg": 2.72,
-   "last_turnover_억": 1234.7
-  },
-  {
-   "code": "005930",
-   "name": "삼성전자",
-   "market": "KOSPI",
-   "업종": "반도체와반도체장비",
-   "count": 7,
-   "avg_rank": 1.7,
-   "best_rank": 1,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-23",
-    "2026-09-29",
-    "2026-10-05"
-   ],
-   "last_close": 276000.0,
-   "last_chg": 0.36,
-   "last_turnover_억": 31487.1
+   "last_close": 50200.0,
+   "last_chg": 1.11,
+   "last_turnover_억": 699.2
   },
   {
    "code": "009150",
@@ -173,26 +105,114 @@
    "last_turnover_억": 12627.2
   },
   {
-   "code": "240810",
-   "name": "원익IPS",
-   "market": "KOSDAQ",
+   "code": "402340",
+   "name": "SK스퀘어",
+   "market": "KOSPI",
    "업종": "반도체와반도체장비",
    "count": 7,
-   "avg_rank": 25.4,
-   "best_rank": 8,
+   "avg_rank": 5.7,
+   "best_rank": 5,
    "streak": 0,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
     "2026-09-21",
+    "2026-09-22",
     "2026-09-23",
     "2026-09-29",
     "2026-10-05",
     "2026-10-06"
    ],
-   "last_close": 142700.0,
-   "last_chg": 3.26,
-   "last_turnover_억": 1767.2
+   "last_close": 1164000.0,
+   "last_chg": 0.34,
+   "last_turnover_억": 6830.0
+  },
+  {
+   "code": "240810",
+   "name": "원익IPS",
+   "market": "KOSDAQ",
+   "업종": "반도체와반도체장비",
+   "count": 7,
+   "avg_rank": 21.4,
+   "best_rank": 8,
+   "streak": 1,
+   "dates": [
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 134200.0,
+   "last_chg": 2.21,
+   "last_turnover_억": 2413.1
+  },
+  {
+   "code": "042700",
+   "name": "한미반도체",
+   "market": "KOSPI",
+   "업종": "반도체와반도체장비",
+   "count": 7,
+   "avg_rank": 30.3,
+   "best_rank": 14,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-06"
+   ],
+   "last_close": 279000.0,
+   "last_chg": 2.57,
+   "last_turnover_억": 1363.1
+  },
+  {
+   "code": "222800",
+   "name": "심텍",
+   "market": "KOSDAQ",
+   "업종": "전자장비와기기",
+   "count": 7,
+   "avg_rank": 32.7,
+   "best_rank": 11,
+   "streak": 1,
+   "dates": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 170700.0,
+   "last_chg": 0.89,
+   "last_turnover_억": 1253.2
+  },
+  {
+   "code": "007660",
+   "name": "이수페타시스",
+   "market": "KOSPI",
+   "업종": "반도체와반도체장비",
+   "count": 7,
+   "avg_rank": 35.7,
+   "best_rank": 15,
+   "streak": 1,
+   "dates": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 125000.0,
+   "last_chg": 3.05,
+   "last_turnover_억": 2047.3
   },
   {
    "code": "080220",
@@ -200,42 +220,42 @@
    "market": "KOSDAQ",
    "업종": "반도체와반도체장비",
    "count": 7,
-   "avg_rank": 46.4,
+   "avg_rank": 39.7,
    "best_rank": 6,
-   "streak": 0,
+   "streak": 1,
    "dates": [
-    "2026-09-17",
     "2026-09-21",
     "2026-09-22",
     "2026-09-23",
     "2026-09-29",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-08"
    ],
-   "last_close": 94100.0,
-   "last_chg": 1.84,
-   "last_turnover_억": 2022.4
+   "last_close": 86000.0,
+   "last_chg": 2.26,
+   "last_turnover_억": 1049.9
   },
   {
-   "code": "000660",
-   "name": "SK하이닉스",
+   "code": "005930",
+   "name": "삼성전자",
    "market": "KOSPI",
    "업종": "반도체와반도체장비",
    "count": 6,
-   "avg_rank": 1.3,
+   "avg_rank": 1.7,
    "best_rank": 1,
    "streak": 0,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
     "2026-09-21",
+    "2026-09-22",
     "2026-09-23",
     "2026-09-29",
     "2026-10-05"
    ],
-   "last_close": 1841000.0,
-   "last_chg": 2.85,
-   "last_turnover_억": 37083.0
+   "last_close": 276000.0,
+   "last_chg": 0.36,
+   "last_turnover_억": 31487.1
   },
   {
    "code": "036930",
@@ -243,20 +263,20 @@
    "market": "KOSDAQ",
    "업종": "반도체와반도체장비",
    "count": 6,
-   "avg_rank": 12.0,
+   "avg_rank": 10.7,
    "best_rank": 4,
-   "streak": 0,
+   "streak": 1,
    "dates": [
-    "2026-09-17",
     "2026-09-21",
     "2026-09-23",
     "2026-09-29",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-08"
    ],
-   "last_close": 283000.0,
-   "last_chg": 19.41,
-   "last_turnover_억": 10027.0
+   "last_close": 263500.0,
+   "last_chg": 4.77,
+   "last_turnover_억": 10095.5
   },
   {
    "code": "043260",
@@ -264,125 +284,41 @@
    "market": "KOSDAQ",
    "업종": "전기제품",
    "count": 6,
-   "avg_rank": 21.7,
+   "avg_rank": 30.3,
    "best_rank": 7,
-   "streak": 0,
+   "streak": 1,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
     "2026-09-21",
     "2026-09-29",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-08"
    ],
    "last_close": 32550.0,
-   "last_chg": 4.33,
-   "last_turnover_억": 1273.6
+   "last_chg": 2.52,
+   "last_turnover_억": 874.2
   },
   {
-   "code": "222800",
-   "name": "심텍",
-   "market": "KOSDAQ",
-   "업종": "전자장비와기기",
-   "count": 6,
-   "avg_rank": 32.5,
-   "best_rank": 11,
-   "streak": 0,
-   "dates": [
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-23",
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 173900.0,
-   "last_chg": 4.01,
-   "last_turnover_억": 1684.6
-  },
-  {
-   "code": "403870",
-   "name": "HPSP",
-   "market": "KOSDAQ",
-   "업종": "반도체와반도체장비",
-   "count": 6,
-   "avg_rank": 35.8,
-   "best_rank": 8,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-21",
-    "2026-09-23",
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 69600.0,
-   "last_chg": 6.26,
-   "last_turnover_억": 1874.8
-  },
-  {
-   "code": "007660",
-   "name": "이수페타시스",
+   "code": "000990",
+   "name": "DB하이텍",
    "market": "KOSPI",
    "업종": "반도체와반도체장비",
    "count": 6,
-   "avg_rank": 38.8,
-   "best_rank": 15,
-   "streak": 0,
+   "avg_rank": 52.7,
+   "best_rank": 21,
+   "streak": 1,
    "dates": [
+    "2026-09-18",
     "2026-09-21",
-    "2026-09-22",
     "2026-09-23",
     "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 132200.0,
-   "last_chg": 9.08,
-   "last_turnover_억": 1914.6
-  },
-  {
-   "code": "298040",
-   "name": "효성중공업",
-   "market": "KOSPI",
-   "업종": "전기장비",
-   "count": 6,
-   "avg_rank": 39.3,
-   "best_rank": 29,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-29",
-    "2026-10-06"
-   ],
-   "last_close": 2803000.0,
-   "last_chg": 0.65,
-   "last_turnover_억": 972.8
-  },
-  {
-   "code": "028050",
-   "name": "삼성E&A",
-   "market": "KOSPI",
-   "업종": "건설",
-   "count": 6,
-   "avg_rank": 47.7,
-   "best_rank": 9,
-   "streak": 2,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-28",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-08"
    ],
-   "last_close": 48750.0,
-   "last_chg": 1.46,
-   "last_turnover_억": 919.4
+   "last_close": 136500.0,
+   "last_chg": 2.4,
+   "last_turnover_억": 1037.9
   },
   {
    "code": "034730",
@@ -406,66 +342,24 @@
    "last_turnover_억": 701.8
   },
   {
-   "code": "010120",
-   "name": "LS ELECTRIC",
-   "market": "KOSPI",
-   "업종": "전기장비",
-   "count": 6,
-   "avg_rank": 58.2,
-   "best_rank": 28,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 217500.0,
-   "last_chg": 3.82,
-   "last_turnover_억": 1072.1
-  },
-  {
-   "code": "010950",
-   "name": "S-Oil",
-   "market": "KOSPI",
-   "업종": "석유와가스",
-   "count": 6,
-   "avg_rank": 67.3,
-   "best_rank": 52,
-   "streak": 1,
-   "dates": [
-    "2026-09-17",
-    "2026-09-21",
-    "2026-09-23",
-    "2026-09-28",
-    "2026-10-05",
-    "2026-10-07"
-   ],
-   "last_close": 170800.0,
-   "last_chg": 3.52,
-   "last_turnover_억": 650.0
-  },
-  {
-   "code": "005935",
-   "name": "삼성전자우",
+   "code": "000660",
+   "name": "SK하이닉스",
    "market": "KOSPI",
    "업종": "반도체와반도체장비",
    "count": 5,
-   "avg_rank": 4.0,
-   "best_rank": 3,
+   "avg_rank": 1.4,
+   "best_rank": 1,
    "streak": 0,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
     "2026-09-21",
-    "2026-09-22",
-    "2026-09-23"
+    "2026-09-23",
+    "2026-09-29",
+    "2026-10-05"
    ],
-   "last_close": 222000.0,
-   "last_chg": 4.47,
-   "last_turnover_억": 12794.4
+   "last_close": 1841000.0,
+   "last_chg": 2.85,
+   "last_turnover_억": 37083.0
   },
   {
    "code": "001820",
@@ -488,26 +382,6 @@
    "last_turnover_억": 1262.1
   },
   {
-   "code": "000150",
-   "name": "두산",
-   "market": "KOSPI",
-   "업종": "복합기업",
-   "count": 5,
-   "avg_rank": 18.2,
-   "best_rank": 9,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-22",
-    "2026-09-23",
-    "2026-10-06"
-   ],
-   "last_close": 1472000.0,
-   "last_chg": 9.77,
-   "last_turnover_억": 1964.6
-  },
-  {
    "code": "066570",
    "name": "LG전자",
    "market": "KOSPI",
@@ -526,26 +400,6 @@
    "last_close": 233000.0,
    "last_chg": 7.87,
    "last_turnover_억": 2941.1
-  },
-  {
-   "code": "034020",
-   "name": "두산에너빌리티",
-   "market": "KOSPI",
-   "업종": "기계",
-   "count": 5,
-   "avg_rank": 18.8,
-   "best_rank": 13,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 81600.0,
-   "last_chg": 0.62,
-   "last_turnover_억": 1645.4
   },
   {
    "code": "011070",
@@ -568,6 +422,46 @@
    "last_turnover_억": 3007.3
   },
   {
+   "code": "403870",
+   "name": "HPSP",
+   "market": "KOSDAQ",
+   "업종": "반도체와반도체장비",
+   "count": 5,
+   "avg_rank": 29.2,
+   "best_rank": 8,
+   "streak": 0,
+   "dates": [
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-06"
+   ],
+   "last_close": 69600.0,
+   "last_chg": 6.26,
+   "last_turnover_억": 1874.8
+  },
+  {
+   "code": "058470",
+   "name": "리노공업",
+   "market": "KOSDAQ",
+   "업종": "반도체와반도체장비",
+   "count": 5,
+   "avg_rank": 34.4,
+   "best_rank": 15,
+   "streak": 1,
+   "dates": [
+    "2026-09-22",
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 87800.0,
+   "last_chg": 3.17,
+   "last_turnover_억": 1440.0
+  },
+  {
    "code": "001440",
    "name": "대한전선",
    "market": "KOSPI",
@@ -586,6 +480,26 @@
    "last_close": 31850.0,
    "last_chg": 1.11,
    "last_turnover_억": 838.1
+  },
+  {
+   "code": "298040",
+   "name": "효성중공업",
+   "market": "KOSPI",
+   "업종": "전기장비",
+   "count": 5,
+   "avg_rank": 41.0,
+   "best_rank": 29,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-29",
+    "2026-10-06"
+   ],
+   "last_close": 2803000.0,
+   "last_chg": 0.65,
+   "last_turnover_억": 972.8
   },
   {
    "code": "007810",
@@ -608,104 +522,64 @@
    "last_turnover_억": 577.0
   },
   {
-   "code": "000500",
-   "name": "가온전선",
+   "code": "028050",
+   "name": "삼성E&A",
+   "market": "KOSPI",
+   "업종": "건설",
+   "count": 5,
+   "avg_rank": 47.4,
+   "best_rank": 9,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-28",
+    "2026-10-06",
+    "2026-10-07"
+   ],
+   "last_close": 48750.0,
+   "last_chg": 1.46,
+   "last_turnover_억": 919.4
+  },
+  {
+   "code": "010120",
+   "name": "LS ELECTRIC",
    "market": "KOSPI",
    "업종": "전기장비",
    "count": 5,
-   "avg_rank": 45.6,
-   "best_rank": 8,
+   "avg_rank": 57.2,
+   "best_rank": 28,
    "streak": 0,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
     "2026-09-21",
     "2026-09-29",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-06"
    ],
-   "last_close": 329000.0,
-   "last_chg": 4.44,
-   "last_turnover_억": 640.7
+   "last_close": 217500.0,
+   "last_chg": 3.82,
+   "last_turnover_억": 1072.1
   },
   {
-   "code": "278470",
-   "name": "에이피알",
+   "code": "010950",
+   "name": "S-Oil",
    "market": "KOSPI",
-   "업종": "화장품",
+   "업종": "석유와가스",
    "count": 5,
-   "avg_rank": 47.8,
-   "best_rank": 29,
-   "streak": 1,
+   "avg_rank": 65.0,
+   "best_rank": 52,
+   "streak": 0,
    "dates": [
-    "2026-09-17",
-    "2026-09-18",
+    "2026-09-21",
     "2026-09-23",
+    "2026-09-28",
     "2026-10-05",
     "2026-10-07"
    ],
-   "last_close": 380500.0,
-   "last_chg": 5.26,
-   "last_turnover_억": 1429.8
-  },
-  {
-   "code": "000990",
-   "name": "DB하이텍",
-   "market": "KOSPI",
-   "업종": "반도체와반도체장비",
-   "count": 5,
-   "avg_rank": 54.2,
-   "best_rank": 21,
-   "streak": 0,
-   "dates": [
-    "2026-09-18",
-    "2026-09-21",
-    "2026-09-23",
-    "2026-09-29",
-    "2026-10-06"
-   ],
-   "last_close": 141100.0,
-   "last_chg": 0.21,
-   "last_turnover_억": 754.9
-  },
-  {
-   "code": "108490",
-   "name": "로보티즈",
-   "market": "KOSDAQ",
-   "업종": "기계",
-   "count": 5,
-   "avg_rank": 56.0,
-   "best_rank": 42,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-21",
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 317000.0,
-   "last_chg": 1.93,
-   "last_turnover_억": 779.4
-  },
-  {
-   "code": "327260",
-   "name": "RF머트리얼즈",
-   "market": "KOSDAQ",
-   "업종": "우주항공과국방",
-   "count": 5,
-   "avg_rank": 63.2,
-   "best_rank": 32,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 58800.0,
-   "last_chg": 12.0,
-   "last_turnover_억": 614.1
+   "last_close": 170800.0,
+   "last_chg": 3.52,
+   "last_turnover_억": 650.0
   },
   {
    "code": "196170",
@@ -728,6 +602,26 @@
    "last_turnover_억": 743.0
   },
   {
+   "code": "319660",
+   "name": "피에스케이",
+   "market": "KOSDAQ",
+   "업종": "반도체와반도체장비",
+   "count": 5,
+   "avg_rank": 71.6,
+   "best_rank": 50,
+   "streak": 1,
+   "dates": [
+    "2026-09-21",
+    "2026-09-23",
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-08"
+   ],
+   "last_close": 145100.0,
+   "last_chg": 5.76,
+   "last_turnover_억": 632.2
+  },
+  {
    "code": "103590",
    "name": "일진전기",
    "market": "KOSPI",
@@ -748,23 +642,42 @@
    "last_turnover_억": 564.2
   },
   {
-   "code": "010170",
-   "name": "대한광통신",
-   "market": "KOSDAQ",
-   "업종": "통신장비",
+   "code": "005935",
+   "name": "삼성전자우",
+   "market": "KOSPI",
+   "업종": "반도체와반도체장비",
    "count": 4,
-   "avg_rank": 7.2,
-   "best_rank": 4,
+   "avg_rank": 4.0,
+   "best_rank": 3,
    "streak": 0,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
-    "2026-10-05",
-    "2026-10-06"
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23"
    ],
-   "last_close": 18780.0,
-   "last_chg": 5.51,
-   "last_turnover_억": 2668.3
+   "last_close": 222000.0,
+   "last_chg": 4.47,
+   "last_turnover_억": 12794.4
+  },
+  {
+   "code": "006400",
+   "name": "삼성SDI",
+   "market": "KOSPI",
+   "업종": "전기제품",
+   "count": 4,
+   "avg_rank": 12.8,
+   "best_rank": 7,
+   "streak": 1,
+   "dates": [
+    "2026-09-28",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 567000.0,
+   "last_chg": 1.8,
+   "last_turnover_억": 3894.7
   },
   {
    "code": "009830",
@@ -786,6 +699,63 @@
    "last_turnover_억": 1567.0
   },
   {
+   "code": "034020",
+   "name": "두산에너빌리티",
+   "market": "KOSPI",
+   "업종": "기계",
+   "count": 4,
+   "avg_rank": 19.8,
+   "best_rank": 13,
+   "streak": 0,
+   "dates": [
+    "2026-09-21",
+    "2026-09-22",
+    "2026-10-05",
+    "2026-10-06"
+   ],
+   "last_close": 81600.0,
+   "last_chg": 0.62,
+   "last_turnover_억": 1645.4
+  },
+  {
+   "code": "000150",
+   "name": "두산",
+   "market": "KOSPI",
+   "업종": "복합기업",
+   "count": 4,
+   "avg_rank": 20.5,
+   "best_rank": 13,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-10-06"
+   ],
+   "last_close": 1472000.0,
+   "last_chg": 9.77,
+   "last_turnover_억": 1964.6
+  },
+  {
+   "code": "373220",
+   "name": "LG에너지솔루션",
+   "market": "KOSPI",
+   "업종": "전기제품",
+   "count": 4,
+   "avg_rank": 27.0,
+   "best_rank": 8,
+   "streak": 1,
+   "dates": [
+    "2026-09-28",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 403000.0,
+   "last_chg": 4.13,
+   "last_turnover_억": 3704.9
+  },
+  {
    "code": "047040",
    "name": "대우건설",
    "market": "KOSPI",
@@ -805,42 +775,23 @@
    "last_turnover_억": 712.2
   },
   {
-   "code": "058470",
-   "name": "리노공업",
-   "market": "KOSDAQ",
-   "업종": "반도체와반도체장비",
-   "count": 4,
-   "avg_rank": 36.5,
-   "best_rank": 15,
-   "streak": 0,
-   "dates": [
-    "2026-09-22",
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 87300.0,
-   "last_chg": 3.56,
-   "last_turnover_억": 1231.1
-  },
-  {
-   "code": "373220",
-   "name": "LG에너지솔루션",
+   "code": "000500",
+   "name": "가온전선",
    "market": "KOSPI",
-   "업종": "전기제품",
+   "업종": "전기장비",
    "count": 4,
-   "avg_rank": 39.0,
-   "best_rank": 19,
+   "avg_rank": 47.5,
+   "best_rank": 8,
    "streak": 0,
    "dates": [
-    "2026-09-17",
-    "2026-09-28",
-    "2026-10-05",
-    "2026-10-06"
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-29",
+    "2026-10-05"
    ],
-   "last_close": 388500.0,
-   "last_chg": 4.72,
-   "last_turnover_억": 1724.7
+   "last_close": 329000.0,
+   "last_chg": 4.44,
+   "last_turnover_억": 640.7
   },
   {
    "code": "232140",
@@ -881,137 +832,118 @@
    "last_turnover_억": 541.4
   },
   {
-   "code": "217590",
-   "name": "티엠씨",
-   "market": "KOSPI",
-   "업종": "조선",
-   "count": 4,
-   "avg_rank": 53.5,
-   "best_rank": 14,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 19390.0,
-   "last_chg": 5.15,
-   "last_turnover_억": 1915.3
-  },
-  {
-   "code": "000720",
-   "name": "현대건설",
-   "market": "KOSPI",
-   "업종": "건설",
-   "count": 4,
-   "avg_rank": 55.0,
-   "best_rank": 27,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-21",
-    "2026-09-22",
-    "2026-09-28"
-   ],
-   "last_close": 123200.0,
-   "last_chg": 0.74,
-   "last_turnover_억": 811.9
-  },
-  {
-   "code": "093370",
-   "name": "후성",
+   "code": "003670",
+   "name": "포스코퓨처엠",
    "market": "KOSPI",
    "업종": "화학",
    "count": 4,
-   "avg_rank": 57.8,
+   "avg_rank": 50.0,
    "best_rank": 33,
-   "streak": 0,
+   "streak": 1,
    "dates": [
-    "2026-09-17",
-    "2026-09-23",
-    "2026-09-28",
-    "2026-10-05"
-   ],
-   "last_close": 16390.0,
-   "last_chg": 15.67,
-   "last_turnover_억": 889.5
-  },
-  {
-   "code": "347700",
-   "name": "스피어",
-   "market": "KOSDAQ",
-   "업종": "우주항공과국방",
-   "count": 4,
-   "avg_rank": 60.2,
-   "best_rank": 16,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 27050.0,
-   "last_chg": 9.96,
-   "last_turnover_억": 973.8
-  },
-  {
-   "code": "062040",
-   "name": "산일전기",
-   "market": "KOSPI",
-   "업종": "전기장비",
-   "count": 4,
-   "avg_rank": 62.2,
-   "best_rank": 35,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 235500.0,
-   "last_chg": 3.74,
-   "last_turnover_억": 806.2
-  },
-  {
-   "code": "066970",
-   "name": "엘앤에프",
-   "market": "KOSPI",
-   "업종": "전기제품",
-   "count": 4,
-   "avg_rank": 64.2,
-   "best_rank": 48,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
     "2026-09-22",
     "2026-09-28",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-08"
    ],
-   "last_close": 124500.0,
-   "last_chg": 9.31,
-   "last_turnover_억": 855.2
+   "last_close": 191300.0,
+   "last_chg": 0.63,
+   "last_turnover_억": 1004.4
   },
   {
-   "code": "319660",
-   "name": "피에스케이",
+   "code": "086520",
+   "name": "에코프로",
    "market": "KOSDAQ",
-   "업종": "반도체와반도체장비",
+   "업종": "화학",
    "count": 4,
-   "avg_rank": 68.8,
-   "best_rank": 50,
+   "avg_rank": 50.2,
+   "best_rank": 31,
+   "streak": 1,
+   "dates": [
+    "2026-09-28",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 91200.0,
+   "last_chg": 0.22,
+   "last_turnover_억": 871.3
+  },
+  {
+   "code": "278470",
+   "name": "에이피알",
+   "market": "KOSPI",
+   "업종": "화장품",
+   "count": 4,
+   "avg_rank": 50.8,
+   "best_rank": 29,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-09-23",
+    "2026-10-05",
+    "2026-10-07"
+   ],
+   "last_close": 380500.0,
+   "last_chg": 5.26,
+   "last_turnover_억": 1429.8
+  },
+  {
+   "code": "098460",
+   "name": "고영",
+   "market": "KOSDAQ",
+   "업종": "전자장비와기기",
+   "count": 4,
+   "avg_rank": 57.5,
+   "best_rank": 28,
+   "streak": 1,
+   "dates": [
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 37350.0,
+   "last_chg": 4.18,
+   "last_turnover_억": 1393.7
+  },
+  {
+   "code": "108490",
+   "name": "로보티즈",
+   "market": "KOSDAQ",
+   "업종": "기계",
+   "count": 4,
+   "avg_rank": 59.5,
+   "best_rank": 43,
    "streak": 0,
    "dates": [
     "2026-09-21",
-    "2026-09-23",
     "2026-09-29",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-06"
    ],
-   "last_close": 152000.0,
-   "last_chg": 2.15,
-   "last_turnover_억": 710.1
+   "last_close": 317000.0,
+   "last_chg": 1.93,
+   "last_turnover_억": 779.4
+  },
+  {
+   "code": "327260",
+   "name": "RF머트리얼즈",
+   "market": "KOSDAQ",
+   "업종": "우주항공과국방",
+   "count": 4,
+   "avg_rank": 68.8,
+   "best_rank": 32,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-09-29",
+    "2026-10-05",
+    "2026-10-06"
+   ],
+   "last_close": 58800.0,
+   "last_chg": 12.0,
+   "last_turnover_억": 614.1
   },
   {
    "code": "440110",
@@ -1033,23 +965,23 @@
    "last_turnover_억": 562.4
   },
   {
-   "code": "068270",
-   "name": "셀트리온",
-   "market": "KOSPI",
-   "업종": "제약",
+   "code": "039030",
+   "name": "이오테크닉스",
+   "market": "KOSDAQ",
+   "업종": "반도체와반도체장비",
    "count": 4,
-   "avg_rank": 77.8,
-   "best_rank": 62,
-   "streak": 0,
+   "avg_rank": 73.0,
+   "best_rank": 46,
+   "streak": 1,
    "dates": [
-    "2026-09-17",
     "2026-09-21",
     "2026-09-29",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-08"
    ],
-   "last_close": 182600.0,
-   "last_chg": 2.01,
-   "last_turnover_억": 554.4
+   "last_close": 519000.0,
+   "last_chg": 0.39,
+   "last_turnover_억": 1024.0
   },
   {
    "code": "089970",
@@ -1071,41 +1003,22 @@
    "last_turnover_억": 540.6
   },
   {
-   "code": "039030",
-   "name": "이오테크닉스",
+   "code": "010170",
+   "name": "대한광통신",
    "market": "KOSDAQ",
-   "업종": "반도체와반도체장비",
-   "count": 4,
-   "avg_rank": 83.2,
-   "best_rank": 71,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-21",
-    "2026-09-29",
-    "2026-10-05"
-   ],
-   "last_close": 532000.0,
-   "last_chg": 5.98,
-   "last_turnover_억": 575.8
-  },
-  {
-   "code": "006400",
-   "name": "삼성SDI",
-   "market": "KOSPI",
-   "업종": "전기제품",
+   "업종": "통신장비",
    "count": 3,
-   "avg_rank": 14.7,
-   "best_rank": 7,
+   "avg_rank": 8.0,
+   "best_rank": 4,
    "streak": 0,
    "dates": [
-    "2026-09-28",
+    "2026-09-18",
     "2026-10-05",
     "2026-10-06"
    ],
-   "last_close": 577000.0,
-   "last_chg": 9.07,
-   "last_turnover_억": 3717.1
+   "last_close": 18780.0,
+   "last_chg": 5.51,
+   "last_turnover_억": 2668.3
   },
   {
    "code": "072950",
@@ -1126,42 +1039,6 @@
    "last_turnover_억": 1642.7
   },
   {
-   "code": "012450",
-   "name": "한화에어로스페이스",
-   "market": "KOSPI",
-   "업종": "우주항공과국방",
-   "count": 3,
-   "avg_rank": 23.7,
-   "best_rank": 14,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-28",
-    "2026-10-05"
-   ],
-   "last_close": 1072000.0,
-   "last_chg": 5.1,
-   "last_turnover_억": 1126.7
-  },
-  {
-   "code": "272210",
-   "name": "한화시스템",
-   "market": "KOSPI",
-   "업종": "우주항공과국방",
-   "count": 3,
-   "avg_rank": 40.0,
-   "best_rank": 22,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-10-05"
-   ],
-   "last_close": 82900.0,
-   "last_chg": 14.98,
-   "last_turnover_억": 781.4
-  },
-  {
    "code": "387690",
    "name": "레메디",
    "market": "KOSDAQ",
@@ -1178,6 +1055,24 @@
    "last_close": 19420.0,
    "last_chg": 2.37,
    "last_turnover_억": 528.8
+  },
+  {
+   "code": "217590",
+   "name": "티엠씨",
+   "market": "KOSPI",
+   "업종": "조선",
+   "count": 3,
+   "avg_rank": 46.0,
+   "best_rank": 14,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-10-05",
+    "2026-10-06"
+   ],
+   "last_close": 19390.0,
+   "last_chg": 5.15,
+   "last_turnover_억": 1915.3
   },
   {
    "code": "178320",
@@ -1198,94 +1093,22 @@
    "last_turnover_억": 837.2
   },
   {
-   "code": "086520",
-   "name": "에코프로",
-   "market": "KOSDAQ",
-   "업종": "화학",
-   "count": 3,
-   "avg_rank": 46.7,
-   "best_rank": 31,
-   "streak": 0,
-   "dates": [
-    "2026-09-28",
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 95900.0,
-   "last_chg": 7.87,
-   "last_turnover_억": 1340.3
-  },
-  {
-   "code": "128940",
-   "name": "한미약품",
+   "code": "000720",
+   "name": "현대건설",
    "market": "KOSPI",
-   "업종": "제약",
+   "업종": "건설",
    "count": 3,
-   "avg_rank": 48.3,
-   "best_rank": 33,
-   "streak": 1,
-   "dates": [
-    "2026-09-17",
-    "2026-09-23",
-    "2026-10-07"
-   ],
-   "last_close": 534000.0,
-   "last_chg": 0.95,
-   "last_turnover_억": 1025.0
-  },
-  {
-   "code": "079550",
-   "name": "LIG디펜스앤에어로스페이스",
-   "market": "KOSPI",
-   "업종": "우주항공과국방",
-   "count": 3,
-   "avg_rank": 50.3,
+   "avg_rank": 49.7,
    "best_rank": 27,
    "streak": 0,
    "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-10-05"
-   ],
-   "last_close": 762000.0,
-   "last_chg": 11.89,
-   "last_turnover_억": 719.0
-  },
-  {
-   "code": "003670",
-   "name": "포스코퓨처엠",
-   "market": "KOSPI",
-   "업종": "화학",
-   "count": 3,
-   "avg_rank": 51.0,
-   "best_rank": 33,
-   "streak": 0,
-   "dates": [
+    "2026-09-21",
     "2026-09-22",
-    "2026-09-28",
-    "2026-10-06"
+    "2026-09-28"
    ],
-   "last_close": 209000.0,
-   "last_chg": 11.82,
-   "last_turnover_억": 1269.8
-  },
-  {
-   "code": "003490",
-   "name": "대한항공",
-   "market": "KOSPI",
-   "업종": "항공사",
-   "count": 3,
-   "avg_rank": 52.3,
-   "best_rank": 14,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-22",
-    "2026-09-29"
-   ],
-   "last_close": 31550.0,
-   "last_chg": 0.32,
-   "last_turnover_억": 583.5
+   "last_close": 123200.0,
+   "last_chg": 0.74,
+   "last_turnover_억": 811.9
   },
   {
    "code": "125490",
@@ -1304,6 +1127,78 @@
    "last_close": 13170.0,
    "last_chg": 13.63,
    "last_turnover_억": 761.2
+  },
+  {
+   "code": "062040",
+   "name": "산일전기",
+   "market": "KOSPI",
+   "업종": "전기장비",
+   "count": 3,
+   "avg_rank": 55.0,
+   "best_rank": 35,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-10-05",
+    "2026-10-06"
+   ],
+   "last_close": 235500.0,
+   "last_chg": 3.74,
+   "last_turnover_억": 806.2
+  },
+  {
+   "code": "247540",
+   "name": "에코프로비엠",
+   "market": "KOSDAQ",
+   "업종": "전기제품",
+   "count": 3,
+   "avg_rank": 55.0,
+   "best_rank": 39,
+   "streak": 1,
+   "dates": [
+    "2026-09-28",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 126500.0,
+   "last_chg": 1.69,
+   "last_turnover_억": 781.3
+  },
+  {
+   "code": "131970",
+   "name": "두산테스나",
+   "market": "KOSDAQ",
+   "업종": "반도체와반도체장비",
+   "count": 3,
+   "avg_rank": 56.0,
+   "best_rank": 33,
+   "streak": 1,
+   "dates": [
+    "2026-09-21",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 123300.0,
+   "last_chg": 12.3,
+   "last_turnover_억": 1259.1
+  },
+  {
+   "code": "093370",
+   "name": "후성",
+   "market": "KOSPI",
+   "업종": "화학",
+   "count": 3,
+   "avg_rank": 57.0,
+   "best_rank": 33,
+   "streak": 0,
+   "dates": [
+    "2026-09-23",
+    "2026-09-28",
+    "2026-10-05"
+   ],
+   "last_close": 16390.0,
+   "last_chg": 15.67,
+   "last_turnover_억": 889.5
   },
   {
    "code": "032830",
@@ -1342,40 +1237,58 @@
    "last_turnover_억": 514.4
   },
   {
-   "code": "098460",
-   "name": "고영",
-   "market": "KOSDAQ",
-   "업종": "전자장비와기기",
+   "code": "051910",
+   "name": "LG화학",
+   "market": "KOSPI",
+   "업종": "화학",
    "count": 3,
-   "avg_rank": 67.3,
-   "best_rank": 56,
-   "streak": 0,
+   "avg_rank": 64.7,
+   "best_rank": 25,
+   "streak": 1,
    "dates": [
-    "2026-09-29",
-    "2026-10-05",
-    "2026-10-06"
+    "2026-09-28",
+    "2026-10-06",
+    "2026-10-08"
    ],
-   "last_close": 36600.0,
-   "last_chg": 7.33,
-   "last_turnover_억": 813.0
+   "last_close": 281500.0,
+   "last_chg": 2.55,
+   "last_turnover_억": 1514.0
   },
   {
-   "code": "119850",
-   "name": "지엔씨에너지",
-   "market": "KOSDAQ",
-   "업종": "전기장비",
+   "code": "066970",
+   "name": "엘앤에프",
+   "market": "KOSPI",
+   "업종": "전기제품",
    "count": 3,
-   "avg_rank": 68.3,
-   "best_rank": 45,
+   "avg_rank": 65.3,
+   "best_rank": 48,
    "streak": 0,
    "dates": [
-    "2026-09-17",
-    "2026-09-18",
-    "2026-09-22"
+    "2026-09-22",
+    "2026-09-28",
+    "2026-10-06"
    ],
-   "last_close": 54600.0,
-   "last_chg": 3.02,
-   "last_turnover_억": 423.8
+   "last_close": 124500.0,
+   "last_chg": 9.31,
+   "last_turnover_억": 855.2
+  },
+  {
+   "code": "000250",
+   "name": "삼천당제약",
+   "market": "KOSDAQ",
+   "업종": "제약",
+   "count": 3,
+   "avg_rank": 66.0,
+   "best_rank": 52,
+   "streak": 1,
+   "dates": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 243500.0,
+   "last_chg": 2.1,
+   "last_turnover_억": 691.6
   },
   {
    "code": "017670",
@@ -1396,22 +1309,40 @@
    "last_turnover_억": 508.3
   },
   {
-   "code": "267260",
-   "name": "HD현대일렉트릭",
-   "market": "KOSPI",
-   "업종": "전기장비",
+   "code": "047920",
+   "name": "HLB제약",
+   "market": "KOSDAQ",
+   "업종": "제약",
    "count": 3,
-   "avg_rank": 73.7,
-   "best_rank": 54,
+   "avg_rank": 74.3,
+   "best_rank": 60,
+   "streak": 1,
+   "dates": [
+    "2026-09-29",
+    "2026-10-06",
+    "2026-10-08"
+   ],
+   "last_close": 12960.0,
+   "last_chg": 3.27,
+   "last_turnover_억": 872.2
+  },
+  {
+   "code": "347700",
+   "name": "스피어",
+   "market": "KOSDAQ",
+   "업종": "우주항공과국방",
+   "count": 3,
+   "avg_rank": 75.0,
+   "best_rank": 43,
    "streak": 0,
    "dates": [
-    "2026-09-17",
     "2026-09-18",
+    "2026-10-05",
     "2026-10-06"
    ],
-   "last_close": 686000.0,
-   "last_chg": 1.18,
-   "last_turnover_억": 544.3
+   "last_close": 27050.0,
+   "last_chg": 9.96,
+   "last_turnover_억": 973.8
   },
   {
    "code": "095610",
@@ -1450,22 +1381,40 @@
    "last_turnover_억": 722.7
   },
   {
-   "code": "078930",
-   "name": "GS",
+   "code": "018880",
+   "name": "한온시스템",
    "market": "KOSPI",
-   "업종": "석유와가스",
+   "업종": "자동차부품",
    "count": 3,
-   "avg_rank": 87.7,
-   "best_rank": 80,
+   "avg_rank": 79.3,
+   "best_rank": 57,
    "streak": 1,
    "dates": [
-    "2026-09-17",
-    "2026-09-28",
-    "2026-10-07"
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08"
    ],
-   "last_close": 109800.0,
-   "last_chg": 3.49,
-   "last_turnover_억": 500.1
+   "last_close": 4020.0,
+   "last_chg": 4.15,
+   "last_turnover_억": 559.8
+  },
+  {
+   "code": "068270",
+   "name": "셀트리온",
+   "market": "KOSPI",
+   "업종": "제약",
+   "count": 3,
+   "avg_rank": 83.0,
+   "best_rank": 77,
+   "streak": 0,
+   "dates": [
+    "2026-09-21",
+    "2026-09-29",
+    "2026-10-05"
+   ],
+   "last_close": 182600.0,
+   "last_chg": 2.01,
+   "last_turnover_억": 554.4
   },
   {
    "code": "089030",
@@ -1493,7 +1442,7 @@
    "count": 2,
    "avg_rank": 10.0,
    "best_rank": 9,
-   "streak": 1,
+   "streak": 0,
    "dates": [
     "2026-09-22",
     "2026-10-07"
@@ -1503,6 +1452,23 @@
    "last_turnover_억": 2440.1
   },
   {
+   "code": "012450",
+   "name": "한화에어로스페이스",
+   "market": "KOSPI",
+   "업종": "우주항공과국방",
+   "count": 2,
+   "avg_rank": 28.5,
+   "best_rank": 28,
+   "streak": 0,
+   "dates": [
+    "2026-09-28",
+    "2026-10-05"
+   ],
+   "last_close": 1072000.0,
+   "last_chg": 5.1,
+   "last_turnover_억": 1126.7
+  },
+  {
    "code": "042510",
    "name": "라온시큐어",
    "market": "KOSDAQ",
@@ -1510,7 +1476,7 @@
    "count": 2,
    "avg_rank": 29.0,
    "best_rank": 9,
-   "streak": 2,
+   "streak": 0,
    "dates": [
     "2026-10-06",
     "2026-10-07"
@@ -1520,72 +1486,72 @@
    "last_turnover_억": 3022.4
   },
   {
-   "code": "052690",
-   "name": "한전기술",
+   "code": "003490",
+   "name": "대한항공",
    "market": "KOSPI",
-   "업종": "전기유틸리티",
+   "업종": "항공사",
    "count": 2,
-   "avg_rank": 35.5,
-   "best_rank": 12,
+   "avg_rank": 38.5,
+   "best_rank": 14,
    "streak": 0,
    "dates": [
-    "2026-09-17",
-    "2026-09-22"
+    "2026-09-22",
+    "2026-09-29"
    ],
-   "last_close": 137400.0,
-   "last_chg": 4.65,
-   "last_turnover_억": 2780.2
+   "last_close": 31550.0,
+   "last_chg": 0.32,
+   "last_turnover_억": 583.5
   },
   {
-   "code": "329180",
-   "name": "HD현대중공업",
-   "market": "KOSPI",
-   "업종": "조선",
-   "count": 2,
-   "avg_rank": 36.5,
-   "best_rank": 18,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-22"
-   ],
-   "last_close": 454000.0,
-   "last_chg": 0.44,
-   "last_turnover_억": 697.2
-  },
-  {
-   "code": "247540",
-   "name": "에코프로비엠",
+   "code": "452190",
+   "name": "한빛레이저",
    "market": "KOSDAQ",
    "업종": "전기제품",
    "count": 2,
-   "avg_rank": 49.5,
-   "best_rank": 39,
-   "streak": 0,
+   "avg_rank": 39.5,
+   "best_rank": 22,
+   "streak": 1,
    "dates": [
-    "2026-09-28",
-    "2026-10-06"
+    "2026-09-29",
+    "2026-10-08"
    ],
-   "last_close": 130600.0,
-   "last_chg": 12.88,
-   "last_turnover_억": 1081.5
+   "last_close": 6290.0,
+   "last_chg": 4.83,
+   "last_turnover_억": 900.9
   },
   {
-   "code": "005690",
-   "name": "파미셀",
+   "code": "272210",
+   "name": "한화시스템",
    "market": "KOSPI",
-   "업종": "화학",
+   "업종": "우주항공과국방",
    "count": 2,
-   "avg_rank": 55.5,
-   "best_rank": 34,
+   "avg_rank": 49.0,
+   "best_rank": 48,
    "streak": 0,
    "dates": [
-    "2026-09-17",
-    "2026-09-18"
+    "2026-09-18",
+    "2026-10-05"
    ],
-   "last_close": 12550.0,
-   "last_chg": 7.54,
-   "last_turnover_억": 1296.7
+   "last_close": 82900.0,
+   "last_chg": 14.98,
+   "last_turnover_억": 781.4
+  },
+  {
+   "code": "128940",
+   "name": "한미약품",
+   "market": "KOSPI",
+   "업종": "제약",
+   "count": 2,
+   "avg_rank": 56.0,
+   "best_rank": 42,
+   "streak": 0,
+   "dates": [
+    "2026-09-23",
+    "2026-10-07"
+   ],
+   "last_close": 534000.0,
+   "last_chg": 0.95,
+   "last_turnover_억": 1025.0
   },
   {
    "code": "024840",
@@ -1605,21 +1571,21 @@
    "last_turnover_억": 549.3
   },
   {
-   "code": "000250",
-   "name": "삼천당제약",
-   "market": "KOSDAQ",
-   "업종": "제약",
+   "code": "079550",
+   "name": "LIG디펜스앤에어로스페이스",
+   "market": "KOSPI",
+   "업종": "우주항공과국방",
    "count": 2,
-   "avg_rank": 61.5,
-   "best_rank": 52,
+   "avg_rank": 62.0,
+   "best_rank": 58,
    "streak": 0,
    "dates": [
-    "2026-10-05",
-    "2026-10-06"
+    "2026-09-18",
+    "2026-10-05"
    ],
-   "last_close": 246500.0,
-   "last_chg": 19.08,
-   "last_turnover_억": 837.4
+   "last_close": 762000.0,
+   "last_chg": 11.89,
+   "last_turnover_억": 719.0
   },
   {
    "code": "003350",
@@ -1629,7 +1595,7 @@
    "count": 2,
    "avg_rank": 62.5,
    "best_rank": 44,
-   "streak": 1,
+   "streak": 0,
    "dates": [
     "2026-09-18",
     "2026-10-07"
@@ -1637,57 +1603,6 @@
    "last_close": 16570.0,
    "last_chg": 11.13,
    "last_turnover_억": 966.0
-  },
-  {
-   "code": "131970",
-   "name": "두산테스나",
-   "market": "KOSDAQ",
-   "업종": "반도체와반도체장비",
-   "count": 2,
-   "avg_rank": 67.5,
-   "best_rank": 54,
-   "streak": 0,
-   "dates": [
-    "2026-09-21",
-    "2026-10-06"
-   ],
-   "last_close": 120500.0,
-   "last_chg": 12.72,
-   "last_turnover_억": 623.2
-  },
-  {
-   "code": "009540",
-   "name": "HD한국조선해양",
-   "market": "KOSPI",
-   "업종": "조선",
-   "count": 2,
-   "avg_rank": 71.5,
-   "best_rank": 53,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-22"
-   ],
-   "last_close": 340500.0,
-   "last_chg": 0.59,
-   "last_turnover_억": 450.0
-  },
-  {
-   "code": "018880",
-   "name": "한온시스템",
-   "market": "KOSPI",
-   "업종": "자동차부품",
-   "count": 2,
-   "avg_rank": 72.0,
-   "best_rank": 57,
-   "streak": 0,
-   "dates": [
-    "2026-10-05",
-    "2026-10-06"
-   ],
-   "last_close": 3945.0,
-   "last_chg": 3.0,
-   "last_turnover_억": 577.7
   },
   {
    "code": "003160",
@@ -1714,7 +1629,7 @@
    "count": 2,
    "avg_rank": 72.5,
    "best_rank": 60,
-   "streak": 1,
+   "streak": 0,
    "dates": [
     "2026-09-28",
     "2026-10-07"
@@ -1722,6 +1637,23 @@
    "last_close": 167000.0,
    "last_chg": 6.1,
    "last_turnover_억": 750.3
+  },
+  {
+   "code": "267260",
+   "name": "HD현대일렉트릭",
+   "market": "KOSPI",
+   "업종": "전기장비",
+   "count": 2,
+   "avg_rank": 73.5,
+   "best_rank": 54,
+   "streak": 0,
+   "dates": [
+    "2026-09-18",
+    "2026-10-06"
+   ],
+   "last_close": 686000.0,
+   "last_chg": 1.18,
+   "last_turnover_억": 544.3
   },
   {
    "code": "322000",
@@ -1775,21 +1707,38 @@
    "last_turnover_억": 433.5
   },
   {
-   "code": "035720",
-   "name": "카카오",
-   "market": "KOSPI",
-   "업종": "양방향미디어와서비스",
+   "code": "419050",
+   "name": "삼기에너지솔루션즈",
+   "market": "KOSDAQ",
+   "업종": "자동차부품",
    "count": 2,
-   "avg_rank": 80.5,
-   "best_rank": 76,
+   "avg_rank": 79.0,
+   "best_rank": 67,
+   "streak": 1,
+   "dates": [
+    "2026-09-23",
+    "2026-10-08"
+   ],
+   "last_close": 2305.0,
+   "last_chg": 30.59,
+   "last_turnover_억": 570.5
+  },
+  {
+   "code": "119850",
+   "name": "지엔씨에너지",
+   "market": "KOSDAQ",
+   "업종": "전기장비",
+   "count": 2,
+   "avg_rank": 80.0,
+   "best_rank": 65,
    "streak": 0,
    "dates": [
-    "2026-09-17",
+    "2026-09-18",
     "2026-09-22"
    ],
-   "last_close": 34250.0,
-   "last_chg": 2.54,
-   "last_turnover_억": 543.7
+   "last_close": 54600.0,
+   "last_chg": 3.02,
+   "last_turnover_억": 423.8
   },
   {
    "code": "192820",
@@ -1799,7 +1748,7 @@
    "count": 2,
    "avg_rank": 80.5,
    "best_rank": 75,
-   "streak": 2,
+   "streak": 0,
    "dates": [
     "2026-10-06",
     "2026-10-07"
@@ -1809,72 +1758,21 @@
    "last_turnover_억": 631.0
   },
   {
-   "code": "047920",
-   "name": "HLB제약",
-   "market": "KOSDAQ",
-   "업종": "제약",
-   "count": 2,
-   "avg_rank": 81.5,
-   "best_rank": 72,
-   "streak": 0,
-   "dates": [
-    "2026-09-29",
-    "2026-10-06"
-   ],
-   "last_close": 13010.0,
-   "last_chg": 29.97,
-   "last_turnover_억": 559.2
-  },
-  {
-   "code": "003230",
-   "name": "삼양식품",
+   "code": "078930",
+   "name": "GS",
    "market": "KOSPI",
-   "업종": "식품",
+   "업종": "석유와가스",
    "count": 2,
-   "avg_rank": 82.0,
-   "best_rank": 82,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18"
-   ],
-   "last_close": 1296000.0,
-   "last_chg": 0.54,
-   "last_turnover_억": 651.6
-  },
-  {
-   "code": "051910",
-   "name": "LG화학",
-   "market": "KOSPI",
-   "업종": "화학",
-   "count": 2,
-   "avg_rank": 84.5,
-   "best_rank": 77,
+   "avg_rank": 85.5,
+   "best_rank": 80,
    "streak": 0,
    "dates": [
     "2026-09-28",
-    "2026-10-06"
+    "2026-10-07"
    ],
-   "last_close": 278000.0,
-   "last_chg": 5.9,
-   "last_turnover_억": 558.2
-  },
-  {
-   "code": "483650",
-   "name": "달바글로벌",
-   "market": "KOSPI",
-   "업종": "화장품",
-   "count": 2,
-   "avg_rank": 89.5,
-   "best_rank": 89,
-   "streak": 0,
-   "dates": [
-    "2026-09-17",
-    "2026-09-18"
-   ],
-   "last_close": 182100.0,
-   "last_chg": 4.96,
-   "last_turnover_억": 574.4
+   "last_close": 109800.0,
+   "last_chg": 3.49,
+   "last_turnover_억": 500.1
   },
   {
    "code": "064350",
@@ -1894,36 +1792,20 @@
    "last_turnover_억": 514.6
   },
   {
-   "code": "201490",
-   "name": "미투온",
-   "market": "KOSDAQ",
-   "업종": "게임엔터테인먼트",
-   "count": 1,
-   "avg_rank": 6.0,
-   "best_rank": 6,
-   "streak": 0,
-   "dates": [
-    "2026-09-17"
-   ],
-   "last_close": 4550.0,
-   "last_chg": 18.49,
-   "last_turnover_억": 3455.8
-  },
-  {
-   "code": "004310",
-   "name": "현대약품",
+   "code": "052690",
+   "name": "한전기술",
    "market": "KOSPI",
-   "업종": "제약",
+   "업종": "전기유틸리티",
    "count": 1,
-   "avg_rank": 11.0,
-   "best_rank": 11,
+   "avg_rank": 12.0,
+   "best_rank": 12,
    "streak": 0,
    "dates": [
-    "2026-09-17"
+    "2026-09-22"
    ],
-   "last_close": 10500.0,
-   "last_chg": 3.45,
-   "last_turnover_억": 1791.2
+   "last_close": 137400.0,
+   "last_chg": 4.65,
+   "last_turnover_억": 2780.2
   },
   {
    "code": "0035S0",
@@ -1942,68 +1824,20 @@
    "last_turnover_억": 1933.2
   },
   {
-   "code": "082740",
-   "name": "한화엔진",
-   "market": "KOSPI",
-   "업종": "조선",
-   "count": 1,
-   "avg_rank": 21.0,
-   "best_rank": 21,
-   "streak": 0,
-   "dates": [
-    "2026-09-17"
-   ],
-   "last_close": 53800.0,
-   "last_chg": 11.85,
-   "last_turnover_억": 1147.8
-  },
-  {
-   "code": "452190",
-   "name": "한빛레이저",
+   "code": "266690",
+   "name": "덕산넵코어스",
    "market": "KOSDAQ",
-   "업종": "전기제품",
+   "업종": "우주항공과국방",
    "count": 1,
-   "avg_rank": 22.0,
-   "best_rank": 22,
-   "streak": 0,
+   "avg_rank": 14.0,
+   "best_rank": 14,
+   "streak": 1,
    "dates": [
-    "2026-09-29"
+    "2026-10-08"
    ],
-   "last_close": 6060.0,
-   "last_chg": 11.6,
-   "last_turnover_억": 1453.3
-  },
-  {
-   "code": "027360",
-   "name": "아주IB투자",
-   "market": "KOSDAQ",
-   "업종": "창업투자",
-   "count": 1,
-   "avg_rank": 23.0,
-   "best_rank": 23,
-   "streak": 0,
-   "dates": [
-    "2026-09-17"
-   ],
-   "last_close": 3810.0,
-   "last_chg": 8.39,
-   "last_turnover_억": 1036.0
-  },
-  {
-   "code": "010140",
-   "name": "삼성중공업",
-   "market": "KOSPI",
-   "업종": "조선",
-   "count": 1,
-   "avg_rank": 28.0,
-   "best_rank": 28,
-   "streak": 0,
-   "dates": [
-    "2026-09-17"
-   ],
-   "last_close": 21550.0,
-   "last_chg": 5.9,
-   "last_turnover_억": 986.0
+   "last_close": 13290.0,
+   "last_chg": 0.08,
+   "last_turnover_억": 2206.7
   },
   {
    "code": "281820",
@@ -2013,7 +1847,7 @@
    "count": 1,
    "avg_rank": 32.0,
    "best_rank": 32,
-   "streak": 1,
+   "streak": 0,
    "dates": [
     "2026-10-07"
    ],
@@ -2036,6 +1870,22 @@
    "last_close": 12960.0,
    "last_chg": 27.06,
    "last_turnover_억": 1125.6
+  },
+  {
+   "code": "005690",
+   "name": "파미셀",
+   "market": "KOSPI",
+   "업종": "화학",
+   "count": 1,
+   "avg_rank": 34.0,
+   "best_rank": 34,
+   "streak": 0,
+   "dates": [
+    "2026-09-18"
+   ],
+   "last_close": 12550.0,
+   "last_chg": 7.54,
+   "last_turnover_억": 1296.7
   },
   {
    "code": "356860",
@@ -2093,7 +1943,7 @@
    "count": 1,
    "avg_rank": 46.0,
    "best_rank": 46,
-   "streak": 1,
+   "streak": 0,
    "dates": [
     "2026-10-07"
    ],
@@ -2116,6 +1966,22 @@
    "last_close": 506000.0,
    "last_chg": 3.69,
    "last_turnover_억": 904.7
+  },
+  {
+   "code": "329180",
+   "name": "HD현대중공업",
+   "market": "KOSPI",
+   "업종": "조선",
+   "count": 1,
+   "avg_rank": 55.0,
+   "best_rank": 55,
+   "streak": 0,
+   "dates": [
+    "2026-09-22"
+   ],
+   "last_close": 454000.0,
+   "last_chg": 0.44,
+   "last_turnover_억": 697.2
   },
   {
    "code": "054920",
@@ -2173,7 +2039,7 @@
    "count": 1,
    "avg_rank": 62.0,
    "best_rank": 62,
-   "streak": 1,
+   "streak": 0,
    "dates": [
     "2026-10-07"
    ],
@@ -2198,52 +2064,36 @@
    "last_turnover_억": 636.6
   },
   {
-   "code": "047050",
-   "name": "포스코인터내셔널",
-   "market": "KOSPI",
-   "업종": "무역회사와판매업체",
-   "count": 1,
-   "avg_rank": 66.0,
-   "best_rank": 66,
-   "streak": 0,
-   "dates": [
-    "2026-09-17"
-   ],
-   "last_close": 58100.0,
-   "last_chg": 5.44,
-   "last_turnover_억": 564.7
-  },
-  {
-   "code": "042660",
-   "name": "한화오션",
-   "market": "KOSPI",
-   "업종": "조선",
-   "count": 1,
-   "avg_rank": 67.0,
-   "best_rank": 67,
-   "streak": 0,
-   "dates": [
-    "2026-09-17"
-   ],
-   "last_close": 84300.0,
-   "last_chg": 2.93,
-   "last_turnover_억": 561.7
-  },
-  {
-   "code": "419050",
-   "name": "삼기에너지솔루션즈",
+   "code": "033790",
+   "name": "피노",
    "market": "KOSDAQ",
-   "업종": "자동차부품",
+   "업종": "전기제품",
    "count": 1,
    "avg_rank": 67.0,
    "best_rank": 67,
-   "streak": 0,
+   "streak": 1,
    "dates": [
-    "2026-09-23"
+    "2026-10-08"
    ],
-   "last_close": 1884.0,
-   "last_chg": 18.12,
-   "last_turnover_억": 686.9
+   "last_close": 11500.0,
+   "last_chg": 17.35,
+   "last_turnover_억": 771.1
+  },
+  {
+   "code": "417840",
+   "name": "저스템",
+   "market": "KOSDAQ",
+   "업종": "반도체와반도체장비",
+   "count": 1,
+   "avg_rank": 71.0,
+   "best_rank": 71,
+   "streak": 1,
+   "dates": [
+    "2026-10-08"
+   ],
+   "last_close": 20850.0,
+   "last_chg": 11.32,
+   "last_turnover_억": 699.9
   },
   {
    "code": "078600",
@@ -2294,20 +2144,36 @@
    "last_turnover_억": 549.6
   },
   {
-   "code": "267270",
-   "name": "HD건설기계",
+   "code": "035720",
+   "name": "카카오",
    "market": "KOSPI",
-   "업종": "기계",
+   "업종": "양방향미디어와서비스",
    "count": 1,
-   "avg_rank": 81.0,
-   "best_rank": 81,
+   "avg_rank": 76.0,
+   "best_rank": 76,
    "streak": 0,
    "dates": [
-    "2026-09-17"
+    "2026-09-22"
    ],
-   "last_close": 142500.0,
-   "last_chg": 6.34,
-   "last_turnover_억": 474.3
+   "last_close": 34250.0,
+   "last_chg": 2.54,
+   "last_turnover_억": 543.7
+  },
+  {
+   "code": "003230",
+   "name": "삼양식품",
+   "market": "KOSPI",
+   "업종": "식품",
+   "count": 1,
+   "avg_rank": 82.0,
+   "best_rank": 82,
+   "streak": 0,
+   "dates": [
+    "2026-09-18"
+   ],
+   "last_close": 1296000.0,
+   "last_chg": 0.54,
+   "last_turnover_억": 651.6
   },
   {
    "code": "000810",
@@ -2406,6 +2272,22 @@
    "last_turnover_억": 581.6
   },
   {
+   "code": "483650",
+   "name": "달바글로벌",
+   "market": "KOSPI",
+   "업종": "화장품",
+   "count": 1,
+   "avg_rank": 89.0,
+   "best_rank": 89,
+   "streak": 0,
+   "dates": [
+    "2026-09-18"
+   ],
+   "last_close": 182100.0,
+   "last_chg": 4.96,
+   "last_turnover_억": 574.4
+  },
+  {
    "code": "0010F0",
    "name": "보원케미칼",
    "market": "KOSDAQ",
@@ -2436,6 +2318,22 @@
    "last_close": 9420.0,
    "last_chg": 2.73,
    "last_turnover_억": 429.1
+  },
+  {
+   "code": "009540",
+   "name": "HD한국조선해양",
+   "market": "KOSPI",
+   "업종": "조선",
+   "count": 1,
+   "avg_rank": 90.0,
+   "best_rank": 90,
+   "streak": 0,
+   "dates": [
+    "2026-09-22"
+   ],
+   "last_close": 340500.0,
+   "last_chg": 0.59,
+   "last_turnover_억": 450.0
   },
   {
    "code": "443060",
@@ -2477,45 +2375,13 @@
    "count": 1,
    "avg_rank": 92.0,
    "best_rank": 92,
-   "streak": 1,
+   "streak": 0,
    "dates": [
     "2026-10-07"
    ],
    "last_close": 236000.0,
    "last_chg": 4.42,
    "last_turnover_억": 493.7
-  },
-  {
-   "code": "295310",
-   "name": "에이치브이엠",
-   "market": "KOSDAQ",
-   "업종": "비철금속",
-   "count": 1,
-   "avg_rank": 93.0,
-   "best_rank": 93,
-   "streak": 0,
-   "dates": [
-    "2026-09-17"
-   ],
-   "last_close": 61700.0,
-   "last_chg": 14.47,
-   "last_turnover_억": 397.2
-  },
-  {
-   "code": "192650",
-   "name": "드림텍",
-   "market": "KOSPI",
-   "업종": "핸드셋",
-   "count": 1,
-   "avg_rank": 94.0,
-   "best_rank": 94,
-   "streak": 0,
-   "dates": [
-    "2026-09-17"
-   ],
-   "last_close": 7650.0,
-   "last_chg": 7.59,
-   "last_turnover_억": 396.0
   },
   {
    "code": "229640",
@@ -2557,7 +2423,7 @@
    "count": 1,
    "avg_rank": 96.0,
    "best_rank": 96,
-   "streak": 1,
+   "streak": 0,
    "dates": [
     "2026-10-07"
    ],
@@ -2566,20 +2432,20 @@
    "last_turnover_억": 489.7
   },
   {
-   "code": "047810",
-   "name": "한국항공우주",
+   "code": "084670",
+   "name": "동양고속",
    "market": "KOSPI",
-   "업종": "우주항공과국방",
+   "업종": "도로와철도운송",
    "count": 1,
-   "avg_rank": 98.0,
-   "best_rank": 98,
-   "streak": 0,
+   "avg_rank": 99.0,
+   "best_rank": 99,
+   "streak": 1,
    "dates": [
-    "2026-09-17"
+    "2026-10-08"
    ],
-   "last_close": 130900.0,
-   "last_chg": 3.89,
-   "last_turnover_억": 387.4
+   "last_close": 37200.0,
+   "last_chg": 27.18,
+   "last_turnover_억": 533.9
   },
   {
    "code": "016360",
